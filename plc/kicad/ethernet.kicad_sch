@@ -3448,7 +3448,7 @@
 	)
 	(rectangle
 		(start 134.62 19.685)
-		(end 191.135 91.44)
+		(end 191.135 59.69)
 		(stroke
 			(width 0)
 			(type dash)
@@ -3504,7 +3504,7 @@
 		)
 		(uuid "70e3e5b1-6d85-4158-8e01-7ad52110cc9d")
 	)
-	(text "TVS Diodes"
+	(text "TVS Diode"
 		(exclude_from_sim no)
 		(at 142.875 22.86 0)
 		(effects
@@ -3918,7 +3918,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 33.655) (xy 153.035 33.655)
+			(xy 144.145 33.655) (xy 153.035 33.655)
 		)
 		(stroke
 			(width 0)
@@ -4218,7 +4218,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 48.895) (xy 153.035 48.895)
+			(xy 144.145 48.895) (xy 153.035 48.895)
 		)
 		(stroke
 			(width 0)
@@ -4348,16 +4348,6 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 74.93) (xy 153.035 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "770d3e9f-47e8-4428-8470-b72698739f17")
-	)
-	(wire
-		(pts
 			(xy 248.285 52.07) (xy 248.285 50.8)
 		)
 		(stroke
@@ -4448,7 +4438,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.735 50.8) (xy 59.69 50.8)
+			(xy 40.005 50.8) (xy 59.69 50.8)
 		)
 		(stroke
 			(width 0)
@@ -4658,7 +4648,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.735 38.1) (xy 59.69 38.1)
+			(xy 40.005 38.1) (xy 59.69 38.1)
 		)
 		(stroke
 			(width 0)
@@ -4675,16 +4665,6 @@
 			(type default)
 		)
 		(uuid "a29ce146-c96f-4c8f-917e-e92da63f64d4")
-	)
-	(wire
-		(pts
-			(xy 144.78 82.55) (xy 153.035 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3f937ea-bff6-4c5d-86d7-2104e46fd7a8")
 	)
 	(wire
 		(pts
@@ -4778,7 +4758,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.735 40.64) (xy 59.69 40.64)
+			(xy 40.005 40.64) (xy 59.69 40.64)
 		)
 		(stroke
 			(width 0)
@@ -4938,16 +4918,6 @@
 	)
 	(wire
 		(pts
-			(xy 173.355 82.55) (xy 184.15 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da5d8a85-c3b6-4a6c-af37-e78bfa7d3b93")
-	)
-	(wire
-		(pts
 			(xy 107.315 159.385) (xy 107.315 160.655)
 		)
 		(stroke
@@ -4955,16 +4925,6 @@
 			(type default)
 		)
 		(uuid "da9bf0a5-05aa-4cef-b99d-d371dc35bf52")
-	)
-	(wire
-		(pts
-			(xy 173.355 67.31) (xy 184.15 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e09b2196-95e0-4316-8eac-8614764cfead")
 	)
 	(wire
 		(pts
@@ -4998,17 +4958,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 67.31) (xy 153.035 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea057ed1-f509-42f8-8c42-bf5c19d49a3b")
-	)
-	(wire
-		(pts
-			(xy 38.735 48.26) (xy 59.69 48.26)
+			(xy 40.005 48.26) (xy 59.69 48.26)
 		)
 		(stroke
 			(width 0)
@@ -5116,6 +5066,36 @@
 		)
 		(uuid "12883c53-bc40-4510-8b46-92307d1e13e0")
 	)
+	(label "RJ45_RX-"
+		(at 40.005 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "12db3769-989a-4080-b38e-73552e24025c")
+	)
+	(label "RJ45_TX-"
+		(at 40.005 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "14526162-3b6b-415e-93e1-5ac1c2166863")
+	)
+	(label "RJ45_RX+"
+		(at 183.515 48.895 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "17641484-3b4b-47c0-bec1-2066cea654d8")
+	)
 	(label "ETH_LED_Y"
 		(at 47.625 96.52 0)
 		(effects
@@ -5125,26 +5105,6 @@
 			(justify left bottom)
 		)
 		(uuid "258a44a8-1728-4135-92d9-9ad8b6cbb9f5")
-	)
-	(label "ETH_TX+"
-		(at 38.735 40.64 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "28d3731a-6117-4edb-b641-5fe518951276")
-	)
-	(label "ETH_TX-"
-		(at 38.735 38.1 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "31777ee5-7949-44b8-a009-94b890fa36f6")
 	)
 	(label "ETH_XO"
 		(at 62.23 156.21 180)
@@ -5226,15 +5186,15 @@
 		)
 		(uuid "7154cfe9-9dfd-461f-8ff0-c585f7605296")
 	)
-	(label "RJ45_RX-"
-		(at 184.15 82.55 180)
+	(label "RJ45_TX-"
+		(at 144.145 48.895 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "7ca44366-5834-4407-969b-6eba492303d9")
+		(uuid "7cd9674d-d600-4a38-bfe7-5f052b72ee8e")
 	)
 	(label "ETH_EXPRES"
 		(at 118.745 147.955 180)
@@ -5246,26 +5206,6 @@
 		)
 		(uuid "82f132f9-2988-479c-8d3c-b315afb53a46")
 	)
-	(label "ETH_RX-"
-		(at 38.735 48.26 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "840e56a8-c3df-472b-bba1-6d98b4126952")
-	)
-	(label "ETH_RX+"
-		(at 38.735 50.8 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8bc47de2-c8a0-4a9f-9bb1-4a37b0888d3f")
-	)
 	(label "ETH_XO"
 		(at 64.135 169.545 180)
 		(effects
@@ -5276,16 +5216,6 @@
 		)
 		(uuid "8c1f79f8-d41f-4ef4-b073-4a7692f9929d")
 	)
-	(label "ETH_RX+"
-		(at 144.78 67.31 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "97b4e777-4021-4858-8355-71523d701a9d")
-	)
 	(label "ETH_LED_G"
 		(at 104.775 96.52 180)
 		(effects
@@ -5295,16 +5225,6 @@
 			(justify right bottom)
 		)
 		(uuid "9b5299ce-3012-4a25-bd80-999d4fa85bf7")
-	)
-	(label "RJ45_RX+"
-		(at 184.15 67.31 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a2946c42-7317-477d-b94a-053d8cd12dbc")
 	)
 	(label "ETH_XO"
 		(at 100.33 81.28 180)
@@ -5325,6 +5245,16 @@
 			(justify left bottom)
 		)
 		(uuid "aa78c227-459e-407d-bbe3-0f840a0b70c7")
+	)
+	(label "RJ45_RX-"
+		(at 144.145 33.655 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ac62c768-d430-43f3-857d-278931b6aa18")
 	)
 	(label "RJ45_RCT"
 		(at 248.92 66.04 180)
@@ -5356,16 +5286,6 @@
 		)
 		(uuid "b4e80143-c754-4e38-adf5-08684b3c39b4")
 	)
-	(label "ETH_TX-"
-		(at 144.78 48.895 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b870268b-436b-490f-b1d9-d069bb3c8875")
-	)
 	(label "RJ45_TCT"
 		(at 233.045 75.565 180)
 		(effects
@@ -5376,35 +5296,15 @@
 		)
 		(uuid "bc7e1185-f5cb-4b42-9232-a59f0ea5dbae")
 	)
-	(label "RJ45_TX-"
-		(at 183.515 48.895 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "bce8e267-d0b9-48da-9662-d8b3eb676d2a")
-	)
-	(label "ETH_RX-"
-		(at 144.78 82.55 0)
+	(label "RJ45_TX+"
+		(at 40.005 40.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "ccf8bac8-8e9c-4602-9597-45a03796ffd2")
-	)
-	(label "ETH_TX+"
-		(at 144.78 33.655 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d84472f7-d12d-4815-a4bf-10a9c356c848")
+		(uuid "c62873bd-a8b9-4783-b2dc-b55563db1a20")
 	)
 	(label "ETH_LED_Y"
 		(at 271.78 41.275 180)
@@ -5445,6 +5345,16 @@
 			(justify right bottom)
 		)
 		(uuid "ee2a04dc-8f75-4fa7-96d9-1c00cff46560")
+	)
+	(label "RJ45_RX+"
+		(at 40.005 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f35a8321-b394-4c24-856b-d9aa7c385a8c")
 	)
 	(label "RJ45_TX+"
 		(at 209.55 36.83 0)
@@ -5614,26 +5524,6 @@
 			(uuid "e814265a-71da-4324-97bf-9f74002ad7d8")
 		)
 	)
-	(rule_area
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(polyline
-			(pts
-				(xy 47.3074 32.385) (xy 33.9724 32.385) (xy 33.9724 53.34) (xy 47.3074 53.34)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-				(color 0 132 0 1)
-			)
-			(fill
-				(type none)
-			)
-			(uuid "f90e692a-f6c2-4723-99f8-78d68928fe18")
-		)
-	)
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
@@ -5692,40 +5582,6 @@
 		)
 		(property "Component Class" ""
 			(at 123.19 54.61 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 34.29 32.385 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9461b85c-678e-4c76-905d-a4927d845225")
-		(property "Net Class" "ETH"
-			(at 32.385 27.94 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at -50.8 53.975 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7031,128 +6887,6 @@
 			(project "LibrePLC32"
 				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/b26cf163-b355-429e-a9f6-9813c59c646b"
 					(reference "#PWR0244")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LibrePLC32:TS3314PLX")
-		(at 163.195 74.93 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4a6276cd-9b24-42e1-bdd2-07e1fade162e")
-		(property "Reference" "D18"
-			(at 163.195 57.785 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TS3314PLX"
-			(at 163.195 60.325 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LibrePLC32:SOT-23-5_L2.9-W1.6-P0.95-LS2.8-BR"
-			(at 145.415 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C5156700.pdf"
-			(at 142.875 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 163.195 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "晶扬电子"
-			(at 140.335 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "TS3314PLX"
-			(at 137.795 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C5156700"
-			(at 135.255 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "f1b7451e-f793-4849-a671-feea7984bf79")
-		)
-		(pin "3"
-			(uuid "84486048-3ff4-4ca3-b69c-53bc4e5aeb5a")
-		)
-		(pin "5"
-			(uuid "35e35794-2c52-4cd4-a623-746facad8ce3")
-		)
-		(pin "2"
-			(uuid "34045a6b-d922-4845-9400-0ad22091a95e")
-		)
-		(pin "1"
-			(uuid "ff9ee56e-470c-4d9b-8242-2fc7bbc8af06")
-		)
-		(instances
-			(project "LibrePLC32"
-				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/b26cf163-b355-429e-a9f6-9813c59c646b"
-					(reference "D18")
 					(unit 1)
 				)
 			)
@@ -10838,84 +10572,6 @@
 			(project "LibrePLC32"
 				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/b26cf163-b355-429e-a9f6-9813c59c646b"
 					(reference "#PWR0245")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 151.13 74.93 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f466ca3c-5f89-483a-8910-2d9922867b51")
-		(property "Reference" "#PWR0233"
-			(at 144.78 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 147.955 74.93 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 151.13 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 151.13 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 151.13 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8a3f0ae3-2bc7-429d-8eb1-a271cd0f773d")
-		)
-		(instances
-			(project "LibrePLC32"
-				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/b26cf163-b355-429e-a9f6-9813c59c646b"
-					(reference "#PWR0233")
 					(unit 1)
 				)
 			)
