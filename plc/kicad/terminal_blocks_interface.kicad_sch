@@ -8620,7 +8620,7 @@
 		)
 		(uuid "616821aa-194a-4554-aa57-a5e4f647bc02")
 	)
-	(label "T1_SNS"
+	(label "T1_ADC"
 		(at 136.525 267.335 0)
 		(effects
 			(font
@@ -8870,7 +8870,7 @@
 		)
 		(uuid "985c0f7d-c9c7-4da9-9fd1-3555ddeba3b3")
 	)
-	(label "T2_SNS"
+	(label "T2_ADC"
 		(at 136.525 269.875 0)
 		(effects
 			(font
@@ -11447,7 +11447,7 @@
 		(fields_autoplaced yes)
 		(uuid "1eddabac-5004-41e0-91cc-16b25cf74396")
 		(property "Reference" "C1"
-			(at 46.609 163.9569 0)
+			(at 45.72 163.9569 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11457,8 +11457,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1n"
-			(at 46.609 166.4969 0)
+		(property "Value" "100p"
+			(at 45.72 166.4969 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16246,7 +16246,7 @@
 		(fields_autoplaced yes)
 		(uuid "7d2cd90f-f8cd-4a0f-a2cf-1a232b4e4e87")
 		(property "Reference" "R8"
-			(at 30.226 261.8739 0)
+			(at 30.48 261.8739 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16257,7 +16257,7 @@
 			)
 		)
 		(property "Value" "620"
-			(at 30.226 264.4139 0)
+			(at 30.48 264.4139 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16767,7 +16767,7 @@
 		(fields_autoplaced yes)
 		(uuid "84183023-0cd4-45d7-bc40-f87ce3f63d08")
 		(property "Reference" "R9"
-			(at 35.179 153.162 90)
+			(at 35.179 153.67 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16776,8 +16776,8 @@
 				)
 			)
 		)
-		(property "Value" "100"
-			(at 35.179 155.702 90)
+		(property "Value" "10k"
+			(at 35.179 156.21 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17465,7 +17465,7 @@
 		(fields_autoplaced yes)
 		(uuid "9699eda3-9b02-4875-b229-c03c62963df3")
 		(property "Reference" "R10"
-			(at 35.306 251.079 90)
+			(at 35.306 251.46 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17474,8 +17474,8 @@
 				)
 			)
 		)
-		(property "Value" "100"
-			(at 35.306 253.619 90)
+		(property "Value" "10k"
+			(at 35.306 254 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20750,7 +20750,7 @@
 		(fields_autoplaced yes)
 		(uuid "dd90ea2a-9125-4289-a785-63d7c666364f")
 		(property "Reference" "C2"
-			(at 46.736 261.8739 0)
+			(at 46.99 261.8739 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20760,8 +20760,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1n"
-			(at 46.736 264.4139 0)
+		(property "Value" "100p"
+			(at 46.99 264.4139 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21659,7 +21659,7 @@
 		(fields_autoplaced yes)
 		(uuid "f0244b69-1eef-4827-840c-b9e139690fb0")
 		(property "Reference" "R7"
-			(at 30.099 163.9569 0)
+			(at 30.48 163.9569 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21670,7 +21670,7 @@
 			)
 		)
 		(property "Value" "620"
-			(at 30.099 166.4969 0)
+			(at 30.48 166.4969 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
