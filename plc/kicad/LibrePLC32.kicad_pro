@@ -664,6 +664,15 @@
       "/Ethernet/RJ45_TX-": [
         "ETH"
       ],
+      "/Ethernet/SPI_MISO": [
+        "SPI"
+      ],
+      "/Ethernet/SPI_MOSI": [
+        "SPI"
+      ],
+      "/Ethernet/SPI_SCLK": [
+        "SPI"
+      ],
       "/Ethernet/~{ETH_CS}": [
         "SPI"
       ],

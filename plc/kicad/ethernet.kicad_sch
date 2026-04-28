@@ -5366,7 +5366,7 @@
 		)
 		(uuid "fdc42762-7dba-4bb0-a08d-bbee76fab30f")
 	)
-	(hierarchical_label "ETH_MOSI"
+	(hierarchical_label "SPI_MOSI"
 		(shape input)
 		(at 99.695 71.12 0)
 		(effects
@@ -5388,7 +5388,7 @@
 		)
 		(uuid "1011f76f-8966-40cc-9e5b-10a9dfd7a554")
 	)
-	(hierarchical_label "ETH_SCLK"
+	(hierarchical_label "SPI_SCLK"
 		(shape input)
 		(at 99.695 76.2 0)
 		(effects
@@ -5421,7 +5421,7 @@
 		)
 		(uuid "6760750c-8a66-4f30-aa1c-e241946ac9ae")
 	)
-	(hierarchical_label "ETH_MISO"
+	(hierarchical_label "SPI_MISO"
 		(shape output)
 		(at 99.695 73.66 0)
 		(effects

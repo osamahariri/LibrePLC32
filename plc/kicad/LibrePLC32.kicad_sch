@@ -995,7 +995,7 @@
 				(justify left)
 			)
 		)
-		(pin "ETH_SCLK" output
+		(pin "SPI_SCLK" output
 			(at 127 134.62 180)
 			(uuid "2b4ea1d3-b941-49b6-b01f-819d4051e81e")
 			(effects
@@ -1005,7 +1005,7 @@
 				(justify left)
 			)
 		)
-		(pin "ETH_MOSI" output
+		(pin "SPI_MOSI" output
 			(at 127 129.54 180)
 			(uuid "8e606fc1-10d8-420f-b475-ddd46ef83f12")
 			(effects
@@ -1025,7 +1025,7 @@
 				(justify left)
 			)
 		)
-		(pin "ETH_MISO" input
+		(pin "SPI_MISO" input
 			(at 127 132.08 180)
 			(uuid "ac9671f2-5937-4e5e-879c-86dd5d89427a")
 			(effects
@@ -1141,7 +1141,7 @@
 				(justify left top)
 			)
 		)
-		(pin "ETH_MOSI" input
+		(pin "SPI_MOSI" input
 			(at 82.55 129.54 0)
 			(uuid "f2e24963-3b96-47cd-9906-b3901c52b2f0")
 			(effects
@@ -1151,7 +1151,7 @@
 				(justify right)
 			)
 		)
-		(pin "ETH_MISO" output
+		(pin "SPI_MISO" output
 			(at 82.55 132.08 0)
 			(uuid "807cea9e-bf5e-45dd-85af-9453e5f12b06")
 			(effects
@@ -1181,7 +1181,7 @@
 				(justify right)
 			)
 		)
-		(pin "ETH_SCLK" input
+		(pin "SPI_SCLK" input
 			(at 82.55 134.62 0)
 			(uuid "aaa0b293-8f48-4f03-9f9c-e5ea9fa591bb")
 			(effects
