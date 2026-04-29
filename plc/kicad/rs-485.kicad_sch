@@ -1915,16 +1915,16 @@
 		(uuid "ed33b45f-5877-44eb-b5b6-16b3243d3f70")
 	)
 	(junction
-		(at 70.485 73.66)
+		(at 69.85 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2e9780fd-9bd4-4423-8423-4f8347d93483")
+		(uuid "1e72fe42-d20f-4182-acc0-a569807b4dff")
 	)
 	(junction
-		(at 65.405 71.12)
+		(at 64.77 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "481e3c34-8115-4ba8-bff8-db0f2efb91ac")
+		(uuid "41406b08-4da6-4071-b351-976d9a1af889")
 	)
 	(junction
 		(at 68.58 124.46)
@@ -2012,23 +2012,13 @@
 	)
 	(wire
 		(pts
-			(xy 47.625 73.66) (xy 70.485 73.66)
+			(xy 47.625 73.66) (xy 64.77 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2f6e0b7b-fdc5-43b2-902f-edba441755eb")
-	)
-	(wire
-		(pts
-			(xy 65.405 71.12) (xy 78.74 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3224717a-cdc4-4597-98c6-83c5119e3dcd")
 	)
 	(wire
 		(pts
@@ -2059,16 +2049,6 @@
 			(type default)
 		)
 		(uuid "3ca0e523-6a52-4711-9118-bfd8898dd941")
-	)
-	(wire
-		(pts
-			(xy 65.405 71.12) (xy 65.405 79.375)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3cc4ae08-cef3-4937-8e12-d4d3037cd022")
 	)
 	(wire
 		(pts
@@ -2182,6 +2162,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 73.66) (xy 64.77 79.375)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72fa8941-1b0a-44f5-8c33-c15c486cbea8")
+	)
+	(wire
+		(pts
 			(xy 86.36 79.375) (xy 86.36 76.2)
 		)
 		(stroke
@@ -2202,13 +2192,23 @@
 	)
 	(wire
 		(pts
-			(xy 67.945 95.885) (xy 67.945 94.615)
+			(xy 67.31 94.615) (xy 67.31 95.885)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7acdcbfe-dc0d-4017-97d0-74200a3e6649")
+	)
+	(wire
+		(pts
+			(xy 69.85 79.375) (xy 69.85 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bde4405-4c80-4418-a451-ac35212f67c9")
 	)
 	(wire
 		(pts
@@ -2282,7 +2282,7 @@
 	)
 	(wire
 		(pts
-			(xy 47.625 71.12) (xy 65.405 71.12)
+			(xy 47.625 71.12) (xy 69.85 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2299,16 +2299,6 @@
 			(type default)
 		)
 		(uuid "dc6e5b75-010f-45cf-8d2b-20bb9c8c3256")
-	)
-	(wire
-		(pts
-			(xy 70.485 73.66) (xy 70.485 79.375)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dea4bc2c-9539-4dfc-8adb-24e3b61de205")
 	)
 	(wire
 		(pts
@@ -2342,6 +2332,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 73.66) (xy 70.485 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f77d9920-cdda-4043-83ad-e647d08c64ef")
+	)
+	(wire
+		(pts
 			(xy 201.93 127.635) (xy 191.77 127.635)
 		)
 		(stroke
@@ -2370,6 +2370,16 @@
 		)
 		(uuid "fd9d3784-0dae-4ea2-b921-27f7821ca31d")
 	)
+	(wire
+		(pts
+			(xy 69.85 71.12) (xy 78.74 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fedcec1c-4542-4c47-950c-bb1bef140ef2")
+	)
 	(label "RS485_TXD"
 		(at 120.65 76.2 180)
 		(effects
@@ -2379,16 +2389,6 @@
 			(justify right bottom)
 		)
 		(uuid "088abae4-7ed8-43da-9931-5fc6d75456ef")
-	)
-	(label "EXT_RS485_B"
-		(at 188.595 106.68 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0a9624e8-b993-4dde-99f7-cbf59aab67f7")
 	)
 	(label "RS485_RXD"
 		(at 120.65 68.58 180)
@@ -2431,6 +2431,16 @@
 		(uuid "3ba4dbcc-3a58-4987-8f39-7f833f16f198")
 	)
 	(label "EXT_RS485_B"
+		(at 188.595 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "40d81858-e484-499f-ab73-7d65ab2f6bc2")
+	)
+	(label "EXT_RS485_B"
 		(at 82.55 124.46 180)
 		(effects
 			(font
@@ -2471,6 +2481,16 @@
 		(uuid "b99275f9-bb24-480b-8c6f-95371530ff09")
 	)
 	(label "EXT_RS485_A"
+		(at 188.595 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d15d47ac-f94e-478b-bbf4-4f303b7f25af")
+	)
+	(label "EXT_RS485_A"
 		(at 47.625 73.66 0)
 		(effects
 			(font
@@ -2499,16 +2519,6 @@
 			(justify left bottom)
 		)
 		(uuid "f1c734cf-c0e5-4034-b94d-dfa36b3e246c")
-	)
-	(label "EXT_RS485_A"
-		(at 188.595 104.14 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fa94ad75-9d1d-4d38-a51e-dabdb51c254f")
 	)
 	(hierarchical_label "RS485_RXD"
 		(shape bidirectional)
@@ -2969,7 +2979,7 @@
 	)
 	(symbol
 		(lib_id "LibrePLC32:CDSOT23-SM712")
-		(at 67.945 86.995 180)
+		(at 67.31 86.995 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2979,7 +2989,7 @@
 		(dnp no)
 		(uuid "3e54b9ec-6291-470a-8106-b079ebd1f5f5")
 		(property "Reference" "D16"
-			(at 69.85 92.71 0)
+			(at 69.215 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2990,7 +3000,7 @@
 			)
 		)
 		(property "Value" "CDSOT23-SM712"
-			(at 69.85 95.25 0)
+			(at 69.215 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3001,7 +3011,7 @@
 			)
 		)
 		(property "Footprint" "LibrePLC32:SOT-23_L2.9-W1.3-P1.90-LS2.4-BR"
-			(at 67.945 71.755 0)
+			(at 67.31 71.755 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3012,7 +3022,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Diodes-ESD_BOURNS-CDSOT23-SM712_C404012.html"
-			(at 67.945 69.215 0)
+			(at 67.31 69.215 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3023,7 +3033,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 67.945 86.995 0)
+			(at 67.31 86.995 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3034,7 +3044,7 @@
 			)
 		)
 		(property "Manufacturer" "BOURNS"
-			(at 67.945 66.675 0)
+			(at 67.31 66.675 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3045,7 +3055,7 @@
 			)
 		)
 		(property "MPN" "CDSOT23-SM712"
-			(at 67.945 64.135 0)
+			(at 67.31 64.135 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3056,7 +3066,7 @@
 			)
 		)
 		(property "LCSC Part" "C404012"
-			(at 67.945 61.595 0)
+			(at 67.31 61.595 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3725,7 +3735,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 67.945 95.885 0)
+		(at 67.31 95.885 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3736,7 +3746,7 @@
 		(fields_autoplaced yes)
 		(uuid "9d3fe94a-b00a-4e5f-816a-a07741ef2167")
 		(property "Reference" "#PWR0202"
-			(at 67.945 102.235 0)
+			(at 67.31 102.235 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3747,7 +3757,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 67.945 100.203 0)
+			(at 67.31 100.203 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3757,7 +3767,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 67.945 95.885 0)
+			(at 67.31 95.885 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3768,7 +3778,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.945 95.885 0)
+			(at 67.31 95.885 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3779,7 +3789,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 67.945 95.885 0)
+			(at 67.31 95.885 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
