@@ -936,7 +936,7 @@
         "uuid": "ef4c1a27-85a3-413a-9f93-a41c4f97eee5"
       }
     ],
-    "used_designators": "R65,R70,R105,U21",
+    "used_designators": "C37-39,C57,#PWR172-173,#PWR175,#PWR187,#PWR189,#PWR259-266,R65,R70,R105-108,U15,U21",
     "variants": []
   },
   "sheets": [
