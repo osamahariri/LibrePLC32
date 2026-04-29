@@ -2164,18 +2164,6 @@
 		(uuid "920da7c4-d313-4c6e-8316-90d7463e67b3")
 	)
 	(junction
-		(at 160.02 159.385)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a9c5b59b-dd60-4ad1-a4a5-7e8ef7ba408f")
-	)
-	(junction
-		(at 165.1 146.05)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bb4d463f-7195-422b-9754-1421b30718e1")
-	)
-	(junction
 		(at 79.375 137.795)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2265,16 +2253,6 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "42dc571d-8ed5-4295-8d01-8c176498fdaa")
-	)
-	(wire
-		(pts
-			(xy 170.18 146.05) (xy 170.18 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
 		(uuid "4798f64f-6e06-4b47-b58f-9df9e2d756f9")
 	)
 	(wire
@@ -2349,16 +2327,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 146.05) (xy 165.1 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7066776a-0ba6-42b6-9187-2622acfeee4e")
-	)
-	(wire
-		(pts
 			(xy 57.15 81.915) (xy 74.295 81.915)
 		)
 		(stroke
@@ -2366,26 +2334,6 @@
 			(type default)
 		)
 		(uuid "7657c4ac-d94a-4940-9176-d0a65fb3a073")
-	)
-	(wire
-		(pts
-			(xy 160.02 156.21) (xy 160.02 159.385)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "780b0fee-a62c-4f8e-be29-b9f73d569df8")
-	)
-	(wire
-		(pts
-			(xy 165.1 146.05) (xy 170.18 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7cb90923-f301-44c2-b157-5a42282c8e83")
 	)
 	(wire
 		(pts
@@ -2419,7 +2367,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 159.385) (xy 170.18 159.385)
+			(xy 149.225 159.385) (xy 165.1 159.385)
 		)
 		(stroke
 			(width 0)
@@ -2446,16 +2394,6 @@
 			(type default)
 		)
 		(uuid "a999740f-b3ea-4949-bc41-1c02850a9b2a")
-	)
-	(wire
-		(pts
-			(xy 149.225 159.385) (xy 160.02 159.385)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aacde0d1-a220-414d-86c3-231d76d9447c")
 	)
 	(wire
 		(pts
@@ -2589,16 +2527,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 148.59) (xy 160.02 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef937991-e883-4934-ba04-7f7a9070614a")
-	)
-	(wire
-		(pts
 			(xy 76.835 147.955) (xy 79.375 147.955)
 		)
 		(stroke
@@ -2609,7 +2537,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 159.385) (xy 170.18 156.21)
+			(xy 165.1 159.385) (xy 165.1 153.67)
 		)
 		(stroke
 			(width 0)
@@ -3428,87 +3356,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 160.02 152.4 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "31e65f80-f9f7-477e-8a5a-ba83be267738")
-		(property "Reference" "C55"
-			(at 162.56 151.13 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 162.56 153.67 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 160.9852 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 160.02 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 160.02 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "6c056105-e72d-4931-9357-929fffdfc6c2")
-		)
-		(pin "1"
-			(uuid "57e78f4b-e0d6-431b-b9f1-574d89961885")
-		)
-		(instances
-			(project "LibrePLC32"
-				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/1f15b1b2-5031-4e14-8391-148d71dbf666"
-					(reference "C55")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "LibrePLC32:SM24CANA-02HTG")
 		(at 69.215 97.155 180)
 		(unit 1)
@@ -4108,7 +3955,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 170.18 152.4 180)
+		(at 165.1 149.86 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4118,7 +3965,7 @@
 		(dnp no)
 		(uuid "6fd7b5f5-2079-4a6a-99fe-815e8b4807e0")
 		(property "Reference" "R94"
-			(at 172.085 151.765 0)
+			(at 167.005 149.225 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4129,7 +3976,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 172.085 154.305 0)
+			(at 167.005 151.765 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4140,7 +3987,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 171.958 152.4 90)
+			(at 166.878 149.86 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4151,7 +3998,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 152.4 0)
+			(at 165.1 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4162,7 +4009,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 170.18 152.4 0)
+			(at 165.1 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
