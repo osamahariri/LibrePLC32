@@ -742,6 +742,9 @@
       "Net-(U15-VIN)": [
         "SYS_HV"
       ],
+      "Net-(U21-VIN)": [
+        "SYS_HV"
+      ],
       "PWR_CAN": [
         "SYS_HV"
       ],
@@ -933,7 +936,7 @@
         "uuid": "ef4c1a27-85a3-413a-9f93-a41c4f97eee5"
       }
     ],
-    "used_designators": "C15,#PWR99,#PWR258",
+    "used_designators": "U21",
     "variants": []
   },
   "sheets": [

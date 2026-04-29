@@ -3522,14 +3522,14 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "LibrePLC32:TPS54560DDAR"
+		(symbol "LibrePLC32:TPS54560BDDAR"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
-				(at 0 10.16 0)
+				(at 0 12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -3538,18 +3538,18 @@
 					)
 				)
 			)
-			(property "Value" "TPS54560DDAR"
+			(property "Value" "TPS54560BDDAR"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "LibrePLC32:POWERPAD-SO-8_L4.9-W3.9-P1.27-LS6.0-BL-EP"
 				(at 0 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "LibrePLC32:SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL-EP2.0"
-				(at 0 -15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -3559,8 +3559,8 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://lcsc.com/product-detail/DC-DC-Converters_TI_TPS54560DDAR_TPS54560DDAR_C31966.html"
-				(at 0 -17.78 0)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C1850354.pdf"
+				(at 0 -15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -3582,6 +3582,17 @@
 				)
 			)
 			(property "Manufacturer" "TI(德州仪器)"
+				(at 0 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "TPS54560BDDAR"
 				(at 0 -20.32 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3592,19 +3603,8 @@
 					)
 				)
 			)
-			(property "MPN" "TPS54560DDAR"
+			(property "LCSC Part" "C1850354"
 				(at 0 -22.86 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC Part" "C31966"
-				(at 0 -25.4 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -3625,10 +3625,10 @@
 					)
 				)
 			)
-			(symbol "TPS54560DDAR_0_1"
+			(symbol "TPS54560BDDAR_0_1"
 				(rectangle
-					(start -10.16 7.62)
-					(end 10.16 -5.08)
+					(start -10.16 5.08)
+					(end 10.16 -7.62)
 					(stroke
 						(width 0)
 						(type default)
@@ -3637,9 +3637,20 @@
 						(type background)
 					)
 				)
+				(circle
+					(center -8.89 3.81)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin unspecified line
-					(at -15.24 5.08 0)
-					(length 5.08)
+					(at -12.7 2.54 0)
+					(length 2.54)
 					(name "BOOT"
 						(effects
 							(font
@@ -3656,8 +3667,8 @@
 					)
 				)
 				(pin unspecified line
-					(at -15.24 2.54 0)
-					(length 5.08)
+					(at -12.7 0 0)
+					(length 2.54)
 					(name "VIN"
 						(effects
 							(font
@@ -3674,8 +3685,8 @@
 					)
 				)
 				(pin unspecified line
-					(at -15.24 0 0)
-					(length 5.08)
+					(at -12.7 -2.54 0)
+					(length 2.54)
 					(name "EN"
 						(effects
 							(font
@@ -3692,8 +3703,8 @@
 					)
 				)
 				(pin unspecified line
-					(at -15.24 -2.54 0)
-					(length 5.08)
+					(at -12.7 -5.08 0)
+					(length 2.54)
 					(name "RT/CLK"
 						(effects
 							(font
@@ -3710,8 +3721,8 @@
 					)
 				)
 				(pin unspecified line
-					(at 15.24 -2.54 180)
-					(length 5.08)
+					(at 12.7 -5.08 180)
+					(length 2.54)
 					(name "FB"
 						(effects
 							(font
@@ -3728,8 +3739,8 @@
 					)
 				)
 				(pin unspecified line
-					(at 15.24 0 180)
-					(length 5.08)
+					(at 12.7 -2.54 180)
+					(length 2.54)
 					(name "COMP"
 						(effects
 							(font
@@ -3746,8 +3757,8 @@
 					)
 				)
 				(pin unspecified line
-					(at 15.24 2.54 180)
-					(length 5.08)
+					(at 12.7 0 180)
+					(length 2.54)
 					(name "GND"
 						(effects
 							(font
@@ -3764,8 +3775,8 @@
 					)
 				)
 				(pin unspecified line
-					(at 15.24 5.08 180)
-					(length 5.08)
+					(at 12.7 2.54 180)
+					(length 2.54)
 					(name "SW"
 						(effects
 							(font
@@ -3782,7 +3793,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 0 -7.62 90)
+					(at 0 7.62 270)
 					(length 2.54)
 					(name "EP"
 						(effects
@@ -4827,6 +4838,16 @@
 		)
 		(uuid "21d29825-2e5a-4eb9-bc63-e203f7257523")
 	)
+	(text "1%"
+		(exclude_from_sim no)
+		(at 177.165 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4db3578c-5694-4f65-99e7-af4f77290666")
+	)
 	(text "Main 3.3V PSU"
 		(exclude_from_sim no)
 		(at 324.485 198.12 0)
@@ -4902,6 +4923,16 @@
 			)
 		)
 		(uuid "cc616984-59ee-4598-bbc3-8d8a6dc5bd9f")
+	)
+	(text "1%"
+		(exclude_from_sim no)
+		(at 177.165 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f4673895-bf1f-4c52-8c1e-8992ba39c383")
 	)
 	(junction
 		(at 368.3 96.52)
@@ -5066,6 +5097,12 @@
 		(uuid "6db65070-2bd3-4095-b222-62fdb9c14226")
 	)
 	(junction
+		(at 79.375 53.975)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7442d7d9-233c-4d0d-b608-b1eb3041c320")
+	)
+	(junction
 		(at 43.18 184.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5160,12 +5197,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b040b8b0-4724-4f09-ad56-7cc882cf9164")
-	)
-	(junction
-		(at 79.375 53.975)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b0d2ea94-eb69-4b98-b7e5-396f1bcab8cb")
 	)
 	(junction
 		(at 128.27 40.005)
@@ -5535,7 +5566,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 56.515) (xy 92.075 56.515)
+			(xy 87.63 56.515) (xy 94.615 56.515)
 		)
 		(stroke
 			(width 0)
@@ -5905,16 +5936,6 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 51.435) (xy 122.555 51.435)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "358148e9-2647-4d54-8407-1393b48da562")
-	)
-	(wire
-		(pts
 			(xy 43.18 184.15) (xy 43.18 186.69)
 		)
 		(stroke
@@ -5922,16 +5943,6 @@
 			(type default)
 		)
 		(uuid "35e31bc7-9caa-4425-8b81-51ffa9b01b7c")
-	)
-	(wire
-		(pts
-			(xy 122.555 53.975) (xy 128.27 53.975)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "361ddc0b-4d98-4c92-9c7b-e77b832e2e8f")
 	)
 	(wire
 		(pts
@@ -6205,7 +6216,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.315 64.135) (xy 107.315 65.405)
+			(xy 105.41 45.085) (xy 107.315 45.085)
 		)
 		(stroke
 			(width 0)
@@ -6215,7 +6226,7 @@
 	)
 	(wire
 		(pts
-			(xy 79.375 53.975) (xy 92.075 53.975)
+			(xy 79.375 53.975) (xy 94.615 53.975)
 		)
 		(stroke
 			(width 0)
@@ -6255,7 +6266,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.805 59.055) (xy 92.075 59.055)
+			(xy 90.805 59.055) (xy 94.615 59.055)
 		)
 		(stroke
 			(width 0)
@@ -6475,7 +6486,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 51.435) (xy 92.075 51.435)
+			(xy 91.44 51.435) (xy 94.615 51.435)
 		)
 		(stroke
 			(width 0)
@@ -6522,6 +6533,16 @@
 			(type default)
 		)
 		(uuid "62e1ef54-3f32-469e-92a0-099a294b1f24")
+	)
+	(wire
+		(pts
+			(xy 107.315 45.085) (xy 107.315 46.355)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64bff2fe-edbf-4566-b405-92df0c7a1b94")
 	)
 	(wire
 		(pts
@@ -6725,13 +6746,13 @@
 	)
 	(wire
 		(pts
-			(xy 125.095 59.055) (xy 122.555 59.055)
+			(xy 120.015 53.975) (xy 128.27 53.975)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7a1ddecd-67b1-4ed9-a3e8-e1d0e8c56ffd")
+		(uuid "79fa4cb6-c080-451c-ab17-42ec7f9cea57")
 	)
 	(wire
 		(pts
@@ -6982,6 +7003,16 @@
 			(type default)
 		)
 		(uuid "9fb8c2a0-a88e-44f1-b37b-48cfb87cb988")
+	)
+	(wire
+		(pts
+			(xy 120.015 51.435) (xy 124.46 51.435)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a27a6b01-f2f4-48b2-b1ac-096684591531")
 	)
 	(wire
 		(pts
@@ -7365,6 +7396,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.015 56.515) (xy 128.27 56.515)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3725edf-0475-460e-b253-fd38e4ad659b")
+	)
+	(wire
+		(pts
 			(xy 85.725 119.38) (xy 92.71 119.38)
 		)
 		(stroke
@@ -7385,7 +7426,7 @@
 	)
 	(wire
 		(pts
-			(xy 103.505 40.005) (xy 90.17 40.005)
+			(xy 103.505 40.005) (xy 91.44 40.005)
 		)
 		(stroke
 			(width 0)
@@ -7655,16 +7696,6 @@
 	)
 	(wire
 		(pts
-			(xy 122.555 56.515) (xy 128.27 56.515)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e78b0bff-7f2c-49b2-b6f1-d7f261935141")
-	)
-	(wire
-		(pts
 			(xy 243.205 55.245) (xy 255.905 55.245)
 		)
 		(stroke
@@ -7795,7 +7826,17 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 40.005) (xy 90.17 51.435)
+			(xy 120.015 59.055) (xy 123.19 59.055)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5259093-0df4-4453-9897-40a5cec6529b")
+	)
+	(wire
+		(pts
+			(xy 91.44 40.005) (xy 91.44 51.435)
 		)
 		(stroke
 			(width 0)
@@ -8134,7 +8175,7 @@
 		(uuid "8a84fa24-ca45-4321-a240-8c7b5e3a7972")
 	)
 	(label "FB"
-		(at 125.095 59.055 180)
+		(at 123.19 59.055 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10504,140 +10545,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LibrePLC32:TPS54560DDAR")
-		(at 107.315 56.515 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "33608019-189f-4246-9a85-30260e61ae51")
-		(property "Reference" "U15"
-			(at 107.315 44.45 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TPS54560DDAR"
-			(at 107.315 46.99 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LibrePLC32:SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL-EP2.0"
-			(at 107.315 71.755 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/DC-DC-Converters_TI_TPS54560DDAR_TPS54560DDAR_C31966.html"
-			(at 107.315 74.295 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 107.315 56.515 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "TI(德州仪器)"
-			(at 107.315 76.835 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "TPS54560DDAR"
-			(at 107.315 79.375 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C31966"
-			(at 107.315 81.915 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "8"
-			(uuid "f005976a-c817-4981-8d81-590af86d9779")
-		)
-		(pin "9"
-			(uuid "caded5f0-5d5f-45e1-b6b8-78535535a9bd")
-		)
-		(pin "1"
-			(uuid "12635951-361f-4455-820e-535c06c45bb0")
-		)
-		(pin "3"
-			(uuid "db3aabdd-0128-40ea-9037-58f68869ee9d")
-		)
-		(pin "2"
-			(uuid "722618e6-3aa4-462a-832f-691c86b3fdc8")
-		)
-		(pin "4"
-			(uuid "b29bc2ba-eef1-477c-b834-7a13ea07ed44")
-		)
-		(pin "5"
-			(uuid "15c2e409-4890-444f-9c5c-5717fdaf098b")
-		)
-		(pin "6"
-			(uuid "3c83e777-2432-4dcb-836f-748146c4be55")
-		)
-		(pin "7"
-			(uuid "76573552-d960-40ce-9527-c6b6108845a6")
-		)
-		(instances
-			(project "LibrePLC32"
-				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/7cb27fd0-1c73-4e87-ad2d-fb4e463ee9fb"
-					(reference "U15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VBUS")
 		(at 368.3 114.3 180)
 		(unit 1)
@@ -10863,6 +10770,139 @@
 			(project "LibrePLC32"
 				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/7cb27fd0-1c73-4e87-ad2d-fb4e463ee9fb"
 					(reference "#PWR0130")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LibrePLC32:TPS54560BDDAR")
+		(at 107.315 53.975 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3f608b85-e9f7-441e-96e3-c1783f371586")
+		(property "Reference" "U21"
+			(at 116.205 44.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPS54560BDDAR"
+			(at 116.205 46.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LibrePLC32:POWERPAD-SO-8_L4.9-W3.9-P1.27-LS6.0-BL-EP"
+			(at 107.315 66.675 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C1850354.pdf"
+			(at 107.315 69.215 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 107.315 53.975 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "TI(德州仪器)"
+			(at 107.315 71.755 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TPS54560BDDAR"
+			(at 107.315 74.295 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C1850354"
+			(at 107.315 76.835 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "9"
+			(uuid "a5f0311a-eca7-4645-aa0d-a84e0ed6dcb2")
+		)
+		(pin "5"
+			(uuid "78eb7e47-3d36-489c-abef-230ad02ca0d0")
+		)
+		(pin "2"
+			(uuid "165347d9-5732-4c83-a243-f04a315b84d5")
+		)
+		(pin "4"
+			(uuid "4e5646f1-8389-49b6-b559-a363c76234c5")
+		)
+		(pin "1"
+			(uuid "86b9cda4-ce34-4c4d-aab8-210d16eb1b18")
+		)
+		(pin "3"
+			(uuid "4ffc9209-9ad5-4dc7-b148-89706f7b365b")
+		)
+		(pin "7"
+			(uuid "ebf62b61-7a0c-483d-b149-85ed398f1c73")
+		)
+		(pin "6"
+			(uuid "01eeb8a6-292d-4bba-95b5-5080490f9ca7")
+		)
+		(pin "8"
+			(uuid "4acf335c-87c6-432f-b46f-a0eb1dd80b51")
+		)
+		(instances
+			(project "LibrePLC32"
+				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/7cb27fd0-1c73-4e87-ad2d-fb4e463ee9fb"
+					(reference "U21")
 					(unit 1)
 				)
 			)
@@ -18879,7 +18919,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 107.315 65.405 0)
+		(at 105.41 45.085 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18887,10 +18927,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "df1659d0-0059-4db3-a67a-61b05bb43fd9")
 		(property "Reference" "#PWR0147"
-			(at 107.315 71.755 0)
+			(at 99.06 45.085 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18901,7 +18940,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 107.315 70.485 0)
+			(at 99.695 45.085 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18911,7 +18950,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 107.315 65.405 0)
+			(at 105.41 45.085 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18922,7 +18961,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.315 65.405 0)
+			(at 105.41 45.085 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18933,7 +18972,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 107.315 65.405 0)
+			(at 105.41 45.085 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
