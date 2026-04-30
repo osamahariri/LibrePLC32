@@ -465,184 +465,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:L"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "L"
-				(at -1.27 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "L"
-				(at 1.905 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Inductor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "inductor choke coil reactor magnetic"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "L_0_1"
-				(arc
-					(start 0 2.54)
-					(mid 0.6323 1.905)
-					(end 0 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 1.27)
-					(mid 0.6323 0.635)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid 0.6323 -0.635)
-					(end 0 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -1.27)
-					(mid 0.6323 -1.905)
-					(end 0 -2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "L_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:LED"
 			(pin_numbers
 				(hide yes)
@@ -967,6 +789,197 @@
 					(at 0 -3.81 90)
 					(length 1.27)
 					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "LibrePLC32:ASPI-0315S-270M-T"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "L"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ASPI-0315S-270M-T"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "LibrePLC32:IND-SMD_L3.5-W3.0_SLF0302"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Others_Abracon-LLC_ASPI-0315S-270M-T_Abracon-LLC-ASPI-0315S-270M-T_C187267.html"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "ABRACON"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "ASPI-0315S-270M-T"
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C187267"
+				(at 0 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Power Inductors"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "ASPI-0315S-270M-T_0_1"
+				(arc
+					(start -4.29 0.02)
+					(mid -3.28 0.9646)
+					(end -2.27 0.02)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.13 0.02)
+					(mid -1.12 0.9646)
+					(end -0.11 0.02)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.02 0.02)
+					(mid 1.03 0.9646)
+					(end 2.04 0.02)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.21 0.02)
+					(mid 3.22 0.9646)
+					(end 4.23 0.02)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 1.27)
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5516,12 +5529,6 @@
 		(uuid "4b0f9a2d-1f2b-4923-ad96-a5995845d598")
 	)
 	(junction
-		(at 50.165 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4bd443f9-d202-4974-b791-54bf9b88c75e")
-	)
-	(junction
 		(at 274.955 206.375)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5546,16 +5553,16 @@
 		(uuid "56801184-d06f-4cfa-93e9-27b051ad6975")
 	)
 	(junction
-		(at 92.71 112.395)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5a77eb25-17fb-4c31-81bb-fa0897b38c9a")
-	)
-	(junction
 		(at 151.765 40.005)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5e6da27e-6485-4c2a-b7cc-f9e7b239819c")
+	)
+	(junction
+		(at 92.71 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "61682f20-9c16-485e-9636-52d122663aa1")
 	)
 	(junction
 		(at 79.375 53.975)
@@ -5684,6 +5691,12 @@
 		(uuid "b040b8b0-4724-4f09-ad56-7cc882cf9164")
 	)
 	(junction
+		(at 92.71 112.395)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b96d9875-e4d0-43b6-b42d-df06c2fb3ab5")
+	)
+	(junction
 		(at 54.61 132.715)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5720,12 +5733,6 @@
 		(uuid "d54eae07-8c4a-4742-ab64-2bcc1feba5f7")
 	)
 	(junction
-		(at 92.71 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e0e10155-f201-413b-95e6-583cdda4a6ff")
-	)
-	(junction
 		(at 55.88 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5736,6 +5743,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e1886322-a2b1-4003-b2bc-36198923ef08")
+	)
+	(junction
+		(at 50.165 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e639569b-a0eb-4963-8c7a-0522431fb053")
 	)
 	(junction
 		(at 180.975 201.93)
@@ -5877,7 +5890,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.645 107.95) (xy 82.55 107.95)
+			(xy 80.645 112.395) (xy 82.55 112.395)
 		)
 		(stroke
 			(width 0)
@@ -7407,7 +7420,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.165 119.38) (xy 78.105 119.38)
+			(xy 50.165 119.38) (xy 62.23 119.38)
 		)
 		(stroke
 			(width 0)
@@ -8097,7 +8110,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.725 119.38) (xy 92.71 119.38)
+			(xy 72.39 119.38) (xy 92.71 119.38)
 		)
 		(stroke
 			(width 0)
@@ -8644,16 +8657,6 @@
 			(type default)
 		)
 		(uuid "fa4a343c-f499-484e-8db8-b6fd1716da88")
-	)
-	(wire
-		(pts
-			(xy 92.71 107.95) (xy 92.71 112.395)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa652261-2f65-412c-b2aa-1ed5fed25b75")
 	)
 	(wire
 		(pts
@@ -9992,7 +9995,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "8.2k"
+		(property "Value" "8.45k"
 			(at 52.07 139.065 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11496,87 +11499,6 @@
 			(project "LibrePLC32"
 				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/7cb27fd0-1c73-4e87-ad2d-fb4e463ee9fb"
 					(reference "C23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 34.29 124.46 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "26fa582f-9e4e-4ff9-ac7e-2ac42b1fd375")
-		(property "Reference" "C19"
-			(at 26.67 123.825 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "18u"
-			(at 26.67 126.365 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 33.3248 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 34.29 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 34.29 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "e5ae64c1-2a96-4b1d-946b-efbd9dacdcfd")
-		)
-		(pin "1"
-			(uuid "07b4ef7f-67c8-4ef5-a8f9-09abe2b6b0c7")
-		)
-		(instances
-			(project "LibrePLC32"
-				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/7cb27fd0-1c73-4e87-ad2d-fb4e463ee9fb"
-					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -13721,87 +13643,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L")
-		(at 81.915 119.38 270)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "62544e04-15d8-43da-9552-3a85cd318c4e")
-		(property "Reference" "L1"
-			(at 81.915 114.3 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "27u"
-			(at 81.915 116.84 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_1206_3216Metric"
-			(at 81.915 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 81.915 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 81.915 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "b42cc5b8-d613-405d-af99-d04cd823fabb")
-		)
-		(pin "1"
-			(uuid "3d63fa73-ddd3-411b-9a85-9216a8996d5c")
-		)
-		(instances
-			(project "LibrePLC32"
-				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/7cb27fd0-1c73-4e87-ad2d-fb4e463ee9fb"
-					(reference "L1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 62.23 266.065 0)
 		(unit 1)
@@ -14662,6 +14503,88 @@
 			(project "LibrePLC32"
 				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/7cb27fd0-1c73-4e87-ad2d-fb4e463ee9fb"
 					(reference "#PWR0157")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 34.29 124.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "74d59963-93a3-4576-afed-8925d0dca89b")
+		(property "Reference" "C19"
+			(at 38.1 123.1899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2u"
+			(at 38.1 125.7299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 35.2552 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 34.29 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "69e9e082-598d-444b-8f2d-52e88f413deb")
+		)
+		(pin "1"
+			(uuid "cc9c107d-f647-48a1-95c6-3865568cc8bb")
+		)
+		(instances
+			(project "LibrePLC32"
+				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/7cb27fd0-1c73-4e87-ad2d-fb4e463ee9fb"
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -15653,7 +15576,7 @@
 	)
 	(symbol
 		(lib_id "LibrePLC32:SS310_C14281")
-		(at 87.63 107.95 180)
+		(at 87.63 112.395 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15664,7 +15587,7 @@
 		(fields_autoplaced yes)
 		(uuid "89f71171-031f-47ad-8514-6ced01676117")
 		(property "Reference" "D6"
-			(at 88.01 101.6 0)
+			(at 88.01 106.045 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15674,7 +15597,7 @@
 			)
 		)
 		(property "Value" "SS310"
-			(at 88.01 104.14 0)
+			(at 88.01 108.585 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15684,7 +15607,7 @@
 			)
 		)
 		(property "Footprint" "LibrePLC32:SMB_L4.6-W3.6-LS5.3-RD"
-			(at 87.63 100.33 0)
+			(at 87.63 104.775 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15695,7 +15618,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Schottky-Barrier-Diodes-SBD_SS310_C14281.html"
-			(at 87.63 97.79 0)
+			(at 87.63 102.235 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15706,7 +15629,7 @@
 			)
 		)
 		(property "Description" "SS310"
-			(at 87.63 107.95 0)
+			(at 87.63 112.395 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15717,7 +15640,7 @@
 			)
 		)
 		(property "Manufacturer" "MDD(辰达半导体)"
-			(at 87.63 95.25 0)
+			(at 87.63 99.695 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15728,7 +15651,7 @@
 			)
 		)
 		(property "MPN" "SS310B"
-			(at 87.63 92.71 0)
+			(at 87.63 97.155 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15739,7 +15662,7 @@
 			)
 		)
 		(property "LCSC Part" "C14281"
-			(at 87.63 90.17 0)
+			(at 87.63 94.615 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17486,6 +17409,119 @@
 			(project "LibrePLC32"
 				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/7cb27fd0-1c73-4e87-ad2d-fb4e463ee9fb"
 					(reference "#PWR0132")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LibrePLC32:ASPI-0315S-270M-T")
+		(at 67.31 119.38 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "abfb68c7-7dd9-450d-8f39-355f105862b8")
+		(property "Reference" "L2"
+			(at 67.28 113.665 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "27u"
+			(at 67.28 116.205 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LibrePLC32:IND-SMD_L3.5-W3.0_SLF0302"
+			(at 67.31 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Others_Abracon-LLC_ASPI-0315S-270M-T_Abracon-LLC-ASPI-0315S-270M-T_C187267.html"
+			(at 67.31 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 67.31 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "ABRACON"
+			(at 67.31 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "ASPI-0315S-270M-T"
+			(at 67.31 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C187267"
+			(at 67.31 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "538b9f93-1bcb-4173-ae51-42e2a59d6880")
+		)
+		(pin "1"
+			(uuid "d723a250-7d5f-46bc-b636-98d744b27851")
+		)
+		(instances
+			(project "LibrePLC32"
+				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/7cb27fd0-1c73-4e87-ad2d-fb4e463ee9fb"
+					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -21064,7 +21100,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 80.645 107.95 270)
+		(at 80.645 112.395 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21075,7 +21111,7 @@
 		(fields_autoplaced yes)
 		(uuid "e8cebbfc-5f0e-43ca-aa53-016944bdc593")
 		(property "Reference" "#PWR0140"
-			(at 74.295 107.95 0)
+			(at 74.295 112.395 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21086,7 +21122,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 76.835 107.9499 90)
+			(at 76.835 112.3949 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21097,7 +21133,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 80.645 107.95 0)
+			(at 80.645 112.395 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21108,7 +21144,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.645 107.95 0)
+			(at 80.645 112.395 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21119,7 +21155,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 80.645 107.95 0)
+			(at 80.645 112.395 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
