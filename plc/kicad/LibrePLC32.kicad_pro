@@ -50,7 +50,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.2
         }
       },
       "diff_pair_dimensions": [
@@ -195,6 +195,7 @@
       ],
       "track_widths": [
         0.0,
+        0.18,
         0.2,
         0.3,
         0.4,
@@ -236,6 +237,14 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.5,
+          "drill": 0.3
+        },
+        {
+          "diameter": 0.6,
+          "drill": 0.3
         }
       ],
       "zones_allow_external_fillets": false
@@ -581,7 +590,7 @@
       },
       {
         "bus_width": 10,
-        "clearance": 0.4,
+        "clearance": 0.2,
         "line_style": 0,
         "name": "SYS_HV",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
