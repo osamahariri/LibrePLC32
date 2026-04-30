@@ -9510,7 +9510,7 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "++5V"
 			(at 335.915 50.165 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12091,7 +12091,7 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "++5V"
 			(at 335.915 22.225 0)
 			(show_name no)
 			(do_not_autoplace no)

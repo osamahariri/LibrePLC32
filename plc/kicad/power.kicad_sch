@@ -5354,7 +5354,7 @@
 		)
 		(uuid "7fdc9e31-46fc-4924-9d3a-1beb6aec0862")
 	)
-	(text "5V, 5A"
+	(text "+5V, 5A"
 		(exclude_from_sim no)
 		(at 169.545 38.735 0)
 		(effects
@@ -10362,6 +10362,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C86295"
+			(at 355.6 202.565 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a60b423b-ccbe-42dd-bf58-a8755bcaae88")
 		)
@@ -10574,7 +10585,7 @@
 				)
 			)
 		)
-		(property "Value" "5V"
+		(property "Value" "+5V"
 			(at 329.565 205.7399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10889,7 +10900,7 @@
 				)
 			)
 		)
-		(property "Value" "5V"
+		(property "Value" "+5V"
 			(at 173.99 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10966,7 +10977,7 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "++5V"
 			(at 255.905 60.325 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15094,7 +15105,7 @@
 				)
 			)
 		)
-		(property "Value" "5V"
+		(property "Value" "+5V"
 			(at 382.905 215.265 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20259,7 +20270,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "22u"
 			(at 379.73 226.6949 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21874,7 +21885,7 @@
 				)
 			)
 		)
-		(property "Value" "5V"
+		(property "Value" "+5V"
 			(at 147.32 81.9149 90)
 			(show_name no)
 			(do_not_autoplace no)
