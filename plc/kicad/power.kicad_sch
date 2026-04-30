@@ -4338,6 +4338,215 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "LibrePLC32:XRCEP125-7R2M"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "L"
+				(at 0 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "XRCEP125-7R2M"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "LibrePLC32:IND-SMD_3P-L13.5-W13.0-P6.9"
+				(at 0 -8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C41368782.pdf"
+				(at 0 -11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "XR(祥如)"
+				(at 0 -13.97 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "XRCEP125-7R2M"
+				(at 0 -16.51 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C41368782"
+				(at 0 -19.05 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "XRCEP125-7R2M_0_1"
+				(rectangle
+					(start -4.32 3.05)
+					(end 4.32 -3.3)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -4.29 -1.25)
+					(mid -3.28 -0.3141)
+					(end -2.27 -1.25)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.13 -1.25)
+					(mid -1.12 -0.3141)
+					(end -0.11 -1.25)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.02 -1.25)
+					(mid 1.03 -0.3141)
+					(end 2.04 -1.25)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.21 -1.25)
+					(mid 3.22 -0.2966)
+					(end 4.23 -1.25)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -1.27 0)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 -1.27 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3V3"
 			(power global)
 			(pin_numbers
@@ -5439,6 +5648,12 @@
 		(uuid "a754a2cd-6c78-4486-821a-65767e6a9173")
 	)
 	(junction
+		(at 128.27 40.005)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a7edbc8c-3eb2-4b78-9648-5e89b58ba413")
+	)
+	(junction
 		(at 325.12 205.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5473,12 +5688,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bb243c92-37bd-4501-a69a-100dc75da0a2")
-	)
-	(junction
-		(at 128.27 40.005)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "beeccebd-2c91-4643-b54a-00aacad0e5b3")
 	)
 	(junction
 		(at 34.29 119.38)
@@ -5601,6 +5810,10 @@
 	(no_connect
 		(at 116.205 209.55)
 		(uuid "6913ae1c-537d-4344-92ab-fb69486c503d")
+	)
+	(no_connect
+		(at 135.255 34.925)
+		(uuid "6ee3a18e-7b24-46a4-b4eb-70617dde4ec3")
 	)
 	(no_connect
 		(at 116.205 207.01)
@@ -6521,16 +6734,6 @@
 			(type default)
 		)
 		(uuid "45c5979b-a7da-4a2a-9eea-400dad718d16")
-	)
-	(wire
-		(pts
-			(xy 128.27 40.005) (xy 132.715 40.005)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4674105b-e02e-4ab3-a261-62946deef32a")
 	)
 	(wire
 		(pts
@@ -7571,6 +7774,16 @@
 			(type default)
 		)
 		(uuid "a990e105-357f-43c5-a2da-a5ced59a11f2")
+	)
+	(wire
+		(pts
+			(xy 128.27 40.005) (xy 130.175 40.005)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aaae80df-0490-4029-9d5a-cee980b964dd")
 	)
 	(wire
 		(pts
@@ -11524,6 +11737,121 @@
 			(project "LibrePLC32"
 				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/7cb27fd0-1c73-4e87-ad2d-fb4e463ee9fb"
 					(reference "C38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LibrePLC32:XRCEP125-7R2M")
+		(at 135.255 38.735 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "39f488ec-73f5-436b-bcf6-72f8593154f2")
+		(property "Reference" "L4"
+			(at 139.065 31.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "7.2u"
+			(at 139.065 34.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LibrePLC32:IND-SMD_3P-L13.5-W13.0-P6.9"
+			(at 135.255 47.625 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C41368782.pdf"
+			(at 135.255 50.165 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 135.255 38.735 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "XR(祥如)"
+			(at 135.255 52.705 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XRCEP125-7R2M"
+			(at 135.255 55.245 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C41368782"
+			(at 135.255 57.785 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "06f79ecf-c686-4fde-975f-d7bac1011021")
+		)
+		(pin "1"
+			(uuid "67ca9929-4280-411e-8fa4-eae53e1b05a2")
+		)
+		(pin "2"
+			(uuid "09db596f-4c20-4d52-adae-65e48a7f2083")
+		)
+		(instances
+			(project "LibrePLC32"
+				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/7cb27fd0-1c73-4e87-ad2d-fb4e463ee9fb"
+					(reference "L4")
 					(unit 1)
 				)
 			)
@@ -20026,86 +20354,6 @@
 			(project "LibrePLC32"
 				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/7cb27fd0-1c73-4e87-ad2d-fb4e463ee9fb"
 					(reference "#PWR0142")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:L")
-		(at 136.525 40.005 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "da313a8d-028a-433b-8133-b83f14bb318f")
-		(property "Reference" "L2"
-			(at 136.525 34.29 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "7.2u"
-			(at 136.525 36.83 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_1206_3216Metric"
-			(at 136.525 40.005 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 136.525 40.005 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 136.525 40.005 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "9020a2d4-b7e9-480f-8d01-e781c4360ab2")
-		)
-		(pin "1"
-			(uuid "4113b7a8-1df1-4c61-9e0f-cd86cbe6202a")
-		)
-		(instances
-			(project "LibrePLC32"
-				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/7cb27fd0-1c73-4e87-ad2d-fb4e463ee9fb"
-					(reference "L2")
 					(unit 1)
 				)
 			)
