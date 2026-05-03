@@ -10352,6 +10352,7 @@
 	(symbol
 		(lib_id "Device:C")
 		(at 237.49 83.82 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10359,10 +10360,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "af049313-7486-4c6f-8bc9-771d7ae208b0")
 		(property "Reference" "C51"
-			(at 241.3 82.5499 0)
+			(at 233.68 82.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10373,7 +10373,7 @@
 			)
 		)
 		(property "Value" "10n"
-			(at 241.3 85.0899 0)
+			(at 233.68 85.0899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10384,7 +10384,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 238.4552 87.63 0)
+			(at 236.5248 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

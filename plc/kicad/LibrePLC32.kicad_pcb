@@ -699,7 +699,7 @@
 			(uuid "5da56581-b6ca-4137-9c1e-916ecab118b4")
 		)
 		(embedded_fonts no)
-		(model "/home/admin-andrei/Documents/GitHub/LibrePLC32/plc/kicad/libs/LibrePLC32.3dshapes/SMA_L4.3-W2.7-LS5.1-RD.wrl"
+		(model "${KIPRJMOD}/libs/LibrePLC32.3dshapes/SMA_L4.3-W2.7-LS5.1-RD.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1262,11 +1262,11 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "086fe9d6-4b5f-404a-8242-971097f8b934")
-		(at 50.305 177.115)
+		(at -5.6 279.125 90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R102"
-			(at 0 -1.43 0)
+			(at 3.5 0 90)
 			(layer "F.SilkS")
 			(uuid "7d7dce3e-9316-45ba-acb6-a9ea0362a36c")
 			(effects
@@ -1277,7 +1277,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 0 1.43 0)
+			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "e87b84da-c74c-4af6-9199-2161c9cd772d")
 			(effects
@@ -1288,7 +1288,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "76d5d4c1-8a9b-4437-9482-436e3857805e")
@@ -1299,7 +1299,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "cd530e66-363a-4c4a-a5cb-136605134276")
@@ -1364,7 +1364,7 @@
 			(uuid "53ac5ec3-75cb-4d93-9b59-97044f964e2a")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "de534a16-cdb6-4759-808a-44572ed20f78")
 			(effects
@@ -1375,7 +1375,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.825 0)
+			(at -0.825 0 90)
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -1384,7 +1384,7 @@
 			(uuid "7b292075-539b-45c4-8fc9-8f5adf18bee5")
 		)
 		(pad "2" smd roundrect
-			(at 0.825 0)
+			(at 0.825 0 90)
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -4470,7 +4470,7 @@
 			(uuid "b7251cf7-17d1-4948-88e2-cbcdf02f07a8")
 		)
 		(embedded_fonts no)
-		(model "/home/admin-andrei/Documents/GitHub/LibrePLC32/plc/kicad/libs/LibrePLC32.3dshapes/CONN-TH_2P-P5.08_DIBO_DB128V-5.08.wrl"
+		(model "${KIPRJMOD}/libs/LibrePLC32.3dshapes/CONN-TH_2P-P5.08_DIBO_DB128V-5.08.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4731,7 +4731,7 @@
 			(uuid "a1dbf2ca-9208-4ebb-a4cc-3c4037649513")
 		)
 		(embedded_fonts no)
-		(model "/home/admin-andrei/Documents/GitHub/LibrePLC32/plc/kicad/libs/LibrePLC32.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.wrl"
+		(model "${KIPRJMOD}/libs/LibrePLC32.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5849,7 +5849,7 @@
 			(uuid "e72fb3ae-0ac4-42a8-a71e-4699add993af")
 		)
 		(embedded_fonts no)
-		(model "/home/admin-andrei/Documents/GitHub/LibrePLC32/plc/kicad/libs/LibrePLC32.3dshapes/SENSOR-SMD_L3.0-W3.0-P1.00-BL.wrl"
+		(model "${KIPRJMOD}/libs/LibrePLC32.3dshapes/SENSOR-SMD_L3.0-W3.0-P1.00-BL.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7571,7 +7571,7 @@
 			(uuid "ba99aea5-649a-4c19-b106-33d5fc92262d")
 		)
 		(embedded_fonts no)
-		(model "/home/admin-andrei/Documents/GitHub/LibrePLC32/plc/kicad/libs/LibrePLC32.3dshapes/CONN-TH_2P-P5.08_DIBO_DB128V-5.08.wrl"
+		(model "${KIPRJMOD}/libs/LibrePLC32.3dshapes/CONN-TH_2P-P5.08_DIBO_DB128V-5.08.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8051,7 +8051,7 @@
 			(uuid "bb432c18-c92c-4d11-8fa9-b7eebd2d457e")
 		)
 		(embedded_fonts no)
-		(model "/home/admin-andrei/Documents/GitHub/LibrePLC32/plc/kicad/libs/LibrePLC32.3dshapes/BAT-SMD_BS-06-B4AA012.wrl"
+		(model "${KIPRJMOD}/libs/LibrePLC32.3dshapes/BAT-SMD_BS-06-B4AA012.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8371,11 +8371,11 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "228935aa-027a-41ab-a69a-fe8e486ce6b7")
-		(at 74.175 122)
+		(at 3.675 280.2 180)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R101"
-			(at 0 -1.43 0)
+			(at -0.225 2 0)
 			(layer "F.SilkS")
 			(uuid "28079238-b1a2-4254-8102-7ae11a53da6b")
 			(effects
@@ -8431,16 +8431,6 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -0.237258 -0.5225)
-			(end 0.237258 -0.5225)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "b5b64bd9-cd83-4357-9478-6bb9d9f33cb8")
-		)
-		(fp_line
 			(start -0.237258 0.5225)
 			(end 0.237258 0.5225)
 			(stroke
@@ -8449,6 +8439,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "af9eef62-8c1f-4fc7-a0f0-e40b27cd3172")
+		)
+		(fp_line
+			(start -0.237258 -0.5225)
+			(end 0.237258 -0.5225)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b5b64bd9-cd83-4357-9478-6bb9d9f33cb8")
 		)
 		(fp_rect
 			(start -1.48 -0.73)
@@ -8484,7 +8484,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.825 0)
+			(at -0.825 0 180)
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -8493,7 +8493,7 @@
 			(uuid "067fc300-7537-48d1-9d2d-91835703b5b5")
 		)
 		(pad "2" smd roundrect
-			(at 0.825 0)
+			(at 0.825 0 180)
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -9007,7 +9007,7 @@
 			(at -7 2.55)
 			(size 0.8 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "GND")
+			(net "/MCU/SD_CD")
 			(pinfunction "IO7_11")
 			(pintype "bidirectional")
 			(uuid "3ada05c1-e5a3-47da-8c27-9e8b2e2d93c1")
@@ -10945,7 +10945,7 @@
 			(uuid "2e4069c6-5da0-4d27-a9ae-c482a140f10e")
 		)
 		(embedded_fonts no)
-		(model "/home/admin-andrei/Documents/GitHub/LibrePLC32/plc/kicad/libs/LibrePLC32.3dshapes/CONN-TH_2P-P5.08_DIBO_DB128V-5.08.wrl"
+		(model "${KIPRJMOD}/libs/LibrePLC32.3dshapes/CONN-TH_2P-P5.08_DIBO_DB128V-5.08.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -13784,7 +13784,7 @@
 			(uuid "99890230-bb7b-4f11-a2b7-c38748b6c2b1")
 		)
 		(embedded_fonts no)
-		(model "/home/admin-andrei/Documents/GitHub/LibrePLC32/plc/kicad/libs/LibrePLC32.3dshapes/CONN-TH_2P-P5.08_DIBO_DB128V-5.08.wrl"
+		(model "${KIPRJMOD}/libs/LibrePLC32.3dshapes/CONN-TH_2P-P5.08_DIBO_DB128V-5.08.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -15432,7 +15432,7 @@
 			(uuid "382f62bd-0d0c-441f-9f87-fef1128b0248")
 		)
 		(embedded_fonts no)
-		(model "/home/admin-andrei/Documents/GitHub/LibrePLC32/plc/kicad/libs/LibrePLC32.3dshapes/USB-C-TH_GT-USB-7055BB.wrl"
+		(model "${KIPRJMOD}/libs/LibrePLC32.3dshapes/USB-C-TH_GT-USB-7055BB.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -17241,7 +17241,7 @@
 			(uuid "64e5fb11-3413-4b4e-89f8-5d7d2de071c2")
 		)
 		(embedded_fonts no)
-		(model "/home/admin-andrei/Documents/GitHub/LibrePLC32/plc/kicad/libs/LibrePLC32.3dshapes/CONN-TH_2P-P5.08_DIBO_DB128V-5.08.wrl"
+		(model "${KIPRJMOD}/libs/LibrePLC32.3dshapes/CONN-TH_2P-P5.08_DIBO_DB128V-5.08.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -17985,7 +17985,7 @@
 		(uuid "41ef1f4f-2cd5-4829-9027-17dfb0cf7fa2")
 		(at 0.3 484.5 -90)
 		(property "Reference" "U21"
-			(at 3.6 -0.1 180)
+			(at 3.6 -0.1 0)
 			(layer "F.SilkS")
 			(uuid "9d4cede8-e821-48a0-8c8a-369094ed1fe2")
 			(effects
@@ -18304,7 +18304,7 @@
 			(uuid "39d5d122-733f-43be-a340-815c41c666a7")
 		)
 		(embedded_fonts no)
-		(model "/home/admin-user/Documents/GitHub/LibrePLC32/plc/kicad/libs/LibrePLC32.3dshapes/POWERPAD-SO-8_L4.9-W3.9-P1.27-LS6.0-BL-EP.wrl"
+		(model "${KIPRJMOD}/libs/LibrePLC32.3dshapes/POWERPAD-SO-8_L4.9-W3.9-P1.27-LS6.0-BL-EP.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -18996,7 +18996,7 @@
 			(uuid "228f4b1c-7458-4ded-af20-90f0470ff8e2")
 		)
 		(embedded_fonts no)
-		(model "/home/admin-andrei/Documents/GitHub/LibrePLC32/plc/kicad/libs/LibrePLC32.3dshapes/OSC-SMD_8P-L3.2-W1.5-P0.90-BL.wrl"
+		(model "${KIPRJMOD}/libs/LibrePLC32.3dshapes/OSC-SMD_8P-L3.2-W1.5-P0.90-BL.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -19011,9 +19011,9 @@
 	(footprint "LibrePLC32:TF-SMD_TF-PUSH"
 		(layer "F.Cu")
 		(uuid "45f5c5f1-116b-43a0-8453-9913241a1f2f")
-		(at 61.16 167.4)
+		(at -2.05 287.5)
 		(property "Reference" "Card1"
-			(at 0 -9.3 0)
+			(at 11.25 -1.7 0)
 			(layer "F.SilkS")
 			(uuid "c87393ff-be74-4ca7-addb-2d9d6c96a68c")
 			(effects
@@ -19879,13 +19879,13 @@
 			(at -6.55 -5.3)
 			(size 0.7 1.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "GND")
+			(net "/MCU/SD_CD")
 			(pinfunction "CD_CD")
 			(pintype "unspecified")
 			(uuid "35a15a95-84d4-47b7-8529-56614c58a224")
 		)
 		(embedded_fonts no)
-		(model "/home/admin-user/Documents/GitHub/LibrePLC32/plc/kicad/libs/LibrePLC32.3dshapes/TF-SMD_TF-PUSH.wrl"
+		(model "${KIPRJMOD}/libs/LibrePLC32.3dshapes/TF-SMD_TF-PUSH.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -21873,7 +21873,7 @@
 		(at 453.3 400.36 -90)
 		(descr "SS310")
 		(property "Reference" "D6"
-			(at 4.34 0 180)
+			(at 4.34 0 0)
 			(layer "F.SilkS")
 			(uuid "c3614064-dd09-4513-b799-d1f24d3bb1a3")
 			(effects
@@ -22122,7 +22122,7 @@
 			(uuid "470a33b5-0465-459e-8270-6db86e67bc6d")
 		)
 		(embedded_fonts no)
-		(model "/home/admin-andrei/Documents/GitHub/LibrePLC32/plc/kicad/libs/LibrePLC32.3dshapes/SMB_L4.6-W3.6-LS5.3-RD.wrl"
+		(model "${KIPRJMOD}/libs/LibrePLC32.3dshapes/SMB_L4.6-W3.6-LS5.3-RD.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -22384,7 +22384,7 @@
 			(uuid "39fd26ed-ea8f-4e17-a335-f7a3e4df3453")
 		)
 		(embedded_fonts no)
-		(model "/home/admin-andrei/Documents/GitHub/LibrePLC32/plc/kicad/libs/LibrePLC32.3dshapes/F1206_L3.2-W1.7-H0.6.wrl"
+		(model "${KIPRJMOD}/libs/LibrePLC32.3dshapes/F1206_L3.2-W1.7-H0.6.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -23233,7 +23233,7 @@
 			(uuid "dd605cc3-582a-46e7-9326-21ecfbe65746")
 		)
 		(embedded_fonts no)
-		(model "/home/admin-andrei/Documents/GitHub/LibrePLC32/plc/kicad/libs/LibrePLC32.3dshapes/CONN-TH_2P-P5.08_DIBO_DB128V-5.08.wrl"
+		(model "${KIPRJMOD}/libs/LibrePLC32.3dshapes/CONN-TH_2P-P5.08_DIBO_DB128V-5.08.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -23673,7 +23673,7 @@
 			(uuid "7638bc71-e2e3-47f4-a82a-810b3ac9edcf")
 		)
 		(embedded_fonts no)
-		(model "/home/admin-andrei/Documents/GitHub/LibrePLC32/plc/kicad/libs/LibrePLC32.3dshapes/R0805_L2.0-W1.3-H0.6.wrl"
+		(model "${KIPRJMOD}/libs/LibrePLC32.3dshapes/R0805_L2.0-W1.3-H0.6.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -24701,7 +24701,7 @@
 			(uuid "c370a12b-9887-472f-ad3c-62938ca5d932")
 		)
 		(embedded_fonts no)
-		(model "/home/admin-andrei/Documents/GitHub/LibrePLC32/plc/kicad/libs/LibrePLC32.3dshapes/OSC-SMD_4P-L3.2-W2.5-H1.0.wrl"
+		(model "${KIPRJMOD}/libs/LibrePLC32.3dshapes/OSC-SMD_4P-L3.2-W2.5-H1.0.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -25967,7 +25967,7 @@
 			(uuid "1131c0b1-cb30-4031-8f0a-8b1a2061049b")
 		)
 		(embedded_fonts no)
-		(model "/home/admin-andrei/Documents/GitHub/LibrePLC32/plc/kicad/libs/LibrePLC32.3dshapes/SOT-23-6_L2.9-W1.6-H1.5-LS2.8-P0.95.wrl"
+		(model "${KIPRJMOD}/libs/LibrePLC32.3dshapes/SOT-23-6_L2.9-W1.6-H1.5-LS2.8-P0.95.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -26791,7 +26791,7 @@
 			(uuid "439a3cd9-aebb-4174-8c53-93e02b3731ad")
 		)
 		(embedded_fonts no)
-		(model "/home/admin-andrei/Documents/GitHub/LibrePLC32/plc/kicad/libs/LibrePLC32.3dshapes/SMA_L4.3-W2.7-LS5.1-RD.wrl"
+		(model "${KIPRJMOD}/libs/LibrePLC32.3dshapes/SMA_L4.3-W2.7-LS5.1-RD.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -27051,7 +27051,7 @@
 			(uuid "f0e924ff-faa9-4509-8311-3b696c4c43d3")
 		)
 		(embedded_fonts no)
-		(model "/home/admin-andrei/Documents/GitHub/LibrePLC32/plc/kicad/libs/LibrePLC32.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.wrl"
+		(model "${KIPRJMOD}/libs/LibrePLC32.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -28087,7 +28087,7 @@
 			(uuid "bedcae6b-9b90-4c67-a197-1fb495817c04")
 		)
 		(embedded_fonts no)
-		(model "/home/admin-andrei/Documents/GitHub/LibrePLC32/plc/kicad/libs/LibrePLC32.3dshapes/F1206_L3.2-W1.7-H0.6.wrl"
+		(model "${KIPRJMOD}/libs/LibrePLC32.3dshapes/F1206_L3.2-W1.7-H0.6.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -28617,7 +28617,7 @@
 			(uuid "8f433d7d-e92b-469e-84c8-caefba1f826e")
 		)
 		(embedded_fonts no)
-		(model "/home/admin-andrei/Documents/GitHub/LibrePLC32/plc/kicad/libs/LibrePLC32.3dshapes/F1206_L3.2-W1.7-H0.6.wrl"
+		(model "${KIPRJMOD}/libs/LibrePLC32.3dshapes/F1206_L3.2-W1.7-H0.6.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -29259,7 +29259,7 @@
 			(uuid "04c9de96-5ba0-4d49-b2da-3b2beb0cc2d2")
 		)
 		(embedded_fonts no)
-		(model "/home/admin-user/Documents/GitHub/LibrePLC32/plc/kicad/libs/LibrePLC32.3dshapes/SMC_L6.9-W5.9-LS7.9-RD.wrl"
+		(model "${KIPRJMOD}/libs/LibrePLC32.3dshapes/SMC_L6.9-W5.9-LS7.9-RD.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -29712,11 +29712,11 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "7796422e-eb42-4473-b3cb-f94e4fadfd2e")
-		(at 50.305 172.095)
+		(at 1 279.05 90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R100"
-			(at 0 -1.43 0)
+			(at 3.375 0.1 90)
 			(layer "F.SilkS")
 			(uuid "584dac46-38ba-4a3b-b4a9-de7fe5108bc7")
 			(effects
@@ -29727,7 +29727,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 0 1.43 0)
+			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "67306091-d2f2-4a48-bae9-27de146fa6c6")
 			(effects
@@ -29738,7 +29738,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b619c47a-fc4c-471c-b5c0-9470f3ce8543")
@@ -29749,7 +29749,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "35a5b6fa-c478-4344-bcb7-dc8b873faff4")
@@ -29814,7 +29814,7 @@
 			(uuid "86414719-70bd-47fc-a5e7-b98bebc95444")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "03c479d2-0185-4008-8026-122c1ad7ef7a")
 			(effects
@@ -29825,7 +29825,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.825 0)
+			(at -0.825 0 90)
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -29834,7 +29834,7 @@
 			(uuid "ee3e47cd-f4e3-4c15-96c2-73a0b30044f5")
 		)
 		(pad "2" smd roundrect
-			(at 0.825 0)
+			(at 0.825 0 90)
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -30400,7 +30400,7 @@
 			(uuid "266b3af8-010a-4f90-80b3-0c4b30211c4e")
 		)
 		(embedded_fonts no)
-		(model "/home/admin-andrei/Documents/GitHub/LibrePLC32/plc/kicad/libs/LibrePLC32.3dshapes/SMA_L4.3-W2.7-LS5.1-RD.wrl"
+		(model "${KIPRJMOD}/libs/LibrePLC32.3dshapes/SMA_L4.3-W2.7-LS5.1-RD.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -30806,7 +30806,7 @@
 			(uuid "278757e5-3965-4ac4-a8b9-c6b1eafbc463")
 		)
 		(embedded_fonts no)
-		(model "/home/admin-andrei/Documents/GitHub/LibrePLC32/plc/kicad/libs/LibrePLC32.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.wrl"
+		(model "${KIPRJMOD}/libs/LibrePLC32.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -31935,7 +31935,7 @@
 			(uuid "26df63e5-6c03-49c5-b0cc-b81c8f0e2c30")
 		)
 		(embedded_fonts no)
-		(model "/home/admin-andrei/Documents/GitHub/LibrePLC32/plc/kicad/libs/LibrePLC32.3dshapes/USB-C-TH_GT-USB-7055BB.wrl"
+		(model "${KIPRJMOD}/libs/LibrePLC32.3dshapes/USB-C-TH_GT-USB-7055BB.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -32109,11 +32109,11 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "8299886d-33b0-41ef-9fb6-a5e869b3aaa3")
-		(at 50.305 164.565)
+		(at -7.2 279.125 90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R97"
-			(at 0 -1.43 0)
+			(at 2.9 0.1 90)
 			(layer "F.SilkS")
 			(uuid "a12e0330-f97b-487f-8769-3d32733b943b")
 			(effects
@@ -32124,7 +32124,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 0 1.43 0)
+			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "1d031409-212e-47f1-b92a-2bbb8079b634")
 			(effects
@@ -32135,7 +32135,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "36f6792b-32fc-47fc-8ff1-76810161653a")
@@ -32146,7 +32146,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "aa1bf288-dc8f-471c-91c8-0ca7dc13bd0f")
@@ -32211,7 +32211,7 @@
 			(uuid "19c222d6-1669-4529-bfc9-4f0b7b8ec434")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "96f690d1-661a-4218-bd79-ebc0665b2fc4")
 			(effects
@@ -32222,7 +32222,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.825 0)
+			(at -0.825 0 90)
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -32231,7 +32231,7 @@
 			(uuid "11ec1a7f-cbf8-4c40-958b-2b0ba2b2c7d3")
 		)
 		(pad "2" smd roundrect
-			(at 0.825 0)
+			(at 0.825 0 90)
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -32943,7 +32943,7 @@
 			(uuid "0c3320f0-9344-4f04-a06d-f52cc9e1e5ba")
 		)
 		(embedded_fonts no)
-		(model "/home/admin-andrei/Documents/GitHub/LibrePLC32/plc/kicad/libs/LibrePLC32.3dshapes/SMA_L4.3-W2.7-LS5.1-RD.wrl"
+		(model "${KIPRJMOD}/libs/LibrePLC32.3dshapes/SMA_L4.3-W2.7-LS5.1-RD.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -35175,7 +35175,7 @@
 			(uuid "bf8c1658-6b8a-49ed-87d5-f76a3d696cfb")
 		)
 		(embedded_fonts no)
-		(model "/home/admin-andrei/Documents/GitHub/LibrePLC32/plc/kicad/libs/LibrePLC32.3dshapes/SW-SMD_3P-L6.6-W2.7-LS7.8-P1.50.wrl"
+		(model "${KIPRJMOD}/libs/LibrePLC32.3dshapes/SW-SMD_3P-L6.6-W2.7-LS7.8-P1.50.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -35338,7 +35338,7 @@
 		(uuid "99db789e-348d-4a10-a99e-347d8d7e116c")
 		(at 449.4 400.3 -90)
 		(property "Reference" "D5"
-			(at 3.6 2.3 180)
+			(at 3.6 2.3 0)
 			(layer "F.SilkS")
 			(uuid "b3752bd1-4690-4ad2-b5ba-1344c8c9702a")
 			(effects
@@ -35586,7 +35586,7 @@
 			(uuid "70906293-1eb4-4510-86f9-0d9c829a184c")
 		)
 		(embedded_fonts no)
-		(model "/home/admin-andrei/Documents/GitHub/LibrePLC32/plc/kicad/libs/LibrePLC32.3dshapes/SMA_L4.3-W2.7-LS5.1-RD.wrl"
+		(model "${KIPRJMOD}/libs/LibrePLC32.3dshapes/SMA_L4.3-W2.7-LS5.1-RD.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -38518,7 +38518,7 @@
 			(uuid "03bd97a5-b2b4-43a8-8b77-abb7ec491ebd")
 		)
 		(embedded_fonts no)
-		(model "/home/admin-andrei/Documents/GitHub/LibrePLC32/plc/kicad/libs/LibrePLC32.3dshapes/SMC_L6.9-W5.9-H2.1-LS7.9.wrl"
+		(model "${KIPRJMOD}/libs/LibrePLC32.3dshapes/SMC_L6.9-W5.9-H2.1-LS7.9.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -40376,7 +40376,7 @@
 			(uuid "a40549a7-91eb-4e5e-aab8-e5689c452eb7")
 		)
 		(embedded_fonts no)
-		(model "/home/admin-user/Documents/GitHub/LibrePLC32/plc/kicad/libs/LibrePLC32.3dshapes/VQFN-20_L3.5-W3.5-H1.0-P0.50.wrl"
+		(model "${KIPRJMOD}/libs/LibrePLC32.3dshapes/VQFN-20_L3.5-W3.5-H1.0-P0.50.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -40913,7 +40913,7 @@
 			(uuid "7201b918-40d5-433f-8e3e-57f916ce3225")
 		)
 		(embedded_fonts no)
-		(model "/home/admin-andrei/Documents/GitHub/LibrePLC32/plc/kicad/libs/LibrePLC32.3dshapes/QFN-28_L5.0-W5.0-H0.9-P0.50.wrl"
+		(model "${KIPRJMOD}/libs/LibrePLC32.3dshapes/QFN-28_L5.0-W5.0-H0.9-P0.50.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -41941,11 +41941,11 @@
 	(footprint "LED_SMD:LED_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "b72e224c-852e-4a97-b08a-3080d8a8170d")
-		(at 73.5 111.0625 -90)
+		(at 6.95 280.1 180)
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "LED")
 		(property "Reference" "D18"
-			(at 0 -1.65 270)
+			(at -0.6375 2.3 0)
 			(layer "F.SilkS")
 			(uuid "0ed2320a-dd99-4d87-b4f6-db438fb09334")
 			(effects
@@ -41956,7 +41956,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 0 1.65 270)
+			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "f271d4f1-2bb9-43ea-a91c-c6bc69db0adb")
 			(effects
@@ -41967,7 +41967,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 270)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2a58d68a-fac4-457e-9653-f96bea4b8398")
@@ -41978,7 +41978,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 0 0 270)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c508c71f-e393-4ed0-a413-adb3f44703b9")
@@ -41989,7 +41989,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 270)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -42014,6 +42014,16 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
+			(start 1 -0.96)
+			(end -1.685 -0.96)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f2ad9a5a-6e98-4dfe-8382-cfb4f407e694")
+		)
+		(fp_line
 			(start -1.685 0.96)
 			(end 1 0.96)
 			(stroke
@@ -42033,16 +42043,6 @@
 			(layer "F.SilkS")
 			(uuid "5d110991-8549-4924-9b7f-94b249811f17")
 		)
-		(fp_line
-			(start 1 -0.96)
-			(end -1.685 -0.96)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "f2ad9a5a-6e98-4dfe-8382-cfb4f407e694")
-		)
 		(fp_rect
 			(start -1.68 -0.95)
 			(end 1.68 0.95)
@@ -42055,16 +42055,6 @@
 			(uuid "d70165f4-f7cb-4b90-98f6-6efe8882da9a")
 		)
 		(fp_line
-			(start -1 0.6)
-			(end 1 0.6)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "bc27f404-ddc4-4d9d-b6d6-0a3a0a7b631a")
-		)
-		(fp_line
 			(start 1 0.6)
 			(end 1 -0.6)
 			(stroke
@@ -42075,14 +42065,14 @@
 			(uuid "adabd928-897c-4fbf-8092-2c0796953547")
 		)
 		(fp_line
-			(start -1 -0.3)
-			(end -1 0.6)
+			(start 1 -0.6)
+			(end -0.7 -0.6)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "55896576-8d5b-458a-a4e3-a0e3a99dcb59")
+			(uuid "1d630c4d-26d9-474f-acee-f8af5f5d3e28")
 		)
 		(fp_line
 			(start -0.7 -0.6)
@@ -42095,17 +42085,27 @@
 			(uuid "a839276f-d0c3-4ed4-aff9-1a011ece9960")
 		)
 		(fp_line
-			(start 1 -0.6)
-			(end -0.7 -0.6)
+			(start -1 0.6)
+			(end 1 0.6)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "1d630c4d-26d9-474f-acee-f8af5f5d3e28")
+			(uuid "bc27f404-ddc4-4d9d-b6d6-0a3a0a7b631a")
+		)
+		(fp_line
+			(start -1 -0.3)
+			(end -1 0.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "55896576-8d5b-458a-a4e3-a0e3a99dcb59")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "5020db80-f696-4132-bece-7afaa5ecfa13")
 			(effects
@@ -42116,17 +42116,17 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.9375 0 270)
+			(at -0.9375 0 180)
 			(size 0.975 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "GND")
+			(net "/MCU/SD_CD")
 			(pinfunction "K_1")
 			(pintype "passive")
 			(uuid "4c8b94d8-aec0-41f7-89e3-29feba900107")
 		)
 		(pad "2" smd roundrect
-			(at 0.9375 0 270)
+			(at 0.9375 0 180)
 			(size 0.975 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -43624,11 +43624,11 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "c3daabe4-e800-4120-a9e6-932c9ab3c991")
-		(at 50.305 162.055)
+		(at -8.8 279.125 90)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C56"
-			(at 0 -1.43 0)
+			(at 0 -1.43 90)
 			(layer "F.SilkS")
 			(uuid "864e56db-25f8-4bdd-80e9-ece080a67635")
 			(effects
@@ -43639,7 +43639,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 0 1.43 0)
+			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "9a5e1591-dfef-44d2-8f9a-cb02a59d53a3")
 			(effects
@@ -43650,7 +43650,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a21407f9-4a2b-43ee-b933-5f8f89f76916")
@@ -43661,7 +43661,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5b09f88e-3be9-411a-9ab5-249218972206")
@@ -43726,7 +43726,7 @@
 			(uuid "ad818b69-918f-4c86-b310-45db9f5f485e")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "58079544-9c63-4250-b2a2-1e22a0b3b993")
 			(effects
@@ -43737,7 +43737,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.775 0)
+			(at -0.775 0 90)
 			(size 0.9 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -43746,7 +43746,7 @@
 			(uuid "0942be35-5239-4f0d-b1e3-333b2f6d8949")
 		)
 		(pad "2" smd roundrect
-			(at 0.775 0)
+			(at 0.775 0 90)
 			(size 0.9 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -46367,7 +46367,7 @@
 			(uuid "b923e3b9-b82c-4faa-b186-219999b0591b")
 		)
 		(embedded_fonts no)
-		(model "/home/admin-user/Documents/GitHub/LibrePLC32/plc/kicad/libs/LibrePLC32.3dshapes/IND-SMD_L3.5W3.0-H2.1_SLF0302.wrl"
+		(model "${KIPRJMOD}/libs/LibrePLC32.3dshapes/IND-SMD_L3.5W3.0-H2.1_SLF0302.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -46912,7 +46912,7 @@
 			(uuid "92c29045-1414-4d81-821a-66a16f149ce9")
 		)
 		(embedded_fonts no)
-		(model "/home/admin-andrei/Documents/GitHub/LibrePLC32/plc/kicad/libs/LibrePLC32.3dshapes/CONN-TH_2P-P5.08_DIBO_DB128V-5.08.wrl"
+		(model "${KIPRJMOD}/libs/LibrePLC32.3dshapes/CONN-TH_2P-P5.08_DIBO_DB128V-5.08.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -48205,11 +48205,11 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "d2f26ece-1db2-4241-8f11-390b980551c4")
-		(at 50.305 169.585)
+		(at -2.2 279.075 90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R99"
-			(at 0 -1.43 0)
+			(at 3 0.1 90)
 			(layer "F.SilkS")
 			(uuid "7db69c1a-f5ee-4372-9881-8755dd962ca0")
 			(effects
@@ -48220,7 +48220,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 0 1.43 0)
+			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "7bd9a0f5-3514-4486-9bde-beb58bb193da")
 			(effects
@@ -48231,7 +48231,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a26c93c1-d8e6-4879-8f3f-390406b9b7a0")
@@ -48242,7 +48242,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "db31f60c-0535-4b04-897d-1dc05a456723")
@@ -48307,7 +48307,7 @@
 			(uuid "6d9b0565-e0a1-4096-ab3a-111d28d2b012")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "140329f8-c74c-4fbc-a1b6-609b76aea745")
 			(effects
@@ -48318,7 +48318,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.825 0)
+			(at -0.825 0 90)
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -48327,7 +48327,7 @@
 			(uuid "88992920-baf8-4c19-b5eb-92504fd500f7")
 		)
 		(pad "2" smd roundrect
-			(at 0.825 0)
+			(at 0.825 0 90)
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -49323,7 +49323,7 @@
 			(uuid "ac29e1ca-dc54-4b1e-ae04-3258957db241")
 		)
 		(embedded_fonts no)
-		(model "/home/admin-andrei/Documents/GitHub/LibrePLC32/plc/kicad/libs/LibrePLC32.3dshapes/SW-SMD_3P-L6.6-W2.7-LS7.8-P1.50.wrl"
+		(model "${KIPRJMOD}/libs/LibrePLC32.3dshapes/SW-SMD_3P-L6.6-W2.7-LS7.8-P1.50.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -50562,7 +50562,7 @@
 		(uuid "db8b8137-584f-48e6-b128-fd6b06d77471")
 		(at 428.93 104.1 -90)
 		(property "Reference" "U19"
-			(at 3.5 0.13 180)
+			(at 3.5 0.13 0)
 			(layer "F.SilkS")
 			(uuid "eee1fc50-3ba5-4a15-8609-e4f570ed4585")
 			(effects
@@ -50862,7 +50862,7 @@
 			(uuid "0ffc09aa-4476-4c65-b1ec-89aae3862a43")
 		)
 		(embedded_fonts no)
-		(model "/home/admin-andrei/Documents/GitHub/LibrePLC32/plc/kicad/libs/LibrePLC32.3dshapes/SOIC-8_L4.9-W3.9-H1.7-LS6.0-P1.27.wrl"
+		(model "${KIPRJMOD}/libs/LibrePLC32.3dshapes/SOIC-8_L4.9-W3.9-H1.7-LS6.0-P1.27.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -52075,7 +52075,7 @@
 			(uuid "3bc1a954-5470-4173-9bd8-6969aac56e9d")
 		)
 		(embedded_fonts no)
-		(model "/home/admin-andrei/Documents/GitHub/LibrePLC32/plc/kicad/libs/LibrePLC32.3dshapes/SOIC-8_L4.9-W3.9-H1.7-LS6.0-P1.27.wrl"
+		(model "${KIPRJMOD}/libs/LibrePLC32.3dshapes/SOIC-8_L4.9-W3.9-H1.7-LS6.0-P1.27.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -52782,7 +52782,7 @@
 			(uuid "347df696-635e-4bd4-8d14-1f782ea6fe5c")
 		)
 		(embedded_fonts no)
-		(model "/home/admin-user/Documents/GitHub/LibrePLC32/plc/kicad/libs/LibrePLC32.3dshapes/IND-SMD_3P-L13.5-W13.0-P6.9.wrl"
+		(model "${KIPRJMOD}/libs/LibrePLC32.3dshapes/IND-SMD_3P-L13.5-W13.0-P6.9.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -53330,18 +53330,6 @@
 			(uuid "0f36ad73-7fc4-4da1-932b-f99353c97f33")
 		)
 		(embedded_fonts no)
-		(model "/home/admin-user/Documents/GitHub/LibrePLC32/plc/kicad/libs/LibrePLC32.3dshapes/CONN-TH_4P-P5.08_DB2ERC-5.08-4P.wrl"
-			(hide yes)
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 		(model "${KIPRJMOD}/libs/LibrePLC32.3dshapes/CONN-TH_4P-P5.08_DB2ERC-5.08-4P.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -54645,7 +54633,7 @@
 			(uuid "ee91268a-c5b6-416c-a897-3397001fe5aa")
 		)
 		(embedded_fonts no)
-		(model "/home/admin-andrei/Documents/GitHub/LibrePLC32/plc/kicad/libs/LibrePLC32.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.wrl"
+		(model "${KIPRJMOD}/libs/LibrePLC32.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -55835,7 +55823,7 @@
 			(uuid "dd10aa76-ff25-43e9-bb89-82d4f6f8079a")
 		)
 		(embedded_fonts no)
-		(model "/home/admin-andrei/Documents/GitHub/LibrePLC32/plc/kicad/libs/LibrePLC32.3dshapes/F1206_L3.2-W1.7-H0.6.wrl"
+		(model "${KIPRJMOD}/libs/LibrePLC32.3dshapes/F1206_L3.2-W1.7-H0.6.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -56972,7 +56960,7 @@
 			(at 0 0)
 			(size 2 2)
 			(layers "F.Cu" "F.Mask")
-			(net "GND")
+			(net "/MCU/SD_CD")
 			(pinfunction "1_1")
 			(pintype "passive")
 			(uuid "a21fb504-874c-44ef-99fc-5385dce13f76")
@@ -57731,11 +57719,11 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "f784cfcf-4d3b-496b-a3fd-6186c2c17855")
-		(at 50.305 167.075)
+		(at -0.6 279.05 90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R98"
-			(at 0 -1.43 0)
+			(at 2.875 0.1 90)
 			(layer "F.SilkS")
 			(uuid "535e9c38-b308-4b63-b213-9731e6315e59")
 			(effects
@@ -57746,7 +57734,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 0 1.43 0)
+			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "65c05b21-37b4-4957-a066-d36ed4281bdf")
 			(effects
@@ -57757,7 +57745,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d9237ad3-5014-4889-9fec-cecb6887ed09")
@@ -57768,7 +57756,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "51e4f871-078d-4d36-a573-623feef39779")
@@ -57833,7 +57821,7 @@
 			(uuid "d137ec01-ebfd-4117-a0af-10ad4c871ef1")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "b1d90622-9859-454e-95d4-7332686240af")
 			(effects
@@ -57844,7 +57832,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.825 0)
+			(at -0.825 0 90)
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -57853,7 +57841,7 @@
 			(uuid "c0063938-6ff9-46e8-b1be-7229589e9b6d")
 		)
 		(pad "2" smd roundrect
-			(at 0.825 0)
+			(at 0.825 0 90)
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -58757,6 +58745,14 @@
 		(uuid "2cc1fa0a-2da2-4c86-8c31-bcf7eb71e6c0")
 	)
 	(segment
+		(start 4.8 283.1)
+		(end 4.8 281.8)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "32ed2507-c86f-47ff-a365-a945b975ac17")
+	)
+	(segment
 		(start -342.6 479.45)
 		(end -342.6 478.425)
 		(width 0.3)
@@ -58779,6 +58775,14 @@
 		(layer "F.Cu")
 		(net "GND")
 		(uuid "3a84875c-bf62-4631-adbe-c8151002565c")
+	)
+	(segment
+		(start -9.8 283.2)
+		(end -9.8 281.9)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "3c823543-e3b4-4cde-bc55-3d1013877f2f")
 	)
 	(segment
 		(start 14 467.7)
@@ -58939,6 +58943,14 @@
 		(layer "F.Cu")
 		(net "GND")
 		(uuid "70e26e07-c1b3-45ea-bc14-109646f647c3")
+	)
+	(segment
+		(start -5.3 283.6)
+		(end -5.3 282.2)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "72318b3d-f7fd-43a2-a123-3fb4fd6d10b5")
 	)
 	(segment
 		(start -361.4 473.2)
@@ -59237,6 +59249,14 @@
 		(uuid "d3a04cb1-1ff2-4001-815c-8c6a71b03ca8")
 	)
 	(segment
+		(start -8.8 280.8)
+		(end -8.8 279.9)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "d4dd4f22-8c52-4cf1-aa49-1d36ba309feb")
+	)
+	(segment
 		(start 176 -68)
 		(end 177.5 -68)
 		(width 0.3)
@@ -59447,6 +59467,14 @@
 		(uuid "16ebfd40-80f8-4c8d-a440-93c96eefadfe")
 	)
 	(via
+		(at -5.3 283.6)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net "GND")
+		(uuid "19049c11-ae19-4c34-9a4c-a07f799acf2f")
+	)
+	(via
 		(at -361.4 473.2)
 		(size 0.6)
 		(drill 0.3)
@@ -59550,6 +59578,14 @@
 		(layers "F.Cu" "B.Cu")
 		(net "GND")
 		(uuid "3e8cd3e4-4db3-4359-b291-7f5bc9481525")
+	)
+	(via
+		(at -8.8 280.8)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net "GND")
+		(uuid "48d67832-42ce-4516-b810-e16d7713e23e")
 	)
 	(via
 		(at 444.4 399.7)
@@ -59803,6 +59839,14 @@
 		(uuid "b4de9855-34d9-4e26-a92b-816aaa4d7b44")
 	)
 	(via
+		(at 4.8 281.8)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net "GND")
+		(uuid "b89052ec-1f95-4bb4-bfb6-db5ec734bb62")
+	)
+	(via
 		(at 252.8 395.3)
 		(size 0.6)
 		(drill 0.3)
@@ -59841,6 +59885,14 @@
 		(layers "F.Cu" "B.Cu")
 		(net "GND")
 		(uuid "c5ffc5f8-50e8-4c8f-a9f7-4d0b00323229")
+	)
+	(via
+		(at -9.8 281.9)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net "GND")
+		(uuid "c683459c-ca7d-48f8-98e8-97a07bc3cbfa")
 	)
 	(via
 		(at -355.5 472.01)
@@ -60451,6 +60503,22 @@
 		(uuid "fdb3693f-6d7e-4e5c-938b-3941c27dc9f7")
 	)
 	(segment
+		(start -6.4 280.75)
+		(end -5.6 279.95)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "/Ethernet/SPI_MISO")
+		(uuid "32f57be2-d3f5-4cca-933b-885341063759")
+	)
+	(segment
+		(start -5.6 279.95)
+		(end -4.6 278.95)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Ethernet/SPI_MISO")
+		(uuid "4d6aac84-9b62-41e0-bdd9-2cd69330d2d3")
+	)
+	(segment
 		(start 182 -61.5)
 		(end 182 -59.25)
 		(width 0.2)
@@ -60475,12 +60543,36 @@
 		(uuid "ca784cbe-5ec6-4ce9-b406-3bc7262e6749")
 	)
 	(segment
+		(start -4.6 278.95)
+		(end -4.6 276.4)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Ethernet/SPI_MISO")
+		(uuid "d9d53d0f-2b37-4643-a730-64b2f899fbe9")
+	)
+	(segment
+		(start -6.4 282.2)
+		(end -6.4 280.75)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "/Ethernet/SPI_MISO")
+		(uuid "db8c6d3c-9a9e-46f7-b56a-7fc9e3a60697")
+	)
+	(segment
 		(start 187.28 -64.5)
 		(end 187.28 -61.795)
 		(width 0.3)
 		(layer "F.Cu")
 		(net "+3V3")
 		(uuid "00fb57be-ef85-4a94-b116-cf9261abb662")
+	)
+	(segment
+		(start -3.3 280)
+		(end -3.3 280.7)
+		(width 0.4)
+		(layer "F.Cu")
+		(net "+3V3")
+		(uuid "09da1f29-34e8-489f-bca4-13e737f6aec6")
 	)
 	(segment
 		(start 426.1 97.9)
@@ -60547,6 +60639,22 @@
 		(uuid "5904e559-458b-402a-8db8-e73c52196074")
 	)
 	(segment
+		(start -3.3 280.7)
+		(end -3.1 280.9)
+		(width 0.4)
+		(layer "F.Cu")
+		(net "+3V3")
+		(uuid "59701969-19c2-4f97-a348-a09049ff0538")
+	)
+	(segment
+		(start 1 276.9)
+		(end 1 278.225)
+		(width 0.4)
+		(layer "F.Cu")
+		(net "+3V3")
+		(uuid "59cb7ec1-c313-4467-bcef-60a12781c0c7")
+	)
+	(segment
 		(start 174.4995 -106.4895)
 		(end 185.5005 -106.4895)
 		(width 0.3)
@@ -60561,6 +60669,14 @@
 		(layer "F.Cu")
 		(net "+3V3")
 		(uuid "71650987-5eb0-44f7-8746-617be9532cb9")
+	)
+	(segment
+		(start -5.6 276.9)
+		(end -5.6 278.225)
+		(width 0.4)
+		(layer "F.Cu")
+		(net "+3V3")
+		(uuid "7c958c9d-e38b-46d4-a6e3-ea31e280a041")
 	)
 	(segment
 		(start 187.225 -66.5)
@@ -60585,6 +60701,14 @@
 		(layer "F.Cu")
 		(net "+3V3")
 		(uuid "86361840-3bf7-4228-aa74-fb2445400165")
+	)
+	(segment
+		(start 2.9 279.2)
+		(end 2.9 280.15)
+		(width 0.4)
+		(layer "F.Cu")
+		(net "+3V3")
+		(uuid "87d7b07b-a098-4e7c-a7ce-fa8aaaee5a00")
 	)
 	(segment
 		(start 255.7 393.85)
@@ -60651,6 +60775,30 @@
 		(uuid "c86178c7-81cd-4288-8286-ee00b5918946")
 	)
 	(segment
+		(start -3.1 280.9)
+		(end -3.1 282.2)
+		(width 0.4)
+		(layer "F.Cu")
+		(net "+3V3")
+		(uuid "ca0f7d7c-a793-4531-a5e6-f6278e160063")
+	)
+	(segment
+		(start -7.2 276.9)
+		(end -7.2 278.225)
+		(width 0.4)
+		(layer "F.Cu")
+		(net "+3V3")
+		(uuid "cc4356ee-4a18-47cd-9986-2d689ceff8a7")
+	)
+	(segment
+		(start -0.6 276.9)
+		(end -0.6 278.225)
+		(width 0.4)
+		(layer "F.Cu")
+		(net "+3V3")
+		(uuid "cca30e34-0a83-45ae-a369-1e35b0cfc94e")
+	)
+	(segment
 		(start 182.699106 -66)
 		(end 184.5 -66)
 		(width 0.3)
@@ -60675,12 +60823,36 @@
 		(uuid "ec0b0027-228f-4c09-94fd-2f7e54593d1f")
 	)
 	(segment
+		(start -2.2 276.9)
+		(end -2.2 278.225)
+		(width 0.4)
+		(layer "F.Cu")
+		(net "+3V3")
+		(uuid "f104bca6-c8c9-43c5-82e8-a221afc545e0")
+	)
+	(segment
+		(start 2.9 280.15)
+		(end 2.85 280.2)
+		(width 0.4)
+		(layer "F.Cu")
+		(net "+3V3")
+		(uuid "f12becbf-5b68-4c6f-9626-7766433dbab7")
+	)
+	(segment
 		(start 428.865 179.655)
 		(end 428.99 179.53)
 		(width 0.4)
 		(layer "F.Cu")
 		(net "+3V3")
 		(uuid "f5e4b36d-07fa-4892-b827-cf2a5f0e8fd5")
+	)
+	(segment
+		(start -8.8 277)
+		(end -8.8 278.325)
+		(width 0.4)
+		(layer "F.Cu")
+		(net "+3V3")
+		(uuid "f61c06b2-a34d-4c8e-aabe-214e20c28e6e")
 	)
 	(segment
 		(start 185.75 -66.5)
@@ -60723,12 +60895,52 @@
 		(uuid "541c6cbd-2de9-4bb9-837e-74e04ce1944f")
 	)
 	(via
+		(at -0.6 276.9)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net "+3V3")
+		(uuid "6e6c1b13-9265-4fd5-8801-734dca271c01")
+	)
+	(via
+		(at 2.9 279.2)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net "+3V3")
+		(uuid "7c387cdc-b27a-4739-9855-54c62d63048d")
+	)
+	(via
+		(at 1 276.9)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net "+3V3")
+		(uuid "9343d7cf-e978-496b-b068-29144af6ec49")
+	)
+	(via
+		(at -2.2 276.9)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net "+3V3")
+		(uuid "a0543a3b-7807-4389-9da9-be0d45858394")
+	)
+	(via
 		(at 255.7 397.95)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net "+3V3")
 		(uuid "b951f238-35cc-418d-aeee-6d1a027ae287")
+	)
+	(via
+		(at -5.6 276.9)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net "+3V3")
+		(uuid "c5da017a-e1cc-4850-b5c2-806eef2d7ead")
 	)
 	(via
 		(at 188.4 -60)
@@ -60739,12 +60951,60 @@
 		(uuid "c6c40259-0586-4efc-bb27-7fb1162fab41")
 	)
 	(via
+		(at -7.2 276.9)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net "+3V3")
+		(uuid "c74d0041-a9f0-49cc-b64c-216179c86098")
+	)
+	(via
+		(at -3.3 280)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net "+3V3")
+		(uuid "dfd99579-7cb3-41fa-a162-ca0efb45c4dc")
+	)
+	(via
 		(at 188.5 -57)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net "+3V3")
 		(uuid "f3b7b4ba-e9ba-4eaf-a362-0406ef711ee1")
+	)
+	(via
+		(at -8.8 277)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net "+3V3")
+		(uuid "f53a5075-e761-49ee-bf74-0c52fa51d74c")
+	)
+	(segment
+		(start -5.6 276.9)
+		(end -4.5 278)
+		(width 0.4)
+		(layer "B.Cu")
+		(net "+3V3")
+		(uuid "24bfbb48-b362-462e-89f0-70dc8c6155a4")
+	)
+	(segment
+		(start -8.8 277)
+		(end -5.7 277)
+		(width 0.4)
+		(layer "B.Cu")
+		(net "+3V3")
+		(uuid "7402725e-9e63-4871-871c-4015931de3c9")
+	)
+	(segment
+		(start -2.2 276.9)
+		(end 1 276.9)
+		(width 0.4)
+		(layer "B.Cu")
+		(net "+3V3")
+		(uuid "92e54b50-7f19-42e5-9fd5-4c6bd01d2ea9")
 	)
 	(segment
 		(start 255.7 393.85)
@@ -60753,6 +61013,54 @@
 		(layer "B.Cu")
 		(net "+3V3")
 		(uuid "9591589b-cbf5-42e0-ab57-8d6141acb7ac")
+	)
+	(segment
+		(start -4.5 278)
+		(end -3.3 278)
+		(width 0.4)
+		(layer "B.Cu")
+		(net "+3V3")
+		(uuid "a44b7e23-a30f-4d09-a90c-9a826d5123bc")
+	)
+	(segment
+		(start 2.9 278.8)
+		(end 1 276.9)
+		(width 0.4)
+		(layer "B.Cu")
+		(net "+3V3")
+		(uuid "b2adf8b5-8505-4cd3-89d4-6783cc4ca64d")
+	)
+	(segment
+		(start -5.7 277)
+		(end -5.6 276.9)
+		(width 0.4)
+		(layer "B.Cu")
+		(net "+3V3")
+		(uuid "b6adb83c-3923-44ef-bb75-c7b003082e35")
+	)
+	(segment
+		(start -3.3 278)
+		(end -2.2 276.9)
+		(width 0.4)
+		(layer "B.Cu")
+		(net "+3V3")
+		(uuid "bd0cfc83-7365-40ce-aaae-ab599335df09")
+	)
+	(segment
+		(start -3.3 280)
+		(end -3.3 278)
+		(width 0.4)
+		(layer "B.Cu")
+		(net "+3V3")
+		(uuid "c3d277a2-d09b-4e53-b6b8-48aa61c48aa7")
+	)
+	(segment
+		(start 2.9 279.2)
+		(end 2.9 278.8)
+		(width 0.4)
+		(layer "B.Cu")
+		(net "+3V3")
+		(uuid "c7c14de2-5e82-4a5f-960d-f2881d9d19b0")
 	)
 	(segment
 		(start 188.5 -59.9)
@@ -61075,278 +61383,6 @@
 		(layer "F.Cu")
 		(net "/Ethernet/RJ45_RX-")
 		(uuid "f90d0c6b-a65c-40e0-9999-2485478d2cc0")
-	)
-	(segment
-		(start 183 -91.44)
-		(end 183.17 -91.61)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/Ethernet/RJ45_TX-")
-		(uuid "07066a8d-ccea-4af8-88b1-ecd9e1c6e08a")
-	)
-	(segment
-		(start 184.2 -74.625)
-		(end 186.275 -76.7)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/Ethernet/RJ45_TX-")
-		(uuid "0cc1af86-d7a1-4540-9e7e-58229139149e")
-	)
-	(segment
-		(start 183.16 -89.56)
-		(end 183 -89.56)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/Ethernet/RJ45_TX-")
-		(uuid "0ed2860d-a560-4003-8db0-d3a59a6df9b2")
-	)
-	(segment
-		(start 182.818198 -88.818198)
-		(end 183 -89)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/Ethernet/RJ45_TX-")
-		(uuid "2bcd09d4-0ff6-4443-baec-d82be6b42027")
-	)
-	(segment
-		(start 184.143334 -89.32)
-		(end 184.143334 -89.4)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/Ethernet/RJ45_TX-")
-		(uuid "2c4ff240-bafe-4340-ab3b-903044bec761")
-	)
-	(segment
-		(start 183 -90.6)
-		(end 183 -90.889941)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/Ethernet/RJ45_TX-")
-		(uuid "3779e892-d504-4315-bc17-404d1160e402")
-	)
-	(segment
-		(start 183.16 -89.16)
-		(end 183.983334 -89.16)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/Ethernet/RJ45_TX-")
-		(uuid "50bd136b-80d2-429a-886f-e497972e91ab")
-	)
-	(segment
-		(start 186.275 -82.05)
-		(end 185.5 -82.825)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/Ethernet/RJ45_TX-")
-		(uuid "5929f627-348b-4ab5-88dd-aa987e5d3b9f")
-	)
-	(segment
-		(start 186.275 -76.7)
-		(end 186.275 -82.05)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/Ethernet/RJ45_TX-")
-		(uuid "5b9c5f62-70c7-4b89-ab75-eae49c3b6bd6")
-	)
-	(segment
-		(start 183 -90.889941)
-		(end 183 -91.44)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/Ethernet/RJ45_TX-")
-		(uuid "5bb6dcb4-37d9-4ffb-8840-78387cc51126")
-	)
-	(segment
-		(start 182.5 -88.5)
-		(end 182.818198 -88.818198)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/Ethernet/RJ45_TX-")
-		(uuid "6547d4f2-849b-4684-83ae-78292b42c676")
-	)
-	(segment
-		(start 183 -90.52)
-		(end 183 -90.6)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/Ethernet/RJ45_TX-")
-		(uuid "6fa0b63d-62cc-4d54-90e8-098a02475000")
-	)
-	(segment
-		(start 184.030218 -90.12)
-		(end 184.030218 -90.2)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/Ethernet/RJ45_TX-")
-		(uuid "9444b7cf-c1bb-4582-a250-c78d4fd83110")
-	)
-	(segment
-		(start 183.16 -89.96)
-		(end 183.870218 -89.96)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/Ethernet/RJ45_TX-")
-		(uuid "9925dd8a-ac6e-4aa9-b332-61c4ab759dc4")
-	)
-	(segment
-		(start 182.35 -87.15)
-		(end 182.35 -87.7)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/Ethernet/RJ45_TX-")
-		(uuid "99b9ca10-12a7-4885-a49d-88cb56bf309c")
-	)
-	(segment
-		(start 185.5 -84)
-		(end 182.35 -87.15)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/Ethernet/RJ45_TX-")
-		(uuid "9ce7802d-67d1-47a4-8680-bbdf130856a3")
-	)
-	(segment
-		(start 183.983334 -89.56)
-		(end 183.16 -89.56)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/Ethernet/RJ45_TX-")
-		(uuid "a84a49b4-8b0f-4c86-8cf1-dc1d10b0f72b")
-	)
-	(segment
-		(start 182.35 -88.35)
-		(end 182.5 -88.5)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/Ethernet/RJ45_TX-")
-		(uuid "aa14fd16-7150-4f7c-bad6-7f553aab9e04")
-	)
-	(segment
-		(start 182.35 -87.7)
-		(end 182.35 -88.35)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/Ethernet/RJ45_TX-")
-		(uuid "addb6813-197f-4f7d-94a2-7934fa4de26e")
-	)
-	(segment
-		(start 183.870218 -90.36)
-		(end 183.16 -90.36)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/Ethernet/RJ45_TX-")
-		(uuid "b41f6bec-5d97-4e2d-bb67-dc2fbe7b99ca")
-	)
-	(segment
-		(start 183 -89.96)
-		(end 183.16 -89.96)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/Ethernet/RJ45_TX-")
-		(uuid "c0d44157-2f3e-4bc7-8f4a-7b075be961e4")
-	)
-	(segment
-		(start 182.8 -89.66)
-		(end 182.8 -89.86)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/Ethernet/RJ45_TX-")
-		(uuid "d50bf6a9-3101-43dd-ba81-f9416eb34089")
-	)
-	(segment
-		(start 185.5 -82.825)
-		(end 185.5 -84)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/Ethernet/RJ45_TX-")
-		(uuid "d68c5d57-9697-49cd-b359-6512333cd29b")
-	)
-	(segment
-		(start 182.9 -89.96)
-		(end 183 -89.96)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/Ethernet/RJ45_TX-")
-		(uuid "e3c1262a-db0d-4168-98cd-a2e15d4f3cf7")
-	)
-	(segment
-		(start 183 -89.56)
-		(end 182.9 -89.56)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/Ethernet/RJ45_TX-")
-		(uuid "ee85be41-6392-44fb-b19b-0069d9d31eaa")
-	)
-	(arc
-		(start 183.983334 -89.16)
-		(mid 184.096471 -89.206863)
-		(end 184.143334 -89.32)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/Ethernet/RJ45_TX-")
-		(uuid "11bf7973-e734-4075-a35f-f82c6ba454b0")
-	)
-	(arc
-		(start 183 -89)
-		(mid 183.046863 -89.113137)
-		(end 183.16 -89.16)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/Ethernet/RJ45_TX-")
-		(uuid "62b89dd2-6602-4845-b09c-3df72c24084e")
-	)
-	(arc
-		(start 182.9 -89.56)
-		(mid 182.829289 -89.589289)
-		(end 182.8 -89.66)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/Ethernet/RJ45_TX-")
-		(uuid "7708e827-d572-4640-b192-0866f7f5e49f")
-	)
-	(arc
-		(start 182.8 -89.86)
-		(mid 182.829289 -89.930711)
-		(end 182.9 -89.96)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/Ethernet/RJ45_TX-")
-		(uuid "8469fa52-dcf7-4557-9fc1-b4cdf97d7550")
-	)
-	(arc
-		(start 184.030218 -90.2)
-		(mid 183.983355 -90.313137)
-		(end 183.870218 -90.36)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/Ethernet/RJ45_TX-")
-		(uuid "b2760d65-763d-47b3-b7c7-ed7d5b614d11")
-	)
-	(arc
-		(start 183.16 -90.36)
-		(mid 183.046863 -90.406863)
-		(end 183 -90.52)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/Ethernet/RJ45_TX-")
-		(uuid "cf86de2d-edaf-4a0a-9584-f18571f2796a")
-	)
-	(arc
-		(start 184.143334 -89.4)
-		(mid 184.096471 -89.513137)
-		(end 183.983334 -89.56)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/Ethernet/RJ45_TX-")
-		(uuid "dd0e5026-71d5-4880-a1bc-de609c7d1976")
-	)
-	(arc
-		(start 183.870218 -89.96)
-		(mid 183.983355 -90.006863)
-		(end 184.030218 -90.12)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/Ethernet/RJ45_TX-")
-		(uuid "e33aa860-d12f-49f9-b6bc-784b8cdaf82b")
 	)
 	(segment
 		(start 177 -88.5)
@@ -61683,6 +61719,278 @@
 		(layer "F.Cu")
 		(net "/Ethernet/RJ45_TX+")
 		(uuid "a8e37812-3ab2-40ce-acc2-865d2a743965")
+	)
+	(segment
+		(start 183 -91.44)
+		(end 183.17 -91.61)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Ethernet/RJ45_TX-")
+		(uuid "07066a8d-ccea-4af8-88b1-ecd9e1c6e08a")
+	)
+	(segment
+		(start 184.2 -74.625)
+		(end 186.275 -76.7)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Ethernet/RJ45_TX-")
+		(uuid "0cc1af86-d7a1-4540-9e7e-58229139149e")
+	)
+	(segment
+		(start 183.16 -89.56)
+		(end 183 -89.56)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Ethernet/RJ45_TX-")
+		(uuid "0ed2860d-a560-4003-8db0-d3a59a6df9b2")
+	)
+	(segment
+		(start 182.818198 -88.818198)
+		(end 183 -89)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Ethernet/RJ45_TX-")
+		(uuid "2bcd09d4-0ff6-4443-baec-d82be6b42027")
+	)
+	(segment
+		(start 184.143334 -89.32)
+		(end 184.143334 -89.4)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Ethernet/RJ45_TX-")
+		(uuid "2c4ff240-bafe-4340-ab3b-903044bec761")
+	)
+	(segment
+		(start 183 -90.6)
+		(end 183 -90.889941)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Ethernet/RJ45_TX-")
+		(uuid "3779e892-d504-4315-bc17-404d1160e402")
+	)
+	(segment
+		(start 183.16 -89.16)
+		(end 183.983334 -89.16)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Ethernet/RJ45_TX-")
+		(uuid "50bd136b-80d2-429a-886f-e497972e91ab")
+	)
+	(segment
+		(start 186.275 -82.05)
+		(end 185.5 -82.825)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Ethernet/RJ45_TX-")
+		(uuid "5929f627-348b-4ab5-88dd-aa987e5d3b9f")
+	)
+	(segment
+		(start 186.275 -76.7)
+		(end 186.275 -82.05)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Ethernet/RJ45_TX-")
+		(uuid "5b9c5f62-70c7-4b89-ab75-eae49c3b6bd6")
+	)
+	(segment
+		(start 183 -90.889941)
+		(end 183 -91.44)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Ethernet/RJ45_TX-")
+		(uuid "5bb6dcb4-37d9-4ffb-8840-78387cc51126")
+	)
+	(segment
+		(start 182.5 -88.5)
+		(end 182.818198 -88.818198)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Ethernet/RJ45_TX-")
+		(uuid "6547d4f2-849b-4684-83ae-78292b42c676")
+	)
+	(segment
+		(start 183 -90.52)
+		(end 183 -90.6)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Ethernet/RJ45_TX-")
+		(uuid "6fa0b63d-62cc-4d54-90e8-098a02475000")
+	)
+	(segment
+		(start 184.030218 -90.12)
+		(end 184.030218 -90.2)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Ethernet/RJ45_TX-")
+		(uuid "9444b7cf-c1bb-4582-a250-c78d4fd83110")
+	)
+	(segment
+		(start 183.16 -89.96)
+		(end 183.870218 -89.96)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Ethernet/RJ45_TX-")
+		(uuid "9925dd8a-ac6e-4aa9-b332-61c4ab759dc4")
+	)
+	(segment
+		(start 182.35 -87.15)
+		(end 182.35 -87.7)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Ethernet/RJ45_TX-")
+		(uuid "99b9ca10-12a7-4885-a49d-88cb56bf309c")
+	)
+	(segment
+		(start 185.5 -84)
+		(end 182.35 -87.15)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Ethernet/RJ45_TX-")
+		(uuid "9ce7802d-67d1-47a4-8680-bbdf130856a3")
+	)
+	(segment
+		(start 183.983334 -89.56)
+		(end 183.16 -89.56)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Ethernet/RJ45_TX-")
+		(uuid "a84a49b4-8b0f-4c86-8cf1-dc1d10b0f72b")
+	)
+	(segment
+		(start 182.35 -88.35)
+		(end 182.5 -88.5)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Ethernet/RJ45_TX-")
+		(uuid "aa14fd16-7150-4f7c-bad6-7f553aab9e04")
+	)
+	(segment
+		(start 182.35 -87.7)
+		(end 182.35 -88.35)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Ethernet/RJ45_TX-")
+		(uuid "addb6813-197f-4f7d-94a2-7934fa4de26e")
+	)
+	(segment
+		(start 183.870218 -90.36)
+		(end 183.16 -90.36)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Ethernet/RJ45_TX-")
+		(uuid "b41f6bec-5d97-4e2d-bb67-dc2fbe7b99ca")
+	)
+	(segment
+		(start 183 -89.96)
+		(end 183.16 -89.96)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Ethernet/RJ45_TX-")
+		(uuid "c0d44157-2f3e-4bc7-8f4a-7b075be961e4")
+	)
+	(segment
+		(start 182.8 -89.66)
+		(end 182.8 -89.86)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Ethernet/RJ45_TX-")
+		(uuid "d50bf6a9-3101-43dd-ba81-f9416eb34089")
+	)
+	(segment
+		(start 185.5 -82.825)
+		(end 185.5 -84)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Ethernet/RJ45_TX-")
+		(uuid "d68c5d57-9697-49cd-b359-6512333cd29b")
+	)
+	(segment
+		(start 182.9 -89.96)
+		(end 183 -89.96)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Ethernet/RJ45_TX-")
+		(uuid "e3c1262a-db0d-4168-98cd-a2e15d4f3cf7")
+	)
+	(segment
+		(start 183 -89.56)
+		(end 182.9 -89.56)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Ethernet/RJ45_TX-")
+		(uuid "ee85be41-6392-44fb-b19b-0069d9d31eaa")
+	)
+	(arc
+		(start 183.983334 -89.16)
+		(mid 184.096471 -89.206863)
+		(end 184.143334 -89.32)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Ethernet/RJ45_TX-")
+		(uuid "11bf7973-e734-4075-a35f-f82c6ba454b0")
+	)
+	(arc
+		(start 183 -89)
+		(mid 183.046863 -89.113137)
+		(end 183.16 -89.16)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Ethernet/RJ45_TX-")
+		(uuid "62b89dd2-6602-4845-b09c-3df72c24084e")
+	)
+	(arc
+		(start 182.9 -89.56)
+		(mid 182.829289 -89.589289)
+		(end 182.8 -89.66)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Ethernet/RJ45_TX-")
+		(uuid "7708e827-d572-4640-b192-0866f7f5e49f")
+	)
+	(arc
+		(start 182.8 -89.86)
+		(mid 182.829289 -89.930711)
+		(end 182.9 -89.96)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Ethernet/RJ45_TX-")
+		(uuid "8469fa52-dcf7-4557-9fc1-b4cdf97d7550")
+	)
+	(arc
+		(start 184.030218 -90.2)
+		(mid 183.983355 -90.313137)
+		(end 183.870218 -90.36)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Ethernet/RJ45_TX-")
+		(uuid "b2760d65-763d-47b3-b7c7-ed7d5b614d11")
+	)
+	(arc
+		(start 183.16 -90.36)
+		(mid 183.046863 -90.406863)
+		(end 183 -90.52)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Ethernet/RJ45_TX-")
+		(uuid "cf86de2d-edaf-4a0a-9584-f18571f2796a")
+	)
+	(arc
+		(start 184.143334 -89.4)
+		(mid 184.096471 -89.513137)
+		(end 183.983334 -89.56)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Ethernet/RJ45_TX-")
+		(uuid "dd0e5026-71d5-4880-a1bc-de609c7d1976")
+	)
+	(arc
+		(start 183.870218 -89.96)
+		(mid 183.983355 -90.006863)
+		(end 184.030218 -90.12)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Ethernet/RJ45_TX-")
+		(uuid "e33aa860-d12f-49f9-b6bc-784b8cdaf82b")
 	)
 	(segment
 		(start 178.9 -82.825)
@@ -62397,6 +62705,38 @@
 		(uuid "8f2e56ea-9927-489a-b334-c9cb08222e5f")
 	)
 	(segment
+		(start 178.95 -81.225)
+		(end 178.9 -81.175)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Ethernet/RXP")
+		(uuid "0e5f14fc-05b8-4a64-871b-23791ee23711")
+	)
+	(segment
+		(start 180.6 -81.225)
+		(end 178.95 -81.225)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Ethernet/RXP")
+		(uuid "4f28c9a1-02b7-4ba4-a1bc-9c387d47ee2f")
+	)
+	(segment
+		(start 180.6 -81.225)
+		(end 180.6 -75.85)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Ethernet/RXP")
+		(uuid "60242a0e-ea0a-4e82-ac0b-3351c80ca951")
+	)
+	(segment
+		(start 180.6 -75.85)
+		(end 179.4 -74.65)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Ethernet/RXP")
+		(uuid "aab08993-1d1a-4c5a-bf7d-715e98e2b2ed")
+	)
+	(segment
 		(start -356.1 472.4)
 		(end -356.6 472.4)
 		(width 0.2)
@@ -62421,12 +62761,124 @@
 		(uuid "c41520a7-e511-44b6-ab44-a79fdd2f16f1")
 	)
 	(segment
+		(start 5.9125 280.2)
+		(end 6.0125 280.1)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "Net-(D18-A)")
+		(uuid "469cbda7-a374-4cea-8a17-62012dae2ad3")
+	)
+	(segment
+		(start 4.5 280.2)
+		(end 5.9125 280.2)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "Net-(D18-A)")
+		(uuid "b4dac0f9-4230-4e3c-8586-d4252ce5f049")
+	)
+	(segment
+		(start -8.6 282.2)
+		(end -8.6 283.8)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "/MCU/SD_CD")
+		(uuid "091bea4c-65f9-442e-9034-8d6075387a51")
+	)
+	(segment
+		(start 3.625 281.175)
+		(end 6.8125 281.175)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "/MCU/SD_CD")
+		(uuid "15a05e88-a55b-4390-b7f0-9fc72291c103")
+	)
+	(segment
+		(start 6.8125 281.175)
+		(end 7.8875 280.1)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "/MCU/SD_CD")
+		(uuid "6ba96a9b-444a-44d5-8ed5-af219169f7f9")
+	)
+	(segment
+		(start -8.8 282)
+		(end -8.6 282.2)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "/MCU/SD_CD")
+		(uuid "80298213-44c4-4e81-9c74-53118a602a6d")
+	)
+	(segment
+		(start 0.525 284.275)
+		(end 3.625 281.175)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "/MCU/SD_CD")
+		(uuid "9c25fc9f-6e44-462c-add8-882e38afc5f0")
+	)
+	(segment
+		(start -8.125 284.275)
+		(end 0.525 284.275)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "/MCU/SD_CD")
+		(uuid "dd14e885-ad1f-4451-9616-0af604a0bc14")
+	)
+	(segment
+		(start -8.6 283.8)
+		(end -8.125 284.275)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "/MCU/SD_CD")
+		(uuid "f2f47012-0fda-4827-a0c5-081422bcced4")
+	)
+	(segment
+		(start -3 279.1)
+		(end -3 276.6)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Ethernet/SPI_MOSI")
+		(uuid "1208af62-d0fe-4fa9-80ce-26cf72f71d29")
+	)
+	(segment
+		(start -2.2 279.9)
+		(end -2.2 280.6)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "/Ethernet/SPI_MOSI")
+		(uuid "294401b9-891c-48d8-854c-90171237df73")
+	)
+	(segment
 		(start 182.5 -61.5)
 		(end 182.5 -59.75)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "/Ethernet/SPI_MOSI")
 		(uuid "425ebc12-2a15-43a9-a80a-f564aef9ce10")
+	)
+	(segment
+		(start -2 280.8)
+		(end -2 282.2)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "/Ethernet/SPI_MOSI")
+		(uuid "4d472860-5b8d-4d52-8cb3-b4a05c3169d2")
+	)
+	(segment
+		(start -2.2 280.6)
+		(end -2 280.8)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "/Ethernet/SPI_MOSI")
+		(uuid "68168bbf-0781-427f-82f5-2de75c06e8f7")
+	)
+	(segment
+		(start -2.2 279.9)
+		(end -3 279.1)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Ethernet/SPI_MOSI")
+		(uuid "722c0ea6-daa7-4994-aac1-2bf54c65b580")
 	)
 	(segment
 		(start 182.5 -59.75)
@@ -62443,6 +62895,22 @@
 		(layer "F.Cu")
 		(net "/Ethernet/SPI_MOSI")
 		(uuid "e2ea0858-ee1f-4429-8f5f-be687c234dfa")
+	)
+	(segment
+		(start -4.2 279.5)
+		(end -3.9 279.2)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Ethernet/SPI_SCLK")
+		(uuid "0de9fcdb-a65b-476b-a4ee-687bc49c3499")
+	)
+	(segment
+		(start -3.9 279.2)
+		(end -3.9 276.5)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Ethernet/SPI_SCLK")
+		(uuid "4b9605ca-c86b-4d99-adfe-20daa2eb7f3b")
 	)
 	(segment
 		(start 182.35 -57.9)
@@ -62467,6 +62935,14 @@
 		(layer "F.Cu")
 		(net "/Ethernet/SPI_SCLK")
 		(uuid "897fe3da-0dd0-4208-a028-70321f03604f")
+	)
+	(segment
+		(start -4.2 282.2)
+		(end -4.2 279.5)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Ethernet/SPI_SCLK")
+		(uuid "ab9c6208-6342-4a11-8ab7-3395f1c9dcd7")
 	)
 	(segment
 		(start 181 -58.5)
@@ -63117,6 +63593,86 @@
 		(uuid "b6116e63-1433-4e8f-8faa-c9dfe0ac0c6a")
 	)
 	(segment
+		(start 183 -70.95745)
+		(end 184 -71.95745)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Ethernet/ETH_TX-")
+		(uuid "189d4f31-9715-4452-a6df-e7562ba6dbbc")
+	)
+	(segment
+		(start 183 -70.75)
+		(end 183 -70)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Ethernet/ETH_TX-")
+		(uuid "34fd62d0-54e5-4c40-8a44-317e27d3da6f")
+	)
+	(segment
+		(start 183 -70.95745)
+		(end 183 -70.75)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Ethernet/ETH_TX-")
+		(uuid "6f4b6b4c-5945-48fb-9e3e-dcbc123372a7")
+	)
+	(segment
+		(start 184 -71.95745)
+		(end 184 -72.925)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Ethernet/ETH_TX-")
+		(uuid "7e9c5e1f-0cb2-4b72-9d0a-a0042aa5b485")
+	)
+	(segment
+		(start 182.5 -72.875)
+		(end 182.6 -72.975)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Ethernet/ETH_TX+")
+		(uuid "862f227f-1e0c-4fd8-961c-eda4050aa94b")
+	)
+	(segment
+		(start 182.5 -70)
+		(end 182.5 -72.875)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Ethernet/ETH_TX+")
+		(uuid "e5d20723-5f96-499a-82d8-6a85e365b5f8")
+	)
+	(segment
+		(start 181 -73)
+		(end 181 -70)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Ethernet/ETH_RX-")
+		(uuid "51ce4a7b-a4f9-4658-a0c3-79e7cebd5b08")
+	)
+	(segment
+		(start 179.5 -73)
+		(end 179.5 -72)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Ethernet/ETH_RX+")
+		(uuid "1e42426a-56cb-44ed-b9a6-b7931e90f464")
+	)
+	(segment
+		(start 179.5 -72)
+		(end 180.5 -71)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Ethernet/ETH_RX+")
+		(uuid "293fed96-bf38-4961-8b07-e81439a3267c")
+	)
+	(segment
+		(start 180.5 -71)
+		(end 180.5 -70)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Ethernet/ETH_RX+")
+		(uuid "9869b500-4b67-40cf-99a9-7adc111c2147")
+	)
+	(segment
 		(start 173.075 -59.25)
 		(end 177 -59.25)
 		(width 0.2)
@@ -63683,6 +64239,126 @@
 		(layer "F.Cu")
 		(net "/Power/PPIC_BGATE")
 		(uuid "eea58ac2-ddb2-4dc8-9118-2b6c30e8b1db")
+	)
+	(segment
+		(start 1 279.875)
+		(end 0.2 279.075)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/MCU/SD_DAT2")
+		(uuid "280c3c1c-36c1-4857-8484-193ff61cf1e8")
+	)
+	(segment
+		(start 0.2 281.6)
+		(end 1 280.8)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "/MCU/SD_DAT2")
+		(uuid "5e2677df-cdd2-438f-a95f-63f2d4cacece")
+	)
+	(segment
+		(start 1 280.8)
+		(end 1 279.875)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "/MCU/SD_DAT2")
+		(uuid "619a7d25-fff6-4751-a7a7-302c8b5dee89")
+	)
+	(segment
+		(start 0.2 279.075)
+		(end 0.2 276.8)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/MCU/SD_DAT2")
+		(uuid "77a20e7a-4dc2-4ed5-9bf9-a392332b140b")
+	)
+	(segment
+		(start 0.2 282.2)
+		(end 0.2 281.6)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "/MCU/SD_DAT2")
+		(uuid "b2210fa8-ff8e-42f8-8e25-e8c2e4bc5c7e")
+	)
+	(segment
+		(start -0.9 281)
+		(end -0.6 280.7)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "/MCU/~{SD_CS}")
+		(uuid "0333f32a-3f01-4922-9892-1605455fdea3")
+	)
+	(segment
+		(start -0.6 279.875)
+		(end -1.425 279.05)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/MCU/~{SD_CS}")
+		(uuid "5e33d40a-ad21-4e6b-97c6-e9e715a241fd")
+	)
+	(segment
+		(start -0.9 282.2)
+		(end -0.9 281)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "/MCU/~{SD_CS}")
+		(uuid "842c215f-a890-450a-b703-024c465fdce7")
+	)
+	(segment
+		(start -1.425 276.825)
+		(end -1.4 276.8)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/MCU/~{SD_CS}")
+		(uuid "c50f7e51-05fb-49ab-bdb4-171ac166f2ab")
+	)
+	(segment
+		(start -1.425 279.05)
+		(end -1.425 276.825)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/MCU/~{SD_CS}")
+		(uuid "d689c5b3-1f71-4cf1-8220-aa61d613e275")
+	)
+	(segment
+		(start -0.6 280.7)
+		(end -0.6 279.875)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "/MCU/~{SD_CS}")
+		(uuid "feb76fa8-74cf-4f3a-9564-20644c4461aa")
+	)
+	(segment
+		(start -7.5 280.25)
+		(end -7.2 279.95)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "/MCU/SD_DAT1")
+		(uuid "53761787-6850-44b5-a178-22123bb2626e")
+	)
+	(segment
+		(start -7.2 279.95)
+		(end -6.4 279.15)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/MCU/SD_DAT1")
+		(uuid "542bbc0d-8b75-494b-a303-fdb5a6b83319")
+	)
+	(segment
+		(start -6.4 279.15)
+		(end -6.4 276.3)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/MCU/SD_DAT1")
+		(uuid "64c2d162-6d04-42a3-9ebb-4096e923c63d")
+	)
+	(segment
+		(start -7.5 282.2)
+		(end -7.5 280.25)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "/MCU/SD_DAT1")
+		(uuid "cd17a914-476d-40a0-b2e8-79eaf0f5362e")
 	)
 	(segment
 		(start -362.1 472.4)
@@ -64277,6 +64953,38 @@
 		(uuid "c05d47f5-23ba-40c3-98b2-8329efbfa4da")
 	)
 	(segment
+		(start 181.525 -79.3)
+		(end 181.525 -80.5)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Ethernet/RXN")
+		(uuid "394b5d5a-faaa-4ca7-837f-6abacd82ed32")
+	)
+	(segment
+		(start 181.525 -75.175)
+		(end 181 -74.65)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Ethernet/RXN")
+		(uuid "4cf67e8d-8d40-4045-9ca1-8bb28a369763")
+	)
+	(segment
+		(start 181.525 -79.3)
+		(end 181.525 -75.175)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Ethernet/RXN")
+		(uuid "7a9b14c7-4810-4445-a9bc-65a101157bca")
+	)
+	(segment
+		(start 181.525 -80.5)
+		(end 182.25 -81.225)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Ethernet/RXN")
+		(uuid "ced764d4-83ac-4665-88b8-19efd87a7820")
+	)
+	(segment
 		(start 251.8 395.896)
 		(end 250.444696 395.896)
 		(width 0.2)
@@ -64379,150 +65087,6 @@
 		(layer "F.Cu")
 		(net "/Power/PPIC_ILIM")
 		(uuid "cf2478e3-01ae-45ab-b4a8-b70c85d9bfb6")
-	)
-	(segment
-		(start 178.95 -81.225)
-		(end 178.9 -81.175)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/Ethernet/RXP")
-		(uuid "0e5f14fc-05b8-4a64-871b-23791ee23711")
-	)
-	(segment
-		(start 180.6 -81.225)
-		(end 178.95 -81.225)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/Ethernet/RXP")
-		(uuid "4f28c9a1-02b7-4ba4-a1bc-9c387d47ee2f")
-	)
-	(segment
-		(start 180.6 -81.225)
-		(end 180.6 -75.85)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/Ethernet/RXP")
-		(uuid "60242a0e-ea0a-4e82-ac0b-3351c80ca951")
-	)
-	(segment
-		(start 180.6 -75.85)
-		(end 179.4 -74.65)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/Ethernet/RXP")
-		(uuid "aab08993-1d1a-4c5a-bf7d-715e98e2b2ed")
-	)
-	(segment
-		(start 181.525 -79.3)
-		(end 181.525 -80.5)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/Ethernet/RXN")
-		(uuid "394b5d5a-faaa-4ca7-837f-6abacd82ed32")
-	)
-	(segment
-		(start 181.525 -75.175)
-		(end 181 -74.65)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/Ethernet/RXN")
-		(uuid "4cf67e8d-8d40-4045-9ca1-8bb28a369763")
-	)
-	(segment
-		(start 181.525 -79.3)
-		(end 181.525 -75.175)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/Ethernet/RXN")
-		(uuid "7a9b14c7-4810-4445-a9bc-65a101157bca")
-	)
-	(segment
-		(start 181.525 -80.5)
-		(end 182.25 -81.225)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/Ethernet/RXN")
-		(uuid "ced764d4-83ac-4665-88b8-19efd87a7820")
-	)
-	(segment
-		(start 179.5 -73)
-		(end 179.5 -72)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/Ethernet/ETH_RX+")
-		(uuid "1e42426a-56cb-44ed-b9a6-b7931e90f464")
-	)
-	(segment
-		(start 179.5 -72)
-		(end 180.5 -71)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/Ethernet/ETH_RX+")
-		(uuid "293fed96-bf38-4961-8b07-e81439a3267c")
-	)
-	(segment
-		(start 180.5 -71)
-		(end 180.5 -70)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/Ethernet/ETH_RX+")
-		(uuid "9869b500-4b67-40cf-99a9-7adc111c2147")
-	)
-	(segment
-		(start 181 -73)
-		(end 181 -70)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/Ethernet/ETH_RX-")
-		(uuid "51ce4a7b-a4f9-4658-a0c3-79e7cebd5b08")
-	)
-	(segment
-		(start 183 -70.95745)
-		(end 184 -71.95745)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/Ethernet/ETH_TX-")
-		(uuid "189d4f31-9715-4452-a6df-e7562ba6dbbc")
-	)
-	(segment
-		(start 183 -70.75)
-		(end 183 -70)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/Ethernet/ETH_TX-")
-		(uuid "34fd62d0-54e5-4c40-8a44-317e27d3da6f")
-	)
-	(segment
-		(start 183 -70.95745)
-		(end 183 -70.75)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/Ethernet/ETH_TX-")
-		(uuid "6f4b6b4c-5945-48fb-9e3e-dcbc123372a7")
-	)
-	(segment
-		(start 184 -71.95745)
-		(end 184 -72.925)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/Ethernet/ETH_TX-")
-		(uuid "7e9c5e1f-0cb2-4b72-9d0a-a0042aa5b485")
-	)
-	(segment
-		(start 182.5 -72.875)
-		(end 182.6 -72.975)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/Ethernet/ETH_TX+")
-		(uuid "862f227f-1e0c-4fd8-961c-eda4050aa94b")
-	)
-	(segment
-		(start 182.5 -70)
-		(end 182.5 -72.875)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/Ethernet/ETH_TX+")
-		(uuid "e5d20723-5f96-499a-82d8-6a85e365b5f8")
 	)
 	(zone
 		(net "/Power/PPIC_IN")

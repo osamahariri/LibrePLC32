@@ -6315,16 +6315,6 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 263.525) (xy 207.01 267.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2dff677f-58a4-4b07-801b-dc9561cd15bd")
-	)
-	(wire
-		(pts
 			(xy 53.975 153.67) (xy 53.975 152.4)
 		)
 		(stroke
@@ -6775,6 +6765,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 268.605) (xy 207.01 263.525)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50395614-57da-4c03-84e9-2576ab6c777a")
+	)
+	(wire
+		(pts
 			(xy 80.645 184.785) (xy 80.645 189.23)
 		)
 		(stroke
@@ -6872,6 +6872,16 @@
 			(type default)
 		)
 		(uuid "5d2f7054-9f91-4da3-baf0-179da6f03ec1")
+	)
+	(wire
+		(pts
+			(xy 213.995 268.605) (xy 207.01 268.605)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e8a2549-ccb2-44a0-a0a8-37b72b053180")
 	)
 	(wire
 		(pts
@@ -8674,12 +8684,12 @@
 		(uuid "6f77c76e-4dd8-46e2-93b2-e94f5740abf6")
 	)
 	(label "SD_CD"
-		(at 207.01 267.335 0)
+		(at 213.995 268.605 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "731a0cae-454f-4fc7-9906-72ab6dc18ec1")
 	)
@@ -19142,84 +19152,6 @@
 			(project "LibrePLC32"
 				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/7ef97c26-a6eb-42fc-a9a7-66112d2bed2b"
 					(reference "#PWR073")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 207.01 267.97 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "deea4006-8fc6-41d3-9b44-8a5dc4f29be5")
-		(property "Reference" "#PWR0255"
-			(at 207.01 274.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 207.01 273.05 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 207.01 267.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 207.01 267.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 207.01 267.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "447a6973-1dc6-4415-8ad5-73c499a18e6c")
-		)
-		(instances
-			(project "LibrePLC32"
-				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/7ef97c26-a6eb-42fc-a9a7-66112d2bed2b"
-					(reference "#PWR0255")
 					(unit 1)
 				)
 			)
