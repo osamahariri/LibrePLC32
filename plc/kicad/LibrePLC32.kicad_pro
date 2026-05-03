@@ -747,13 +747,16 @@
         "SYS_LV"
       ],
       "Net-(D12-A)": [
-        "SYS_HV"
+        "SYS_LV"
       ],
       "Net-(D13-A)": [
-        "SYS_HV"
+        "SYS_LV"
       ],
       "Net-(D15-A)": [
-        "SYS_LV"
+        "SYS_HV"
+      ],
+      "Net-(D16-A)": [
+        "SYS_HV"
       ],
       "Net-(D17-A)": [
         "SYS_LV"
@@ -961,7 +964,7 @@
         "uuid": "ef4c1a27-85a3-413a-9f93-a41c4f97eee5"
       }
     ],
-    "used_designators": "#PWR267-268,R51,R109-116,C19,C55,C58-59,L2,L4",
+    "used_designators": "TP1-32,L1-4,C1-59,X1,Card1,U1-20,D1-19,RLY1-2,R1-116,#PWR1-260,#PWR267-268,Q1-6,USB1-2,CN1-12,J1-3,F1-6,RJ1,SW1-5",
     "variants": []
   },
   "sheets": [
