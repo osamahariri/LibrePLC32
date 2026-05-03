@@ -8343,6 +8343,16 @@
 		)
 		(uuid "46576b54-79fd-4491-8eba-bd98c424ffe3")
 	)
+	(label "T1_OUT2"
+		(at 376.555 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "47ddaba3-06b4-4ace-8f59-f1b6ac255212")
+	)
 	(label "T1_LATCH"
 		(at 66.548 138.938 0)
 		(effects
@@ -8373,26 +8383,6 @@
 		)
 		(uuid "5004f3a1-0313-4020-9abe-82091e98e528")
 	)
-	(label "T1_OUT1"
-		(at 376.555 102.87 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "52df21ef-7303-442b-8cce-b97f8d584e90")
-	)
-	(label "T2_OUT2"
-		(at 376.555 110.49 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "56ee3d24-955e-4c6c-a409-e02b35031a64")
-	)
 	(label "T2_ADC"
 		(at 50.546 257.429 180)
 		(effects
@@ -8402,16 +8392,6 @@
 			(justify right bottom)
 		)
 		(uuid "5a8a5cd1-a42c-4614-993b-538b4f8ca269")
-	)
-	(label "T1_OUT2"
-		(at 376.555 105.41 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5f3b068b-d894-4740-b5e2-469871c13820")
 	)
 	(label "T1_FLT2"
 		(at 40.64 55.245 0)
@@ -8583,16 +8563,6 @@
 		)
 		(uuid "82fe8334-5581-4382-97f1-9b061ba6d08b")
 	)
-	(label "T2_OUT1"
-		(at 376.555 107.95 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "838bc807-419f-491f-911b-b264a6e93082")
-	)
 	(label "T1_EN1"
 		(at 31.369 94.107 180)
 		(effects
@@ -8652,6 +8622,16 @@
 			(justify right bottom)
 		)
 		(uuid "900a8f1e-b59f-4f13-a6e1-e3eb45e10b9e")
+	)
+	(label "T1_OUT1"
+		(at 376.555 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "934ed90b-7b52-4456-96c6-b33b3c14a0cb")
 	)
 	(label "T2_FLT1"
 		(at 40.64 57.785 0)
@@ -8863,6 +8843,16 @@
 		)
 		(uuid "ba07e1b6-16a4-4600-81a9-70a423a310d0")
 	)
+	(label "T2_OUT1"
+		(at 376.555 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bbdc9bac-f5f6-41f9-8671-100c1325a839")
+	)
 	(label "T1_OUT2"
 		(at 114.173 126.238 180)
 		(effects
@@ -8922,6 +8912,16 @@
 			(justify left bottom)
 		)
 		(uuid "c4c9b7c8-c089-43ef-b5bd-596ba7ab34d2")
+	)
+	(label "T2_OUT2"
+		(at 376.555 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c9b63369-405f-4067-8f28-2e9ced52aeca")
 	)
 	(label "T1_DIA"
 		(at 44.069 133.477 180)
