@@ -9008,6 +9008,16 @@
 		)
 		(uuid "c03d2ba0-78f3-4b37-b9c4-54575bb1b693")
 	)
+	(label "AUX_SW"
+		(at 80.645 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c21ba833-b7d4-4348-a35e-ea878a868687")
+	)
 	(label "PPIC_OUT"
 		(at 105.41 201.93 0)
 		(effects

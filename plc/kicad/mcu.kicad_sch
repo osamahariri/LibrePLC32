@@ -5660,22 +5660,10 @@
 		(uuid "3461c558-cca7-48a9-a1d2-3394b00d1b35")
 	)
 	(junction
-		(at 92.075 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "44254bb0-5b74-4f56-850b-5f3d395ef564")
-	)
-	(junction
 		(at 275.082 268.732)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "45c20c89-7416-45d9-9adb-e05cd0efc33a")
-	)
-	(junction
-		(at 92.075 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "535bc11c-95b9-48ca-bc33-102e0fe56cc8")
 	)
 	(junction
 		(at 233.045 208.915)
@@ -5702,22 +5690,10 @@
 		(uuid "95ea43b7-5bfd-4082-bb0c-56db388482bf")
 	)
 	(junction
-		(at 92.075 64.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9d4f161c-0a72-4e7d-8aa1-49350821dff2")
-	)
-	(junction
 		(at 80.645 189.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9e3d9896-24bc-415c-8a62-f83add45ec3b")
-	)
-	(junction
-		(at 92.075 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ac568915-8b36-4d74-9304-f027c69670cd")
 	)
 	(junction
 		(at 257.429 80.264)
@@ -5730,12 +5706,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b994fbe1-158c-4304-b4e0-5abafa1cf566")
-	)
-	(junction
-		(at 92.075 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e2e33012-4458-4147-ac4f-7d662e766596")
 	)
 	(junction
 		(at 74.93 191.77)
@@ -5975,16 +5945,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.075 72.39) (xy 95.25 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ac15816-d7e5-4fe6-a0a9-164a1ee5a3c7")
-	)
-	(wire
-		(pts
 			(xy 170.18 270.51) (xy 165.1 270.51)
 		)
 		(stroke
@@ -6055,16 +6015,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.075 64.77) (xy 95.25 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13d107ac-b22d-42c1-8c1c-920f091c361b")
-	)
-	(wire
-		(pts
 			(xy 76.835 184.15) (xy 76.835 191.77)
 		)
 		(stroke
@@ -6072,16 +6022,6 @@
 			(type default)
 		)
 		(uuid "144fcff2-90ea-4daf-9d5f-78f6b3012a06")
-	)
-	(wire
-		(pts
-			(xy 92.075 69.85) (xy 95.25 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14c2700b-0bb8-47e4-b2be-208fb3d21049")
 	)
 	(wire
 		(pts
@@ -6265,6 +6205,16 @@
 	)
 	(wire
 		(pts
+			(xy 84.455 69.85) (xy 95.25 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2991756d-dc22-4532-84ef-0f7bb7116e5d")
+	)
+	(wire
+		(pts
 			(xy 352.425 72.39) (xy 353.06 72.39)
 		)
 		(stroke
@@ -6415,7 +6365,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 100.33) (xy 95.25 100.33)
+			(xy 91.44 100.33) (xy 95.25 100.33)
 		)
 		(stroke
 			(width 0)
@@ -6462,6 +6412,16 @@
 			(type default)
 		)
 		(uuid "3d3c73e2-2f94-4cd7-8407-91c3bcd17f16")
+	)
+	(wire
+		(pts
+			(xy 84.455 57.15) (xy 95.25 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3db1f155-725e-4ffa-9c04-cdbdd7b2be84")
 	)
 	(wire
 		(pts
@@ -6582,16 +6542,6 @@
 			(type default)
 		)
 		(uuid "438761a9-9fa2-4961-b6fd-57bf128cafd3")
-	)
-	(wire
-		(pts
-			(xy 75.565 59.69) (xy 92.075 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43b1f3df-3ab3-4e4d-ab40-96540c391a82")
 	)
 	(wire
 		(pts
@@ -6725,16 +6675,6 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 85.09) (xy 95.25 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d14dbda-c826-436b-9398-fca12cb45dd9")
-	)
-	(wire
-		(pts
 			(xy 170.18 273.05) (xy 165.1 273.05)
 		)
 		(stroke
@@ -6762,6 +6702,16 @@
 			(type default)
 		)
 		(uuid "50395614-57da-4c03-84e9-2576ab6c777a")
+	)
+	(wire
+		(pts
+			(xy 84.455 74.93) (xy 95.25 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "523cf509-6e63-43d4-be6b-b5f1ff4db068")
 	)
 	(wire
 		(pts
@@ -6845,7 +6795,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 80.01) (xy 95.25 80.01)
+			(xy 91.44 80.01) (xy 95.25 80.01)
 		)
 		(stroke
 			(width 0)
@@ -7035,16 +6985,6 @@
 	)
 	(wire
 		(pts
-			(xy 75.565 72.39) (xy 92.075 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c3db007-a9b6-46ad-889b-11e653bc7ea3")
-	)
-	(wire
-		(pts
 			(xy 263.144 68.834) (xy 278.384 68.834)
 		)
 		(stroke
@@ -7055,7 +6995,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 87.63) (xy 95.25 87.63)
+			(xy 91.44 87.63) (xy 95.25 87.63)
 		)
 		(stroke
 			(width 0)
@@ -7065,7 +7005,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 92.71) (xy 95.25 92.71)
+			(xy 91.44 92.71) (xy 95.25 92.71)
 		)
 		(stroke
 			(width 0)
@@ -7102,16 +7042,6 @@
 			(type default)
 		)
 		(uuid "71ebbed2-0c2a-4270-9d65-fb37767ee739")
-	)
-	(wire
-		(pts
-			(xy 85.09 90.17) (xy 95.25 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72a709bc-7657-4b38-9152-5af0e00f4509")
 	)
 	(wire
 		(pts
@@ -7175,6 +7105,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 85.09) (xy 95.25 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7accb953-530d-4cc3-9888-9cc97d79a79e")
+	)
+	(wire
+		(pts
 			(xy 84.455 54.61) (xy 95.25 54.61)
 		)
 		(stroke
@@ -7205,26 +7145,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.075 67.31) (xy 95.25 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80be05e6-6f64-43cc-98d2-3491f4825332")
-	)
-	(wire
-		(pts
-			(xy 75.565 64.77) (xy 92.075 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80f986b2-d781-4404-98e0-f68cc656d341")
-	)
-	(wire
-		(pts
 			(xy 207.01 255.905) (xy 207.01 254.635)
 		)
 		(stroke
@@ -7235,7 +7155,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 97.79) (xy 95.25 97.79)
+			(xy 91.44 97.79) (xy 95.25 97.79)
 		)
 		(stroke
 			(width 0)
@@ -7255,7 +7175,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.075 59.69) (xy 95.25 59.69)
+			(xy 84.455 59.69) (xy 95.25 59.69)
 		)
 		(stroke
 			(width 0)
@@ -7385,6 +7305,16 @@
 	)
 	(wire
 		(pts
+			(xy 84.455 77.47) (xy 95.25 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9148d157-ebf3-45e2-9a72-3a42d7a6e222")
+	)
+	(wire
+		(pts
 			(xy 172.72 152.4) (xy 172.72 153.67)
 		)
 		(stroke
@@ -7465,16 +7395,6 @@
 	)
 	(wire
 		(pts
-			(xy 75.565 69.85) (xy 92.075 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0e15d32-dbba-47f3-89b3-c62de2461fd4")
-	)
-	(wire
-		(pts
 			(xy 33.02 200.025) (xy 33.02 201.295)
 		)
 		(stroke
@@ -7522,16 +7442,6 @@
 			(type default)
 		)
 		(uuid "a720735e-d3ba-4315-b8ec-f27dd87c0737")
-	)
-	(wire
-		(pts
-			(xy 85.09 77.47) (xy 95.25 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8f88246-60ad-4244-b3e9-d27b4f8a1750")
 	)
 	(wire
 		(pts
@@ -7695,16 +7605,6 @@
 	)
 	(wire
 		(pts
-			(xy 75.565 62.23) (xy 92.075 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc366854-389a-450b-bfef-9cab8d712e6c")
-	)
-	(wire
-		(pts
 			(xy 247.269 80.264) (xy 244.094 80.264)
 		)
 		(stroke
@@ -7815,16 +7715,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.075 74.93) (xy 95.25 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8d06682-02a8-4bcd-ac51-680238444dae")
-	)
-	(wire
-		(pts
 			(xy 138.43 77.47) (xy 125.73 77.47)
 		)
 		(stroke
@@ -7872,6 +7762,16 @@
 			(type default)
 		)
 		(uuid "d2893aaf-5421-46c2-96c8-0ddd07764107")
+	)
+	(wire
+		(pts
+			(xy 84.455 67.31) (xy 95.25 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2eb921f-4fdb-4d18-a57a-91d72b05b5a8")
 	)
 	(wire
 		(pts
@@ -8065,16 +7965,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.075 57.15) (xy 95.25 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e011a4c2-2653-4725-9690-82e93cfb62b3")
-	)
-	(wire
-		(pts
 			(xy 275.082 233.807) (xy 277.495 233.807)
 		)
 		(stroke
@@ -8205,6 +8095,16 @@
 	)
 	(wire
 		(pts
+			(xy 84.455 64.77) (xy 95.25 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edd99fd3-eb4f-47fa-a957-45768eac9910")
+	)
+	(wire
+		(pts
 			(xy 141.605 270.51) (xy 147.32 270.51)
 		)
 		(stroke
@@ -8265,7 +8165,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 82.55) (xy 95.25 82.55)
+			(xy 91.44 82.55) (xy 95.25 82.55)
 		)
 		(stroke
 			(width 0)
@@ -8305,6 +8205,16 @@
 	)
 	(wire
 		(pts
+			(xy 84.455 72.39) (xy 95.25 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4833c8d-c4e0-4e2e-9e22-068269cd3c09")
+	)
+	(wire
+		(pts
 			(xy 333.375 116.84) (xy 340.995 116.84)
 		)
 		(stroke
@@ -8325,7 +8235,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.075 62.23) (xy 95.25 62.23)
+			(xy 84.455 62.23) (xy 95.25 62.23)
 		)
 		(stroke
 			(width 0)
@@ -8405,7 +8315,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 95.25) (xy 95.25 95.25)
+			(xy 91.44 95.25) (xy 95.25 95.25)
 		)
 		(stroke
 			(width 0)
@@ -8533,6 +8443,16 @@
 		)
 		(uuid "29d32943-4479-41b4-9c23-844f46fad0bf")
 	)
+	(label "~{SD_CS}"
+		(at 84.455 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3430cd5b-2464-486f-9f82-129729c57334")
+	)
 	(label "USB_D+"
 		(at 372.11 116.84 180)
 		(effects
@@ -8553,18 +8473,8 @@
 		)
 		(uuid "46b4751b-b99b-4a93-a734-96056e129dc7")
 	)
-	(label "SD_CS"
-		(at 75.565 69.85 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "48ba1ff9-6c07-465f-b2b5-114f4b5a9874")
-	)
 	(label "S_LED0"
-		(at 75.565 59.69 0)
+		(at 84.455 59.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8582,16 +8492,6 @@
 			(justify right bottom)
 		)
 		(uuid "533d80ae-a923-42bb-8edb-b5c6cd8adc85")
-	)
-	(label "~{RTC_INT}"
-		(at 75.565 64.77 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "59ab0f6c-4eb3-4097-93f5-897f5b362483")
 	)
 	(label "USB_D-"
 		(at 333.375 116.84 0)
@@ -8614,7 +8514,7 @@
 		(uuid "60f2c012-91c7-47b7-b423-581123e8917a")
 	)
 	(label "S_LED1"
-		(at 75.565 62.23 0)
+		(at 84.455 62.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8633,6 +8533,16 @@
 		)
 		(uuid "653f233f-104a-431b-83ff-11e0a5d3c686")
 	)
+	(label "~{RTC_INT}"
+		(at 84.455 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "65e7a83f-03a2-444e-a8e8-318f1cb0c7a3")
+	)
 	(label "UART_TX"
 		(at 327.914 53.594 180)
 		(effects
@@ -8642,6 +8552,16 @@
 			(justify right bottom)
 		)
 		(uuid "6608e7e6-f777-49a1-b849-df669a4f400b")
+	)
+	(label "SD_CD"
+		(at 84.455 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6a66f6e3-466a-44fe-a80c-9cc17e394d71")
 	)
 	(label "MCU_USB_D+"
 		(at 50.8 246.38 0)
@@ -8773,16 +8693,6 @@
 		)
 		(uuid "ae8d1a9e-12cc-4899-a2ee-9ca45596b00a")
 	)
-	(label "SD_CD"
-		(at 75.565 72.39 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b1347cb9-3f6b-47a1-a318-cf49366a35a4")
-	)
 	(label "~{RTC_INT}"
 		(at 41.91 210.185 180)
 		(effects
@@ -8893,6 +8803,17 @@
 		)
 		(uuid "fdadaf8a-8ecd-46af-b3df-a00d22da0fb2")
 	)
+	(hierarchical_label "ADC_RDY"
+		(shape input)
+		(at 87.63 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "01b47f6b-3ced-4f27-aea3-359694cbf1aa")
+	)
 	(hierarchical_label "SPI_MOSI"
 		(shape output)
 		(at 221.615 220.345 0)
@@ -8914,28 +8835,6 @@
 			(justify left)
 		)
 		(uuid "0df4f8fa-4e73-4918-93b3-c45c7e22ce76")
-	)
-	(hierarchical_label "SPI_MOSI"
-		(shape output)
-		(at 85.09 82.55 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "12644811-d578-431b-950e-57898839b0d2")
-	)
-	(hierarchical_label "ADC_RDY"
-		(shape input)
-		(at 85.09 77.47 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "215773fa-9cfe-4f74-91cd-87c2b42a39b2")
 	)
 	(hierarchical_label "I2C_SDA"
 		(shape input)
@@ -9014,6 +8913,28 @@
 		)
 		(uuid "56dba8fe-9769-483f-abf0-e6491cefced5")
 	)
+	(hierarchical_label "~{ETH_CS}"
+		(shape output)
+		(at 84.455 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "624d2075-65ed-4561-9700-20e559345046")
+	)
+	(hierarchical_label "SPI_MISO"
+		(shape input)
+		(at 84.455 64.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "63f84cb8-1a4a-42f9-8927-ec50a7e8dd3d")
+	)
 	(hierarchical_label "CAN_TX"
 		(shape output)
 		(at 363.855 233.045 270)
@@ -9058,17 +8979,6 @@
 		)
 		(uuid "80ed7134-d82c-43bb-b3e7-2d1cc7571c61")
 	)
-	(hierarchical_label "SPI_MISO"
-		(shape input)
-		(at 85.09 87.63 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "84dc3ba8-a940-4606-ae17-4c1672722f00")
-	)
 	(hierarchical_label "I2C_SCL"
 		(shape output)
 		(at 36.83 189.23 180)
@@ -9079,17 +8989,6 @@
 			(justify right)
 		)
 		(uuid "9f2cd43e-daa1-4a41-9caa-0ee5325dc456")
-	)
-	(hierarchical_label "~{ETH_CS}"
-		(shape output)
-		(at 85.09 90.17 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a1852d88-123c-4812-affe-eafc3816bb45")
 	)
 	(hierarchical_label "I2C_SDA"
 		(shape output)
@@ -9104,7 +9003,7 @@
 	)
 	(hierarchical_label "RS485_TXD"
 		(shape bidirectional)
-		(at 85.09 100.33 180)
+		(at 91.44 100.33 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9115,7 +9014,7 @@
 	)
 	(hierarchical_label "~{MUX_INT}"
 		(shape input)
-		(at 85.09 80.01 180)
+		(at 91.44 80.01 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9134,6 +9033,17 @@
 			(justify left)
 		)
 		(uuid "c25587db-3ec1-4c6d-b68c-dfff22264239")
+	)
+	(hierarchical_label "SPI_MOSI"
+		(shape output)
+		(at 84.455 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c748d0a8-3545-452f-8f81-db76c2d9a102")
 	)
 	(hierarchical_label "I2C_SCL"
 		(shape input)
@@ -9159,7 +9069,7 @@
 	)
 	(hierarchical_label "~{ETH_RST}"
 		(shape output)
-		(at 85.09 95.25 180)
+		(at 91.44 95.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9167,17 +9077,6 @@
 			(justify right)
 		)
 		(uuid "dd0399ef-07b8-4533-8f71-f5aec14c897a")
-	)
-	(hierarchical_label "SPI_SCLK"
-		(shape output)
-		(at 85.09 85.09 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "df619d86-329f-482e-9572-b938165e5f19")
 	)
 	(hierarchical_label "I2C_SCL"
 		(shape input)
@@ -9203,7 +9102,7 @@
 	)
 	(hierarchical_label "~{ETH_INT}"
 		(shape input)
-		(at 85.09 92.71 180)
+		(at 91.44 92.71 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9222,6 +9121,17 @@
 			(justify left)
 		)
 		(uuid "ed3f4459-9afd-42fe-90dc-0d5dc01fd1a2")
+	)
+	(hierarchical_label "SPI_SCLK"
+		(shape output)
+		(at 84.455 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f68c2472-ac7b-4905-8706-563c70f21328")
 	)
 	(hierarchical_label "I2C_SCL"
 		(shape output)
@@ -9247,7 +9157,7 @@
 	)
 	(hierarchical_label "RS485_RXD"
 		(shape bidirectional)
-		(at 85.09 97.79 180)
+		(at 91.44 97.79 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10172,83 +10082,6 @@
 			(project "LibrePLC32"
 				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/7ef97c26-a6eb-42fc-a9a7-66112d2bed2b"
 					(reference "TP13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 92.075 62.23 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1b4db341-db63-4c80-9056-ea569c401138")
-		(property "Reference" "TP3"
-			(at 85.725 62.23 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 83.185 62.23 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 92.075 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 92.075 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 92.075 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "29b6e897-d8e2-43d7-9e72-56f2e26fbdd9")
-		)
-		(instances
-			(project "LibrePLC32"
-				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/7ef97c26-a6eb-42fc-a9a7-66112d2bed2b"
-					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -11899,83 +11732,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 92.075 69.85 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "45db9c44-e570-42a6-a481-97469f0a9b68")
-		(property "Reference" "TP6"
-			(at 85.725 69.85 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 83.185 69.85 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 92.075 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 92.075 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 92.075 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cce117c1-4553-4fb3-bc7b-104f779b5dfb")
-		)
-		(instances
-			(project "LibrePLC32"
-				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/7ef97c26-a6eb-42fc-a9a7-66112d2bed2b"
-					(reference "TP6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 53.975 153.67 0)
 		(unit 1)
@@ -12047,83 +11803,6 @@
 			(project "LibrePLC32"
 				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/7ef97c26-a6eb-42fc-a9a7-66112d2bed2b"
 					(reference "#PWR072")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 92.075 59.69 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4c8e228f-6f69-4492-ba08-3d63445cd28f")
-		(property "Reference" "TP2"
-			(at 85.725 59.69 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 83.185 59.69 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 92.075 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 92.075 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 92.075 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6752501b-81d5-4db8-b86e-b28d002251cb")
-		)
-		(instances
-			(project "LibrePLC32"
-				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/7ef97c26-a6eb-42fc-a9a7-66112d2bed2b"
-					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -12203,83 +11882,6 @@
 			(project "LibrePLC32"
 				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/7ef97c26-a6eb-42fc-a9a7-66112d2bed2b"
 					(reference "#PWR074")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 92.075 74.93 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "50bf3fe6-f4f9-4e24-ab0b-fda7b5c6a97d")
-		(property "Reference" "TP8"
-			(at 85.725 74.93 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 83.185 74.93 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 92.075 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 92.075 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 92.075 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2f0408e1-f693-48c9-9be8-d15be3fd232a")
-		)
-		(instances
-			(project "LibrePLC32"
-				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/7ef97c26-a6eb-42fc-a9a7-66112d2bed2b"
-					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -14052,83 +13654,6 @@
 			(project "LibrePLC32"
 				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/7ef97c26-a6eb-42fc-a9a7-66112d2bed2b"
 					(reference "#PWR0125")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 92.075 64.77 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "70140fca-e915-4e8f-8a46-c96e3d2b51d6")
-		(property "Reference" "TP4"
-			(at 85.725 64.77 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 83.185 64.77 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 92.075 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 92.075 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 92.075 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "750e6de6-7f58-4e32-906a-7a47fb5c65c5")
-		)
-		(instances
-			(project "LibrePLC32"
-				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/7ef97c26-a6eb-42fc-a9a7-66112d2bed2b"
-					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -16980,83 +16505,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 92.075 67.31 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a400757e-cc11-4c48-a32e-7b8de0f49266")
-		(property "Reference" "TP5"
-			(at 85.725 67.31 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 83.185 67.31 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 92.075 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 92.075 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 92.075 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3a507a11-f8c1-4e53-b5ad-1059e27c3d77")
-		)
-		(instances
-			(project "LibrePLC32"
-				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/7ef97c26-a6eb-42fc-a9a7-66112d2bed2b"
-					(reference "TP5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 292.862 42.164 270)
 		(unit 1)
@@ -17410,83 +16858,6 @@
 			(project "LibrePLC32"
 				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/7ef97c26-a6eb-42fc-a9a7-66112d2bed2b"
 					(reference "C14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 92.075 72.39 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b0bfa26d-def5-4695-90b9-4c8f3b430743")
-		(property "Reference" "TP7"
-			(at 85.725 72.39 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 83.185 72.39 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 92.075 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 92.075 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 92.075 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bc8cfbc1-1d85-4d25-81af-b05ac668e5b8")
-		)
-		(instances
-			(project "LibrePLC32"
-				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/7ef97c26-a6eb-42fc-a9a7-66112d2bed2b"
-					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -20486,83 +19857,6 @@
 			(project "LibrePLC32"
 				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/7ef97c26-a6eb-42fc-a9a7-66112d2bed2b"
 					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 92.075 57.15 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f69906d6-2752-4322-bd7d-13f70d777201")
-		(property "Reference" "TP1"
-			(at 85.725 57.15 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 83.185 57.15 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 92.075 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 92.075 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 92.075 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fa86514c-fd68-49f4-87f7-3bdf113535d1")
-		)
-		(instances
-			(project "LibrePLC32"
-				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/7ef97c26-a6eb-42fc-a9a7-66112d2bed2b"
-					(reference "TP1")
 					(unit 1)
 				)
 			)
