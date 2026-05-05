@@ -7083,6 +7083,16 @@
 		)
 		(uuid "73c9b337-8196-4ef3-8bdd-c624e82aa959")
 	)
+	(bus
+		(pts
+			(xy 158.115 72.39) (xy 172.085 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "769de80e-908d-4727-9fba-2233c446ff91")
+	)
 	(wire
 		(pts
 			(xy 263.144 72.644) (xy 263.144 68.834)
@@ -8553,6 +8563,16 @@
 		)
 		(uuid "6608e7e6-f777-49a1-b849-df669a4f400b")
 	)
+	(label "MCU_DI[1..4]"
+		(at 158.115 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "69b741fb-6987-428c-ae25-988e24b34285")
+	)
 	(label "SD_CD"
 		(at 84.455 77.47 0)
 		(effects
@@ -8642,6 +8662,16 @@
 			(justify right bottom)
 		)
 		(uuid "7f5eade8-7526-4c86-8083-0b270f54a96e")
+	)
+	(label "MCU_DI[1..4]"
+		(at 140.97 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "80ffde1e-bfe5-4081-b4bf-3ad36c5d2d75")
 	)
 	(label "~{MCU_RST}"
 		(at 29.845 140.335 0)
@@ -9078,6 +9108,17 @@
 		)
 		(uuid "dd0399ef-07b8-4533-8f71-f5aec14c897a")
 	)
+	(hierarchical_label "MCU_DI"
+		(shape input)
+		(at 172.085 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dfd10840-c203-4189-98fd-c3972b05d80a")
+	)
 	(hierarchical_label "I2C_SCL"
 		(shape input)
 		(at 393.065 233.68 270)
@@ -9110,17 +9151,6 @@
 			(justify right)
 		)
 		(uuid "e72e8b64-5230-46c2-9065-78dbf134ca1f")
-	)
-	(hierarchical_label "MCU_DI"
-		(shape input)
-		(at 140.97 85.09 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ed3f4459-9afd-42fe-90dc-0d5dc01fd1a2")
 	)
 	(hierarchical_label "SPI_SCLK"
 		(shape output)
