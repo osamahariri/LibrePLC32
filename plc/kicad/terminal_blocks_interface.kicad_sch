@@ -3860,7 +3860,7 @@
 	)
 	(rectangle
 		(start 361.95 137.795)
-		(end 399.415 192.405)
+		(end 399.415 193.675)
 		(stroke
 			(width 0)
 			(type dash)
@@ -3919,7 +3919,7 @@
 		(uuid "e0b81462-9bbd-4555-8a98-b434a0c86d4a")
 	)
 	(rectangle
-		(start 321.31 194.945)
+		(start 321.31 197.485)
 		(end 399.415 249.555)
 		(stroke
 			(width 0)
@@ -4077,7 +4077,7 @@
 	)
 	(text "Main Power Connectors"
 		(exclude_from_sim no)
-		(at 359.41 198.12 0)
+		(at 359.41 200.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9353,7 +9353,7 @@
 				)
 			)
 		)
-		(property "Value" "++5V"
+		(property "Value" "+5V"
 			(at 335.915 50.165 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11934,7 +11934,7 @@
 				)
 			)
 		)
-		(property "Value" "++5V"
+		(property "Value" "+5V"
 			(at 335.915 22.225 0)
 			(show_name no)
 			(do_not_autoplace no)

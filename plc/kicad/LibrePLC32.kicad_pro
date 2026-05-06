@@ -965,7 +965,7 @@
         "uuid": "ef4c1a27-85a3-413a-9f93-a41c4f97eee5"
       }
     ],
-    "used_designators": "CN10,CN13-14",
+    "used_designators": "#PWR261-264,H1-4,CN10,CN13-15",
     "variants": []
   },
   "sheets": [
