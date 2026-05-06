@@ -5901,6 +5901,10 @@
 		(uuid "78cbfff5-f340-4f61-b981-bbae9ebd7572")
 	)
 	(no_connect
+		(at 95.25 82.55)
+		(uuid "7db6189f-7217-4071-ac28-b00befe4d144")
+	)
+	(no_connect
 		(at 278.384 51.054)
 		(uuid "7e33210d-dd02-412f-94f8-6897367ea757")
 	)
@@ -5959,6 +5963,14 @@
 	(no_connect
 		(at 316.484 63.754)
 		(uuid "f96d0dfa-753f-4bd2-ba39-63db71d2b907")
+	)
+	(no_connect
+		(at 95.25 87.63)
+		(uuid "f9a24978-1afd-4764-97bb-f20d6db5d0d4")
+	)
+	(no_connect
+		(at 95.25 90.17)
+		(uuid "fc81f4b2-e945-4d31-badc-7aa088acce59")
 	)
 	(bus_entry
 		(at 140.97 82.55)
@@ -7125,16 +7137,6 @@
 			(type default)
 		)
 		(uuid "6c6037a5-966c-4e11-ad0f-a357a603a1e2")
-	)
-	(wire
-		(pts
-			(xy 91.44 87.63) (xy 95.25 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d0d0f23-322a-46d7-a133-7161187b098e")
 	)
 	(wire
 		(pts
@@ -8335,16 +8337,6 @@
 			(type default)
 		)
 		(uuid "f0a9cb27-1230-483d-ab4b-adbd2421eec6")
-	)
-	(wire
-		(pts
-			(xy 91.44 82.55) (xy 95.25 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0febeb2-0a1e-4002-ae5d-606628a1b5d1")
 	)
 	(wire
 		(pts
@@ -14826,7 +14818,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 393.065 225.425 0)
 			(hide yes)
 			(show_name no)
@@ -15145,7 +15137,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 361.315 225.425 0)
 			(hide yes)
 			(show_name no)
