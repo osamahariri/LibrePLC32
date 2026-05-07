@@ -30,3 +30,16 @@ LibrePLC32 aims to provide:
 │   └── kicad/        # KiCad project, schematics, PCB, and libraries
 ├── LICENSE
 └── README.md
+```
+
+## Features
+
+LibrePLC32 is designed to provide a practical set of PLC-oriented hardware features:
+
+- **8–36 V DC input voltage range**
+- **4 isolated digital inputs** for field signals
+- **4 transistor digital outputs** for driving external loads
+- **2 relay output terminals** for switching isolated loads
+- **RS-485 interface** for industrial serial communication
+- **CAN bus interface** for device-to-device communication
+- **Ethernet interface** for network connectivity
