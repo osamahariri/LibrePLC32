@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="img/logo.png" alt="LibrePLC32 logo" width="360">
+  <img src="img/logo.png" alt="LibrePLC32 logo" width="640">
 </p>
 
 # LibrePLC32
@@ -9,6 +9,10 @@
 The goal of the project is to create a compact, hackable, and well-documented PLC platform for industrial automation experiments, prototyping, education, and open hardware development.
 
 > ⚠️ **Work in progress:** LibrePLC32 is currently under development.
+
+<p align="center">
+  <img src="img/pcb.png" alt="LibrePLC32 logo" width="860">
+</p>
 
 ## Project goals
 
