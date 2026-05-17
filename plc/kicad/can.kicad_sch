@@ -2158,16 +2158,10 @@
 		(uuid "28f6c7a2-40b2-4b8f-abd7-25470963e9a8")
 	)
 	(junction
-		(at 79.375 145.415)
+		(at 71.12 145.415)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "920da7c4-d313-4c6e-8316-90d7463e67b3")
-	)
-	(junction
-		(at 79.375 137.795)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d6779777-08ca-4fe5-945c-e23d05bc3d6c")
 	)
 	(junction
 		(at 64.135 84.455)
@@ -2317,6 +2311,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.105 137.795) (xy 85.725 137.795)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64c72f69-16c2-485a-816f-f77ff43f5b89")
+	)
+	(wire
+		(pts
 			(xy 84.455 79.375) (xy 93.98 79.375)
 		)
 		(stroke
@@ -2347,7 +2351,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.215 157.48) (xy 69.215 155.575)
+			(xy 60.96 157.48) (xy 60.96 155.575)
 		)
 		(stroke
 			(width 0)
@@ -2377,17 +2381,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.835 137.795) (xy 79.375 137.795)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9599cee-b590-474a-b77e-eafbe45ae650")
-	)
-	(wire
-		(pts
-			(xy 79.375 147.955) (xy 79.375 145.415)
+			(xy 71.12 147.955) (xy 71.12 145.415)
 		)
 		(stroke
 			(width 0)
@@ -2407,7 +2401,7 @@
 	)
 	(wire
 		(pts
-			(xy 79.375 145.415) (xy 88.265 145.415)
+			(xy 71.12 145.415) (xy 80.01 145.415)
 		)
 		(stroke
 			(width 0)
@@ -2424,6 +2418,16 @@
 			(type default)
 		)
 		(uuid "b69c3296-8046-4b62-9f40-9e02ada34410")
+	)
+	(wire
+		(pts
+			(xy 70.485 137.795) (xy 68.58 137.795)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c054f8cb-b5d1-4b1a-bb93-f311b3e6644b")
 	)
 	(wire
 		(pts
@@ -2467,17 +2471,7 @@
 	)
 	(wire
 		(pts
-			(xy 79.375 137.795) (xy 88.265 137.795)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cedd592c-b138-478f-abb6-5b512f5a0cab")
-	)
-	(wire
-		(pts
-			(xy 76.835 145.415) (xy 79.375 145.415)
+			(xy 68.58 145.415) (xy 71.12 145.415)
 		)
 		(stroke
 			(width 0)
@@ -2527,7 +2521,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.835 147.955) (xy 79.375 147.955)
+			(xy 68.58 147.955) (xy 71.12 147.955)
 		)
 		(stroke
 			(width 0)
@@ -2575,6 +2569,16 @@
 		)
 		(uuid "028b6708-05b5-415a-b773-91f3cced4c78")
 	)
+	(label "CAN_H"
+		(at 85.725 137.795 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2c86ba68-a910-42fa-8b1a-e66eb60df69b")
+	)
 	(label "CAN_TX"
 		(at 139.7 79.375 180)
 		(effects
@@ -2586,7 +2590,7 @@
 		(uuid "34d09638-1015-4217-903d-e20964bc6e73")
 	)
 	(label "CAN_L"
-		(at 88.265 145.415 180)
+		(at 80.01 145.415 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2674,16 +2678,6 @@
 			(justify right bottom)
 		)
 		(uuid "baa19c14-5b8c-416a-a912-16475ea3b402")
-	)
-	(label "CAN_H"
-		(at 88.265 137.795 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d9874e71-c48c-496d-a7a6-a8bb8d7e4da3")
 	)
 	(label "CAN_L"
 		(at 191.135 92.075 0)
@@ -3160,7 +3154,7 @@
 	)
 	(symbol
 		(lib_id "LibrePLC32:MSK12C02")
-		(at 70.485 145.415 270)
+		(at 62.23 145.415 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3171,7 +3165,7 @@
 		(fields_autoplaced yes)
 		(uuid "23c12ddc-237b-4e95-86ea-24ad1e0fa846")
 		(property "Reference" "SW4"
-			(at 67.945 130.81 90)
+			(at 59.69 130.81 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3181,7 +3175,7 @@
 			)
 		)
 		(property "Value" "MSK12C02"
-			(at 67.945 133.35 90)
+			(at 59.69 133.35 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3191,7 +3185,7 @@
 			)
 		)
 		(property "Footprint" "LibrePLC32:SW-TH_MSK12C02"
-			(at 61.595 145.415 0)
+			(at 53.34 145.415 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3202,7 +3196,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Toggle-Switches_SHOU-HAN-MSK12C02_C431540.html"
-			(at 59.055 145.415 0)
+			(at 50.8 145.415 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3213,7 +3207,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 70.485 145.415 0)
+			(at 62.23 145.415 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3224,7 +3218,7 @@
 			)
 		)
 		(property "Manufacturer" "SHOU HAN(首韩)"
-			(at 56.515 145.415 0)
+			(at 48.26 145.415 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3235,7 +3229,7 @@
 			)
 		)
 		(property "MPN" "MSK12C02"
-			(at 53.975 145.415 0)
+			(at 45.72 145.415 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3246,7 +3240,7 @@
 			)
 		)
 		(property "LCSC Part" "C431540"
-			(at 51.435 145.415 0)
+			(at 43.18 145.415 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3279,7 +3273,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 69.215 157.48 0)
+		(at 60.96 157.48 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3290,7 +3284,7 @@
 		(fields_autoplaced yes)
 		(uuid "2dc2b82f-c75e-49c3-860b-9c94ebd72cc8")
 		(property "Reference" "#PWR0203"
-			(at 69.215 163.83 0)
+			(at 60.96 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3301,7 +3295,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 69.215 161.798 0)
+			(at 60.96 161.798 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3311,7 +3305,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.215 157.48 0)
+			(at 60.96 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3322,7 +3316,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.215 157.48 0)
+			(at 60.96 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3333,7 +3327,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 69.215 157.48 0)
+			(at 60.96 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3793,87 +3787,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 79.375 141.605 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "63a3dfb9-8959-429c-9113-6459665e962a")
-		(property "Reference" "R90"
-			(at 74.295 139.065 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "120"
-			(at 74.295 141.605 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 77.597 141.605 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 79.375 141.605 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 79.375 141.605 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "1c49a7aa-400e-4382-9bec-89bf6514a6fa")
-		)
-		(pin "1"
-			(uuid "9bf1e4fe-e974-4af9-8c8a-68b1932c7e6a")
-		)
-		(instances
-			(project "LibrePLC32"
-				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/1f15b1b2-5031-4e14-8391-148d71dbf666"
-					(reference "R90")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 122.555 86.995 90)
 		(unit 1)
 		(body_style 1)
@@ -4029,6 +3942,87 @@
 			(project "LibrePLC32"
 				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/1f15b1b2-5031-4e14-8391-148d71dbf666"
 					(reference "R93")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 74.295 137.795 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9f94e240-a54f-4c10-9e0e-464914449d8e")
+		(property "Reference" "R90"
+			(at 72.39 132.715 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "120"
+			(at 72.39 135.255 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 74.295 139.573 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.295 137.795 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 74.295 137.795 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c7390764-58a6-4203-a822-ea7b022a278f")
+		)
+		(pin "1"
+			(uuid "7e3e52a8-b996-4115-bb00-1e25295c49be")
+		)
+		(instances
+			(project "LibrePLC32"
+				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/1f15b1b2-5031-4e14-8391-148d71dbf666"
+					(reference "R90")
 					(unit 1)
 				)
 			)

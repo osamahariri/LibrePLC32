@@ -1850,8 +1850,8 @@
 		(uuid "a70171b6-c7f2-4a53-9c55-e8ca73877758")
 	)
 	(rectangle
-		(start 37.465 111.125)
-		(end 88.265 151.765)
+		(start 38.1 111.125)
+		(end 90.17 151.765)
 		(stroke
 			(width 0)
 			(type dash)
@@ -1885,7 +1885,7 @@
 	)
 	(text "Termination Resistor"
 		(exclude_from_sim no)
-		(at 48.26 113.03 0)
+		(at 49.53 113.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1925,12 +1925,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "41406b08-4da6-4071-b351-976d9a1af889")
-	)
-	(junction
-		(at 68.58 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6a1a747f-b85b-48f7-a192-5d97fe71f8e0")
 	)
 	(junction
 		(at 201.93 127.635)
@@ -2242,13 +2236,13 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 124.46) (xy 68.58 124.46)
+			(xy 74.93 124.46) (xy 88.265 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "91eb68c6-f2ab-46ed-88be-af03e24ae4d4")
+		(uuid "94660fb8-484f-4ffc-9331-4fd4130483a4")
 	)
 	(wire
 		(pts
@@ -2299,6 +2293,16 @@
 			(type default)
 		)
 		(uuid "dc6e5b75-010f-45cf-8d2b-20bb9c8c3256")
+	)
+	(wire
+		(pts
+			(xy 67.31 124.46) (xy 66.04 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e359c287-cb1b-4cc6-bd5d-4ea6b2f69d07")
 	)
 	(wire
 		(pts
@@ -2359,16 +2363,6 @@
 			(type default)
 		)
 		(uuid "fd22f83f-e5d4-407b-8801-4d6ce1aaba36")
-	)
-	(wire
-		(pts
-			(xy 68.58 124.46) (xy 82.55 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd9d3784-0dae-4ea2-b921-27f7821ca31d")
 	)
 	(wire
 		(pts
@@ -2441,14 +2435,14 @@
 		(uuid "40d81858-e484-499f-ab73-7d65ab2f6bc2")
 	)
 	(label "EXT_RS485_B"
-		(at 82.55 124.46 180)
+		(at 88.265 124.46 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "714a463e-8dee-4ed9-b4a4-273bf4031ce0")
+		(uuid "835d0cc0-1879-4024-a7b7-3f9196dbadd2")
 	)
 	(label "RS485_RXD"
 		(at 179.705 138.43 0)
@@ -3089,87 +3083,6 @@
 			(project "LibrePLC32"
 				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/58fa1ecb-ea1c-4a70-bb90-31ff9b441562"
 					(reference "D18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 68.58 128.27 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4b84c8fc-f36d-4007-868a-de897114dcf2")
-		(property "Reference" "R94"
-			(at 63.5 125.73 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "120"
-			(at 63.5 128.27 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 66.802 128.27 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 68.58 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 68.58 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "ba1eda4e-2293-4eec-86f2-a125a44311c2")
-		)
-		(pin "1"
-			(uuid "913510d8-96a8-4195-9829-d8ae183e7bf3")
-		)
-		(instances
-			(project "LibrePLC32"
-				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/58fa1ecb-ea1c-4a70-bb90-31ff9b441562"
-					(reference "R94")
 					(unit 1)
 				)
 			)
@@ -4016,6 +3929,87 @@
 			(project "LibrePLC32"
 				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/58fa1ecb-ea1c-4a70-bb90-31ff9b441562"
 					(reference "U19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 71.12 124.46 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b59bac30-6889-4d7c-9e13-9a2946bc8ac4")
+		(property "Reference" "R94"
+			(at 68.58 119.38 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "120"
+			(at 68.58 121.92 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 71.12 126.238 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 71.12 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6174978c-0f10-49d4-b634-c1e6cb05da5f")
+		)
+		(pin "1"
+			(uuid "9ac0c13a-9c52-407d-9289-8515c9fdf023")
+		)
+		(instances
+			(project "LibrePLC32"
+				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/58fa1ecb-ea1c-4a70-bb90-31ff9b441562"
+					(reference "R94")
 					(unit 1)
 				)
 			)
