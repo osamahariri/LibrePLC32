@@ -5302,16 +5302,6 @@
 		)
 		(uuid "1e2c303f-ca26-46e5-82c9-30ee553a3347")
 	)
-	(text "2Amps Fuse"
-		(exclude_from_sim no)
-		(at 332.74 33.528 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "21d29825-2e5a-4eb9-bc63-e203f7257523")
-	)
 	(text "1%"
 		(exclude_from_sim no)
 		(at 177.165 55.88 0)
@@ -5431,12 +5421,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0fe3b794-5c76-4d20-8504-7b97cc256f3d")
-	)
-	(junction
-		(at 332.74 53.975)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1919a5dd-12cd-4474-9b71-f0fcb77687f8")
 	)
 	(junction
 		(at 284.48 195.58)
@@ -5617,6 +5601,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "898414f8-939f-48d4-b5ec-ca27cf4407e4")
+	)
+	(junction
+		(at 340.36 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "90b991b1-d3c9-4954-b72e-baa8bbeb077b")
 	)
 	(junction
 		(at 274.955 195.58)
@@ -5940,7 +5930,7 @@
 	)
 	(wire
 		(pts
-			(xy 320.675 53.975) (xy 332.74 53.975)
+			(xy 327.66 43.18) (xy 340.36 43.18)
 		)
 		(stroke
 			(width 0)
@@ -6400,13 +6390,13 @@
 	)
 	(wire
 		(pts
-			(xy 344.805 40.64) (xy 344.805 42.545)
+			(xy 352.425 38.1) (xy 352.425 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2f54c9ff-bd67-4e52-9579-5550fc79c3e7")
+		(uuid "2f97be5c-3f36-48e5-834b-c48eaa225ac7")
 	)
 	(wire
 		(pts
@@ -6530,16 +6520,6 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 55.245) (xy 332.74 53.975)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38598d24-ec6c-43d5-8e9d-7ffc8a5aa514")
-	)
-	(wire
-		(pts
 			(xy 79.375 65.405) (xy 87.63 65.405)
 		)
 		(stroke
@@ -6567,6 +6547,16 @@
 			(type default)
 		)
 		(uuid "38febe02-d234-404a-835b-70df58538bc1")
+	)
+	(wire
+		(pts
+			(xy 340.36 48.26) (xy 359.41 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "390ab0f9-beac-45a8-ad4c-3c5a0c220350")
 	)
 	(wire
 		(pts
@@ -6670,7 +6660,7 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 53.975) (xy 344.805 53.975)
+			(xy 340.36 43.18) (xy 352.425 43.18)
 		)
 		(stroke
 			(width 0)
@@ -6690,7 +6680,7 @@
 	)
 	(wire
 		(pts
-			(xy 320.675 29.21) (xy 320.675 30.48)
+			(xy 327.66 38.1) (xy 327.66 43.18)
 		)
 		(stroke
 			(width 0)
@@ -7300,16 +7290,6 @@
 	)
 	(wire
 		(pts
-			(xy 320.675 42.545) (xy 320.675 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7460fb84-8c45-4843-b5e1-cbfefb0b0cd5")
-	)
-	(wire
-		(pts
 			(xy 51.435 64.77) (xy 55.88 64.77)
 		)
 		(stroke
@@ -7727,16 +7707,6 @@
 			(type default)
 		)
 		(uuid "a4c90c9b-e9a6-434b-aa4a-3938f4b50cf5")
-	)
-	(wire
-		(pts
-			(xy 320.675 53.975) (xy 320.675 52.705)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a567563f-2f3a-424f-89a3-2f1a5854ca8b")
 	)
 	(wire
 		(pts
@@ -8180,16 +8150,6 @@
 	)
 	(wire
 		(pts
-			(xy 344.805 53.975) (xy 344.805 52.705)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb7be20d-c084-4268-99c0-35155d9e64ed")
-	)
-	(wire
-		(pts
 			(xy 325.12 196.85) (xy 325.12 198.12)
 		)
 		(stroke
@@ -8530,16 +8490,6 @@
 	)
 	(wire
 		(pts
-			(xy 344.805 29.21) (xy 344.805 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f274077d-c8b8-4fd6-b6fd-d728733b30dd")
-	)
-	(wire
-		(pts
 			(xy 67.945 186.69) (xy 67.945 189.23)
 		)
 		(stroke
@@ -8597,6 +8547,16 @@
 			(type default)
 		)
 		(uuid "f592e33d-d809-4abe-87c8-8b7e4d59634c")
+	)
+	(wire
+		(pts
+			(xy 340.36 43.18) (xy 340.36 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5abcfdb-399f-403c-b3f2-eba841fe2c01")
 	)
 	(wire
 		(pts
@@ -8908,6 +8868,16 @@
 		)
 		(uuid "764f6c5c-002b-47de-9317-f437d9426af7")
 	)
+	(label "V_IN_UNPROTECTED"
+		(at 340.36 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7bb7746f-f6e5-4087-8bde-0e6ef191dbdf")
+	)
 	(label "PPIC_ILIM"
 		(at 93.98 254 0)
 		(effects
@@ -9108,6 +9078,17 @@
 		)
 		(uuid "fde3d6b9-19c3-4acc-a8cf-512e4e5026c8")
 	)
+	(hierarchical_label "V_IN_UNPROTECTED"
+		(shape input)
+		(at 359.41 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "384a3374-ac29-4a7b-b4a6-72cab206a2bb")
+	)
 	(hierarchical_label "PPIC_IMON"
 		(shape output)
 		(at 126.365 254 0)
@@ -9271,25 +9252,6 @@
 		(dnp no)
 		(polyline
 			(pts
-				(xy 315.595 21.59) (xy 315.595 60.2853) (xy 366.395 60.4639) (xy 366.395 21.59)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid "c83a7588-7171-4c50-b7ea-0a78f5af4c88")
-		)
-	)
-	(rule_area
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(polyline
-			(pts
 				(xy 236.855 22.86) (xy 236.855 62.23) (xy 291.465 62.23) (xy 291.465 22.86)
 			)
 			(stroke
@@ -9300,6 +9262,25 @@
 				(type none)
 			)
 			(uuid "d07d4107-2976-4992-ae2a-549687c10b5d")
+		)
+	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 321.31 30.48) (xy 383.54 30.48) (xy 383.54 51.435) (xy 321.31 51.435)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "d24996d8-5ff7-410a-aa07-e419e3779ef9")
 		)
 	)
 	(netclass_flag ""
@@ -9509,7 +9490,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 366.395 21.59 0)
+		(at 383.54 30.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9518,7 +9499,7 @@
 		)
 		(uuid "aecc3d8b-6011-4f9c-8b0a-11cea5ee4678")
 		(property "Net Class" "SYS_HV"
-			(at 369.57 17.145 0)
+			(at 386.715 26.035 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9529,7 +9510,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at 281.305 43.18 90)
+			(at 298.45 52.07 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12395,118 +12376,6 @@
 			(project "LibrePLC32"
 				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/7cb27fd0-1c73-4e87-ad2d-fb4e463ee9fb"
 					(reference "#PWR0139")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LibrePLC32:BSMD1206C-1200T")
-		(at 344.805 35.56 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "438d0f9b-a3c2-4373-b7c9-dd26fedc1614")
-		(property "Reference" "F6"
-			(at 347.98 34.29 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BSMD1206C-1200T"
-			(at 356.235 36.195 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LibrePLC32:F1206"
-			(at 337.185 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C41367223.pdf"
-			(at 334.645 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 344.805 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "BHFUSE(佰宏)"
-			(at 332.105 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "BSMD1206C-1200T"
-			(at 329.565 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C41367223"
-			(at 327.025 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "f4d43647-6f15-41fe-9a7f-13daba0be977")
-		)
-		(pin "1"
-			(uuid "54d983bb-9e77-455a-9947-78a847d7b1d2")
-		)
-		(instances
-			(project "LibrePLC32"
-				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/7cb27fd0-1c73-4e87-ad2d-fb4e463ee9fb"
-					(reference "F6")
 					(unit 1)
 				)
 			)
@@ -16741,7 +16610,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 344.805 29.21 0)
+		(at 352.425 38.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16752,7 +16621,7 @@
 		(fields_autoplaced yes)
 		(uuid "9cd7047d-6cac-4c20-9bb4-c3e5bee37b09")
 		(property "Reference" "#PWR0192"
-			(at 344.805 33.02 0)
+			(at 352.425 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16763,7 +16632,7 @@
 			)
 		)
 		(property "Value" "PWR_RS485"
-			(at 344.805 24.765 0)
+			(at 352.425 33.655 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16773,7 +16642,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 344.805 29.21 0)
+			(at 352.425 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16784,7 +16653,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 344.805 29.21 0)
+			(at 352.425 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16795,7 +16664,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 344.805 29.21 0)
+			(at 352.425 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17243,121 +17112,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LibrePLC32:SS34_C908680")
-		(at 320.675 47.625 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a3c71c23-79f6-45d7-b4a3-fb121daee6a0")
-		(property "Reference" "D15"
-			(at 323.85 46.3549 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SS34"
-			(at 323.85 48.8949 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LibrePLC32:SMA_L4.3-W2.7-LS5.1-RD"
-			(at 328.295 47.625 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C908680.pdf"
-			(at 330.835 47.625 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 320.675 47.625 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "GOODWORK(固得沃克)"
-			(at 333.375 47.625 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "SS34"
-			(at 335.915 47.625 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C908680"
-			(at 338.455 47.625 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "fd94b8bb-a82d-4860-8d4d-d4becdf4fd3f")
-		)
-		(pin "1"
-			(uuid "2d65910b-0d10-4d86-bc25-7d602fbd080a")
-		)
-		(instances
-			(project "LibrePLC32"
-				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/7cb27fd0-1c73-4e87-ad2d-fb4e463ee9fb"
-					(reference "D15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+VSW")
 		(at 41.91 40.005 0)
 		(unit 1)
@@ -17702,121 +17456,6 @@
 			(project "LibrePLC32"
 				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/7cb27fd0-1c73-4e87-ad2d-fb4e463ee9fb"
 					(reference "C33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LibrePLC32:SS34_C908680")
-		(at 344.805 47.625 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b35c152e-482b-4109-abe0-2e2d9aa61847")
-		(property "Reference" "D16"
-			(at 347.98 46.3549 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SS34"
-			(at 347.98 48.8949 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LibrePLC32:SMA_L4.3-W2.7-LS5.1-RD"
-			(at 352.425 47.625 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C908680.pdf"
-			(at 354.965 47.625 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 344.805 47.625 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "GOODWORK(固得沃克)"
-			(at 357.505 47.625 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "SS34"
-			(at 360.045 47.625 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C908680"
-			(at 362.585 47.625 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "42cec746-af66-4cbd-9950-933a8a0b6b21")
-		)
-		(pin "1"
-			(uuid "eb737293-7a1b-419e-875c-a36f63bae1ca")
-		)
-		(instances
-			(project "LibrePLC32"
-				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/7cb27fd0-1c73-4e87-ad2d-fb4e463ee9fb"
-					(reference "D16")
 					(unit 1)
 				)
 			)
@@ -19699,84 +19338,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+VSW")
-		(at 332.74 55.245 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "cd849a21-d8bc-462d-9813-076e8ccb0783")
-		(property "Reference" "#PWR0190"
-			(at 332.74 51.435 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "V_FIELD"
-			(at 336.55 58.801 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 332.74 55.245 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 332.74 55.245 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+VSW\""
-			(at 332.74 55.245 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ded24cf5-97c4-4162-b297-afd4f02ef45c")
-		)
-		(instances
-			(project "LibrePLC32"
-				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/7cb27fd0-1c73-4e87-ad2d-fb4e463ee9fb"
-					(reference "#PWR0190")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 382.905 231.14 0)
 		(mirror y)
@@ -20852,118 +20413,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LibrePLC32:BSMD1206C-1200T")
-		(at 320.675 35.56 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e374135b-07d0-4af7-9913-4baaef5a39e2")
-		(property "Reference" "F5"
-			(at 323.85 34.29 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BSMD1206C-1200T"
-			(at 332.105 36.195 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LibrePLC32:F1206"
-			(at 313.055 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C41367223.pdf"
-			(at 310.515 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 320.675 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "BHFUSE(佰宏)"
-			(at 307.975 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "BSMD1206C-1200T"
-			(at 305.435 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C41367223"
-			(at 302.895 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "6de12d8c-d1b0-42dc-8a2d-39eb0deab938")
-		)
-		(pin "1"
-			(uuid "19b47822-0bf9-4bc3-8892-f4cfbd99f4ef")
-		)
-		(instances
-			(project "LibrePLC32"
-				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/7cb27fd0-1c73-4e87-ad2d-fb4e463ee9fb"
-					(reference "F5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 165.1 224.155 0)
 		(unit 1)
@@ -21280,7 +20729,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 320.675 29.21 0)
+		(at 327.66 38.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21291,7 +20740,7 @@
 		(fields_autoplaced yes)
 		(uuid "ee146d8d-e4b6-4f2a-8040-d4a488c62308")
 		(property "Reference" "#PWR0185"
-			(at 320.675 33.02 0)
+			(at 327.66 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21302,7 +20751,7 @@
 			)
 		)
 		(property "Value" "PWR_CAN"
-			(at 320.675 24.765 0)
+			(at 327.66 33.655 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21312,7 +20761,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 320.675 29.21 0)
+			(at 327.66 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21323,7 +20772,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 320.675 29.21 0)
+			(at 327.66 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21334,7 +20783,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 320.675 29.21 0)
+			(at 327.66 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

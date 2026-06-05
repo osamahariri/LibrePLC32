@@ -175,6 +175,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 53.975) (xy 207.01 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3175b71e-006a-4999-90b1-0e7642e1fd28")
+	)
+	(wire
+		(pts
 			(xy 209.55 56.515) (xy 209.55 80.01)
 		)
 		(stroke
@@ -302,6 +312,16 @@
 			(type default)
 		)
 		(uuid "554a7e16-a87b-49c2-96e0-6b84b5a5c5da")
+	)
+	(wire
+		(pts
+			(xy 207.01 82.55) (xy 218.44 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cbde7b3-2207-4f26-a41e-43a4fef760ee")
 	)
 	(polyline
 		(pts
@@ -522,6 +542,16 @@
 			(type default)
 		)
 		(uuid "ed6679d4-f020-4548-97b4-09c738bb715d")
+	)
+	(wire
+		(pts
+			(xy 218.44 53.975) (xy 207.01 53.975)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3fe1dd0-a989-4657-a48e-3d89bf28c19a")
 	)
 	(wire
 		(pts
@@ -813,6 +843,16 @@
 				(justify left)
 			)
 		)
+		(pin "V_IN_UNPROTECTED" output
+			(at 218.44 82.55 180)
+			(uuid "c772dd94-c8d0-49fa-9b67-c8b2fedd1dfc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "LibrePLC32"
 				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5"
@@ -872,6 +912,16 @@
 		(pin "V_IN_MAIN" input
 			(at 218.44 56.515 180)
 			(uuid "0c00f592-8ec7-4001-b97f-9b4a0e0a48bd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "V_IN_UNPROTECTED" input
+			(at 218.44 53.975 180)
+			(uuid "22b274a9-ec84-485a-9412-cb9c67bfcde0")
 			(effects
 				(font
 					(size 1.27 1.27)
