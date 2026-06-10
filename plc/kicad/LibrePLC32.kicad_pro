@@ -63,7 +63,7 @@
           "min_clearance": 0.5,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
-          "pad_connection": 1,
+          "pad_connection": 2,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
@@ -629,7 +629,7 @@
         "wire_width": 6
       },
       {
-        "clearance": 0.26,
+        "clearance": 0.2,
         "line_style": 0,
         "name": "USB",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
@@ -998,7 +998,7 @@
         "uuid": "ef4c1a27-85a3-413a-9f93-a41c4f97eee5"
       }
     ],
-    "used_designators": "R90,R94",
+    "used_designators": "FH1-3,R90,R94",
     "variants": []
   },
   "sheets": [
