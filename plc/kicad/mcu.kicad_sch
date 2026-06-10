@@ -9149,6 +9149,25 @@
 			(uuid "86d28c75-d510-44d7-aeb9-c76152f01408")
 		)
 	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 145.415 53.975) (xy 126.365 53.975) (xy 126.365 60.96) (xy 145.415 60.96)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "c8517c62-51e8-4182-a432-852034b2df03")
+		)
+	)
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
@@ -9173,6 +9192,41 @@
 		)
 		(property "Component Class" ""
 			(at 23.495 203.835 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 145.415 53.975 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "78c43fa2-d9ad-47fe-b4a7-b833a6e42234")
+		(property "Net Class" "USB"
+			(at 146.1135 51.435 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -75.565 8.89 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
