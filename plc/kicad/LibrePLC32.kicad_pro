@@ -998,7 +998,7 @@
         "uuid": "ef4c1a27-85a3-413a-9f93-a41c4f97eee5"
       }
     ],
-    "used_designators": "C60-61,#PWR137,#PWR145,#PWR149,#PWR152,#PWR157-158,#PWR204,#PWR267-269,U14,U22",
+    "used_designators": "C60-63,#PWR137,#PWR145,#PWR149,#PWR152,#PWR157-158,#PWR204,#PWR207,#PWR267-283,U14,U18,U22-23",
     "variants": []
   },
   "sheets": [
