@@ -125,16 +125,6 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 84.455) (xy 127 84.455)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "26d976d8-3223-4332-8ace-990d0e09c3fa")
-	)
-	(wire
-		(pts
 			(xy 127 129.54) (xy 82.55 129.54)
 		)
 		(stroke
@@ -621,16 +611,6 @@
 				(justify left top)
 			)
 		)
-		(pin "CAN_FAULT" output
-			(at 82.55 84.455 0)
-			(uuid "2a6ccbdb-6706-4781-b94a-88353726422b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "CAN_RX" output
 			(at 82.55 79.375 0)
 			(uuid "8d5502ac-ec35-451b-992b-19fa0b9eb22f")
@@ -1108,16 +1088,6 @@
 		(pin "RS485_TXD" bidirectional
 			(at 127 107.315 180)
 			(uuid "074e5d2a-7b9c-4241-83d4-a22fcccc6e32")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "CAN_FAULT" input
-			(at 127 84.455 180)
-			(uuid "eeaa66fc-82cd-4a82-b6bf-6c7d73036aff")
 			(effects
 				(font
 					(size 1.27 1.27)

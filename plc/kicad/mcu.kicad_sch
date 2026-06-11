@@ -5703,6 +5703,10 @@
 		(uuid "978d0640-75b5-4fa4-b553-e114c32f1da5")
 	)
 	(no_connect
+		(at 125.73 90.17)
+		(uuid "a098852e-359e-49e0-8f50-2697bb90aeee")
+	)
+	(no_connect
 		(at 316.484 78.994)
 		(uuid "a7b0ceb4-dced-474d-be78-28d6c64d240c")
 	)
@@ -8272,16 +8276,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 90.17) (xy 125.73 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc500daf-d2ce-4515-8cf4-1f8ded82c8ff")
-	)
-	(wire
-		(pts
 			(xy 247.269 92.964) (xy 252.349 92.964)
 		)
 		(stroke
@@ -8843,17 +8837,6 @@
 			(justify right)
 		)
 		(uuid "27c36e22-b184-40e1-a862-4e16b76e4291")
-	)
-	(hierarchical_label "CAN_FAULT"
-		(shape input)
-		(at 134.62 90.17 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "29c96ba2-bc24-4d9e-bead-c6642434b9ec")
 	)
 	(hierarchical_label "SPI_MOSI"
 		(shape output)
