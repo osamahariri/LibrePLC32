@@ -3513,129 +3513,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Mechanical:MountingHole_Pad"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "H"
-				(at 0 6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MountingHole_Pad"
-				(at 0 4.445 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Mounting Hole with connection"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "mounting hole"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "MountingHole*Pad*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "MountingHole_Pad_0_1"
-				(circle
-					(center 0 1.27)
-					(radius 1.27)
-					(stroke
-						(width 1.27)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "MountingHole_Pad_1_1"
-				(pin input line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "RF_Module:ESP32-S3-MINI-1U"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -6866,16 +6743,6 @@
 	)
 	(wire
 		(pts
-			(xy 308.61 220.345) (xy 308.61 218.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6612a63d-1fbc-4792-8e7f-45d2c7dbaed4")
-	)
-	(wire
-		(pts
 			(xy 139.065 59.69) (xy 125.73 59.69)
 		)
 		(stroke
@@ -6953,16 +6820,6 @@
 			(type default)
 		)
 		(uuid "6e01faa0-54d9-47d6-9b0c-28f5709e3029")
-	)
-	(wire
-		(pts
-			(xy 308.61 234.315) (xy 308.61 232.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e950be6-8bcc-42cf-9cbc-ccacc1de47b4")
 	)
 	(wire
 		(pts
@@ -7383,16 +7240,6 @@
 			(type default)
 		)
 		(uuid "a4420386-f72c-4e6b-a4a3-c48f257baf45")
-	)
-	(wire
-		(pts
-			(xy 308.61 205.74) (xy 308.61 203.835)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4ebe371-a9b6-4870-8e93-d207a8a417de")
 	)
 	(wire
 		(pts
@@ -7853,16 +7700,6 @@
 			(type default)
 		)
 		(uuid "d97d3dbc-51be-49a6-be2b-e893a52ea3a2")
-	)
-	(wire
-		(pts
-			(xy 308.61 248.92) (xy 308.61 247.015)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9ddf120-8a24-4d6e-beef-734340ec518c")
 	)
 	(wire
 		(pts
@@ -9699,83 +9536,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 308.61 220.345 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "13a66a35-c7bd-4a44-a0a3-d5fe1f23fa9c")
-		(property "Reference" "#PWR0263"
-			(at 308.61 226.695 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 312.42 222.25 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 308.61 220.345 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 308.61 220.345 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 308.61 220.345 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "477cbc70-a430-4664-903d-d05c08b0e70a")
-		)
-		(instances
-			(project "LibrePLC32"
-				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/7ef97c26-a6eb-42fc-a9a7-66112d2bed2b"
-					(reference "#PWR0263")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 248.92 254 270)
 		(unit 1)
 		(body_style 1)
@@ -10011,85 +9771,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 308.61 201.295 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "19618240-d85e-49cb-badf-760af66a0483")
-		(property "Reference" "H1"
-			(at 311.15 198.7549 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 311.15 201.2949 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad_TopBottom"
-			(at 308.61 201.295 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 308.61 201.295 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 308.61 201.295 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f171fa0a-9ca6-4617-81e1-eb26f07cb12a")
-		)
-		(instances
-			(project "LibrePLC32"
-				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/7ef97c26-a6eb-42fc-a9a7-66112d2bed2b"
-					(reference "H1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 33.02 200.025 0)
 		(unit 1)
@@ -10318,85 +9999,6 @@
 			(project "LibrePLC32"
 				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/7ef97c26-a6eb-42fc-a9a7-66112d2bed2b"
 					(reference "#PWR0124")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 308.61 215.9 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1ccaa16d-e11a-43e2-959a-764b34c8acc6")
-		(property "Reference" "H2"
-			(at 311.15 213.3599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 311.15 215.8999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad_TopBottom"
-			(at 308.61 215.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 308.61 215.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 308.61 215.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6b28ffe5-1d10-46ae-970a-2d1788181b03")
-		)
-		(instances
-			(project "LibrePLC32"
-				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/7ef97c26-a6eb-42fc-a9a7-66112d2bed2b"
-					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -11694,85 +11296,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 308.61 229.87 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3f548aa6-4976-4088-a24e-e23dcad1a2b3")
-		(property "Reference" "H3"
-			(at 311.15 227.3299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 311.15 229.8699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad_TopBottom"
-			(at 308.61 229.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 308.61 229.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 308.61 229.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0e6e2c37-ea13-464e-bf1a-05fb30696a64")
-		)
-		(instances
-			(project "LibrePLC32"
-				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/7ef97c26-a6eb-42fc-a9a7-66112d2bed2b"
-					(reference "H3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "LibrePLC32:L8050QLT1G")
 		(at 370.84 72.39 0)
 		(mirror x)
@@ -11885,83 +11408,6 @@
 			(project "LibrePLC32"
 				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/7ef97c26-a6eb-42fc-a9a7-66112d2bed2b"
 					(reference "Q4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 308.61 248.92 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "418d3a5b-c63e-43aa-8818-b13d2362bc0e")
-		(property "Reference" "#PWR0261"
-			(at 308.61 255.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 312.42 250.825 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 308.61 248.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 308.61 248.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 308.61 248.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0fc8b971-86ec-4a93-b8b8-d3f61c56e051")
-		)
-		(instances
-			(project "LibrePLC32"
-				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/7ef97c26-a6eb-42fc-a9a7-66112d2bed2b"
-					(reference "#PWR0261")
 					(unit 1)
 				)
 			)
@@ -15474,83 +14920,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 308.61 205.74 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "88124669-5ba9-4257-8985-0c13a1e831a9")
-		(property "Reference" "#PWR0264"
-			(at 308.61 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 312.42 207.645 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 308.61 205.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 308.61 205.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 308.61 205.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "44dd347a-0e88-4821-bcff-ef6eed704059")
-		)
-		(instances
-			(project "LibrePLC32"
-				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/7ef97c26-a6eb-42fc-a9a7-66112d2bed2b"
-					(reference "#PWR0264")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VBUS")
 		(at 313.055 135.89 0)
 		(unit 1)
@@ -16373,85 +15742,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 308.61 244.475 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "97f7e893-145c-4190-9c4b-360388e31d7f")
-		(property "Reference" "H4"
-			(at 311.15 241.9349 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 311.15 244.4749 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad_TopBottom"
-			(at 308.61 244.475 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 308.61 244.475 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 308.61 244.475 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "86b5b194-2fa8-47c5-9efb-1644a3893820")
-		)
-		(instances
-			(project "LibrePLC32"
-				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/7ef97c26-a6eb-42fc-a9a7-66112d2bed2b"
-					(reference "H4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 321.945 138.43 180)
 		(unit 1)
@@ -16600,83 +15890,6 @@
 			(project "LibrePLC32"
 				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/7ef97c26-a6eb-42fc-a9a7-66112d2bed2b"
 					(reference "#PWR0110")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 308.61 234.315 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9fcfc358-accb-4a48-acfb-a8475bff14a5")
-		(property "Reference" "#PWR0262"
-			(at 308.61 240.665 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 312.42 236.22 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 308.61 234.315 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 308.61 234.315 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 308.61 234.315 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d2b583a2-271a-4efa-b3de-b41522c04f7b")
-		)
-		(instances
-			(project "LibrePLC32"
-				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/7ef97c26-a6eb-42fc-a9a7-66112d2bed2b"
-					(reference "#PWR0262")
 					(unit 1)
 				)
 			)
