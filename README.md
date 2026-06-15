@@ -20,7 +20,7 @@ LibrePLC32 aims to provide:
 
 - An open hardware PLC design
 - KiCad source files for schematic and PCB development
-- Field-oriented interfaces such as digital I/O, CAN, RS-485, and Ethernet
+- Field-oriented interfaces such as digital I/O, isolated CAN, isolated RS-485, and Ethernet
 - A design that can be studied, modified, repaired, and improved by the community
 - Documentation for design decisions and component calculations
 
@@ -44,6 +44,6 @@ LibrePLC32 is designed to provide a practical set of PLC-oriented hardware featu
 - **4 isolated digital inputs** for field signals
 - **4 transistor digital outputs** for driving external loads
 - **2 relay output terminals** for switching isolated loads
-- **RS-485 interface** for industrial serial communication
-- **CAN bus interface** for device-to-device communication
+- **Isolated RS-485 interface** for industrial serial communication
+- **Isolated CAN bus interface** for device-to-device communication
 - **Ethernet interface** for network connectivity
