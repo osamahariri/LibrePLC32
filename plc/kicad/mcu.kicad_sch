@@ -9235,7 +9235,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "5.1k"
 			(at 378.46 177.1649 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18127,7 +18127,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "47.5k"
+		(property "Value" "10k"
 			(at 239.649 88.519 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18365,7 +18365,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "5.1k"
 			(at 387.35 177.1649 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18862,7 +18862,7 @@
 		(fields_autoplaced yes)
 		(uuid "ee64bebe-4fbe-48d6-8291-48894f789038")
 		(property "Reference" "R55"
-			(at 240.284 73.914 90)
+			(at 240.284 73.66 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18871,8 +18871,8 @@
 				)
 			)
 		)
-		(property "Value" "22.1k"
-			(at 240.284 76.454 90)
+		(property "Value" "5.1k"
+			(at 240.284 76.2 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
