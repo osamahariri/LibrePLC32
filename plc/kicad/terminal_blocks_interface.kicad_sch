@@ -4053,6 +4053,16 @@
 		)
 		(uuid "8298b287-1ea5-4331-ae1a-11f6a18356e8")
 	)
+	(text "Littelfuse 045306.3MR"
+		(exclude_from_sim no)
+		(at 335.28 248.285 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9e87011a-1970-4a53-bb9f-8cce191b4c11")
+	)
 	(text "NC"
 		(exclude_from_sim no)
 		(at 384.81 49.53 0)
