@@ -8999,7 +8999,7 @@
 			(justify left bottom)
 		)
 		(uuid "507179d9-9dab-45a0-bbfb-8d1257c90325")
-		(property "Net Class" "SYS_LV"
+		(property "Netclass" "SYS_LV"
 			(at 105.41 177.8 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9034,7 +9034,7 @@
 			(justify left bottom)
 		)
 		(uuid "78c43fa2-d9ad-47fe-b4a7-b833a6e42234")
-		(property "Net Class" "USB"
+		(property "Netclass" "USB"
 			(at 146.1135 51.435 0)
 			(show_name no)
 			(do_not_autoplace no)

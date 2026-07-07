@@ -9015,7 +9015,7 @@
 			(justify left bottom)
 		)
 		(uuid "05a01eca-b1a2-479d-a152-71436db4e69e")
-		(property "Net Class" "SYS_LV"
+		(property "Netclass" "SYS_LV"
 			(at 161.925 26.035 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9049,7 +9049,7 @@
 			(justify right bottom)
 		)
 		(uuid "14cfe3d1-70df-461f-b044-156355f13888")
-		(property "Net Class" "COMMON"
+		(property "Netclass" "COMMON"
 			(at 45.085 76.835 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9083,7 +9083,7 @@
 			(justify left bottom)
 		)
 		(uuid "45b09186-cafa-4919-85a6-23e710d004f7")
-		(property "Net Class" "SYS_LV"
+		(property "Netclass" "SYS_LV"
 			(at 346.075 190.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9117,7 +9117,7 @@
 			(justify left bottom)
 		)
 		(uuid "6269c387-9bfe-4873-9d9b-e41d60ca68c7")
-		(property "Net Class" "SYS_HV"
+		(property "Netclass" "SYS_HV"
 			(at 104.775 196.215 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9151,7 +9151,7 @@
 			(justify left bottom)
 		)
 		(uuid "7df6a812-575e-48b9-8cfd-c5c43187b31b")
-		(property "Net Class" "SYS_LV"
+		(property "Netclass" "SYS_LV"
 			(at 70.485 114.935 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9185,7 +9185,7 @@
 			(justify left bottom)
 		)
 		(uuid "93bfedd6-36b9-4ac7-bfed-bdd467d62196")
-		(property "Net Class" "SYS_LV"
+		(property "Netclass" "SYS_LV"
 			(at 233.68 18.415 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9219,7 +9219,7 @@
 			(justify left bottom)
 		)
 		(uuid "aecc3d8b-6011-4f9c-8b0a-11cea5ee4678")
-		(property "Net Class" "SYS_HV"
+		(property "Netclass" "SYS_HV"
 			(at 386.715 26.035 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9253,7 +9253,7 @@
 			(justify left bottom)
 		)
 		(uuid "be682ba5-d4e3-4cc6-8830-97f8ac20080f")
-		(property "Net Class" "SYS_HV"
+		(property "Netclass" "SYS_HV"
 			(at 88.9 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9287,7 +9287,7 @@
 			(justify left bottom)
 		)
 		(uuid "c1463b97-2521-40a0-a1f6-8b8b7d687b8a")
-		(property "Net Class" "SYS_HV"
+		(property "Netclass" "SYS_HV"
 			(at 106.045 175.895 0)
 			(show_name no)
 			(do_not_autoplace no)

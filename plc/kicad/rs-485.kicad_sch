@@ -3532,7 +3532,7 @@
 			(justify left bottom)
 		)
 		(uuid "99da61d2-39fe-446a-b8d9-69f5ca40b08e")
-		(property "Net Class" "RS485"
+		(property "Netclass" "RS485"
 			(at 33.655 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3566,7 +3566,7 @@
 			(justify right bottom)
 		)
 		(uuid "f99ab693-830c-453e-aed0-35f6f5322f2a")
-		(property "Net Class" "RS485"
+		(property "Netclass" "RS485"
 			(at 132.715 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)

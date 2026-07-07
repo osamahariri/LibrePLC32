@@ -6336,7 +6336,7 @@
 			(justify left bottom)
 		)
 		(uuid "256aebcc-3140-4335-bb5c-f256034b3e0d")
-		(property "Net Class" "SPI"
+		(property "Netclass" "SPI"
 			(at 111.76 65.405 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6370,7 +6370,7 @@
 			(justify left bottom)
 		)
 		(uuid "31bfe61e-7101-40ab-ad6d-a0fbacd6d6e3")
-		(property "Net Class" "ETH"
+		(property "Netclass" "ETH"
 			(at 206.375 28.575 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6404,7 +6404,7 @@
 			(justify left bottom)
 		)
 		(uuid "9b5ca326-3751-43af-99f1-38abf2dd0617")
-		(property "Net Class" "ETH"
+		(property "Netclass" "ETH"
 			(at 134.62 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6438,7 +6438,7 @@
 			(justify left bottom)
 		)
 		(uuid "ffa76db4-a4c1-4303-b4b3-eec854c44261")
-		(property "Net Class" "SYS_LV"
+		(property "Netclass" "SYS_LV"
 			(at 220.345 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)

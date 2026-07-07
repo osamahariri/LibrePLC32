@@ -9203,7 +9203,7 @@
 			(justify left bottom)
 		)
 		(uuid "68e1828f-2c16-4cdc-8033-18f68b7eeeda")
-		(property "Net Class" "I2C"
+		(property "Netclass" "I2C"
 			(at 177.8 252.73 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9237,7 +9237,7 @@
 			(justify left bottom)
 		)
 		(uuid "fafc2456-2247-498c-af58-eb91b26c1dbd")
-		(property "Net Class" "SYS_HV"
+		(property "Netclass" "SYS_HV"
 			(at 330.2 230.505 0)
 			(show_name no)
 			(do_not_autoplace no)
