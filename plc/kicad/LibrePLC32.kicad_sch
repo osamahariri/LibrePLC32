@@ -2796,6 +2796,28 @@
 			)
 		)
 	)
+	(sheet
+		(at 127 164)
+		(size 57.15 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke (width 0.1524) (type solid))
+		(fill (color 0 0 0 0))
+		(uuid "91d90a5d-7755-455f-ab67-31147790388d")
+		(property "Sheetname" "Digital Output Expansion"
+			(at 127 163.2884 0) (show_name no) (do_not_autoplace no)
+			(effects (font (size 1.27 1.27)) (justify left bottom))
+		)
+		(property "Sheetfile" "output_expansion.kicad_sch"
+			(at 127 187.5716 0) (show_name no) (do_not_autoplace no)
+			(effects (font (size 1.27 1.27)) (justify left top))
+		)
+		(instances (project "LibrePLC32" (path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5" (page "9"))) )
+	)
+
 	(sheet_instances
 		(path "/"
 			(page "1")

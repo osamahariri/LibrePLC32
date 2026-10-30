@@ -9260,6 +9260,25 @@
 			)
 		)
 	)
+	(global_label "I2C_SDA"
+		(shape input)
+		(at 77.47 37.465 0)
+		(effects (font (size 1.27 1.27)) (justify left bottom))
+		(uuid "8fc667c7-6dc2-4a0e-a02b-ee11ed14d7ab")
+	)
+	(global_label "I2C_SCL"
+		(shape input)
+		(at 77.47 40.005 0)
+		(effects (font (size 1.27 1.27)) (justify left bottom))
+		(uuid "82075eb7-ad91-4596-84f6-34b5c6d77485")
+	)
+	(global_label "~{GPIO_MUX_INT}"
+		(shape output)
+		(at 34.925 34.925 0)
+		(effects (font (size 1.27 1.27)) (justify left bottom))
+		(uuid "45e457c8-898c-4003-a3fd-536316ea832e")
+	)
+
 	(symbol
 		(lib_id "power:GND")
 		(at 377.19 222.885 0)
